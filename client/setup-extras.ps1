@@ -25,18 +25,35 @@ Write-Host "Instance: $InstanceDir"
 $jar = Join-Path $InstanceDir "packwiz-installer-bootstrap.jar"
 Invoke-WebRequest -Uri $BootstrapUrl -OutFile $jar -UseBasicParsing
 
-# 3. Sync script placed inside the instance (always exits 0 so it never blocks game launch)
+# 3. Figura: default cloud = Sculptor (accepts Ely.by accounts). Adds server_ip only if the user has not set one.
+$figuraPatch = @'
+try {
+  $cfg = Join-Path $inst "config\figura.json"
+  New-Item -ItemType Directory -Force (Split-Path $cfg) | Out-Null
+  $o = $null
+  if (Test-Path $cfg) { $o = Get-Content $cfg -Raw | ConvertFrom-Json }
+  if ($null -eq $o) { $o = [pscustomobject]@{ CONFIG_VERSION = 1 } }
+  if (-not $o.PSObject.Properties["server_ip"]) {
+    $o | Add-Member -NotePropertyName server_ip -NotePropertyValue "figura.shsr.ru"
+    [System.IO.File]::WriteAllText($cfg, ($o | ConvertTo-Json), (New-Object System.Text.UTF8Encoding $false))
+  }
+} catch { }
+'@
+
+# 3b. Sync script placed inside the instance (always exits 0 so it never blocks game launch)
 $sync = @"
 Set-Location `$PSScriptRoot
 `$j = Get-ChildItem "`$env:APPDATA\AstralRinthApp\meta\java_versions\*17*\bin\java.exe","`$env:APPDATA\ModrinthApp\meta\java_versions\*17*\bin\java.exe" -ErrorAction SilentlyContinue | Select-Object -First 1 -ExpandProperty FullName
 if (-not `$j) { `$j = (Get-Command java -ErrorAction SilentlyContinue).Source }
 if (`$j) { & `$j -jar packwiz-installer-bootstrap.jar -g -s client "$PackUrl" } else { Write-Host "Java 17 not found" }
+`$inst = `$PSScriptRoot
+$figuraPatch
 exit 0
 "@
 $syncPath = Join-Path $InstanceDir "packwiz-sync.ps1"
 Set-Content -Path $syncPath -Value $sync -Encoding ASCII
 
-# 4. First run now
+# 4. First run now (also applies the Figura default)
 & powershell -NoProfile -ExecutionPolicy Bypass -File $syncPath
 
 # 5. Hook command for the launcher
