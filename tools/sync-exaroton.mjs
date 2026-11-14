@@ -41,7 +41,14 @@ if (sr.ok) { try { const j = JSON.parse(await sr.text()); prev = j.files || []; 
 
 const existing = new Set(((await exaJson("files/info/mods/")).children || []).map((c) => c.name));
 const nowFiles = wanted.map((m) => m.filename);
-let changed = 0;
+
+// ---- файлы базовой сборки, которые ломают сервер: удаляем (список в server-exclude.json) ----
+const exclPath = path.join(PACK, "server-exclude.json");
+const excluded = fs.existsSync(exclPath) ? JSON.parse(fs.readFileSync(exclPath, "utf8")).files || [] : [];
+for (const f of excluded) {
+  if (existing.has(f)) { await exaJson(`files/data/mods/${enc(f)}`, { method: "DELETE" }); existing.delete(f); console.log(`- (exclude) ${f}`); excludedNow++; }
+}
+let changed = 0, excludedNow = 0;
 
 // ---- удаляем устаревшее (то, что ставили сами) ----
 for (const old of prev.filter((f) => !nowFiles.includes(f))) {
@@ -57,6 +64,7 @@ for (const m of wanted) {
   await exaJson(`files/data/mods/${enc(m.filename)}`, { method: "PUT", headers: { "Content-Type": "application/octet-stream" }, body: buf });
   console.log(`+ ${m.filename}`); changed++;
 }
+changed += excludedNow;
 // ---- сохраняем состояние ----
 await exaJson(`files/data/${enc(STATE)}`, { method: "PUT", headers: { "Content-Type": "application/octet-stream" }, body: JSON.stringify({ files: nowFiles }, null, 2) });
 

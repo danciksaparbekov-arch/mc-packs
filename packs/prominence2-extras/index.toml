@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/athena.pw.toml"
+hash = "5a2481a03b85891967a6e1099a0987156a3a08770e27209a58fba143053b83ec"
+metafile = true
+
+[[files]]
 file = "mods/female-gender.pw.toml"
 hash = "e8b80e4eb7ccd9817a18e17fad1187cf27ab8f68a20aa73338be243785add2bc"
 metafile = true
@@ -28,6 +33,16 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "697ec76c26d387cf07c2e05d351a3a9ad652c40e463c839aa419865f9bf42d91"
+metafile = true
+
+[[files]]
+file = "mods/s-lib.pw.toml"
+hash = "e2db67a635e8b036561f4fb832473c61878dff4a35a18931de0ab7f4de726c01"
+metafile = true
+
+[[files]]
+file = "mods/simplytooltips.pw.toml"
+hash = "f39009c8c2f804bd3753bbef0eb515e737ca0273351b4a04e9623193b66b87a3"
 metafile = true
 
 [[files]]

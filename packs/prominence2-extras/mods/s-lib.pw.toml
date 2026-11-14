@@ -1,0 +1,8 @@
+name = "s-lib"
+filename = "s-lib-fabric-3.0.1+1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/VtMfe1Va/versions/5qeVCCtb/s-lib-fabric-3.0.1%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "7b532e2f537fdc00ae22349d9404aafb29471eb1e3472d116370811042c8ee5e8f4ebd7eed1fa8300538eab1b849fc1fe5a814d2307e28705042fefb6bdbe466"
