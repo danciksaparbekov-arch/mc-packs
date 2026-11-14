@@ -5,6 +5,7 @@
 param(
   [string]$InstanceDir,
   [switch]$NoPause,
+  [switch]$FindOnly,
   [string]$SearchDir,
   [string]$PackUrl = "https://raw.githubusercontent.com/danciksaparbekov-arch/mc-packs/main/packs/prominence2-extras/pack.toml"
 )
@@ -45,29 +46,63 @@ function Show-ImportSteps {
   Write-Host "  3. Закрой лаунчер и снова дважды кликни INSTALL.bat."
 }
 
+# Ищем сборку Prominence II везде: стандартные папки лаунчеров + другие диски (лаунчер можно перенести на любой том).
+function Find-PackInstances {
+  $cands = New-Object System.Collections.Generic.List[string]
+  foreach ($r in @("$env:APPDATA\AstralRinthApp\profiles", "$env:APPDATA\ModrinthApp\profiles", "$env:LOCALAPPDATA\AstralRinthApp\profiles", "$env:LOCALAPPDATA\ModrinthApp\profiles")) { if (Test-Path $r) { $cands.Add($r) } }
+  foreach ($d in [System.IO.DriveInfo]::GetDrives()) {
+    if ($d.DriveType -ne "Fixed" -or -not $d.IsReady) { continue }
+    $top = Get-ChildItem $d.RootDirectory.FullName -Directory -ErrorAction SilentlyContinue | Where-Object { $_.Name -match "rinth|astral|minecraft|games|launcher|mc|игр" }
+    foreach ($t in $top) {
+      Get-ChildItem $t.FullName -Directory -Recurse -Depth 3 -Filter "profiles" -ErrorAction SilentlyContinue | ForEach-Object { $cands.Add($_.FullName) }
+    }
+  }
+  $found = @()
+  foreach ($c in ($cands | Select-Object -Unique)) {
+    foreach ($p in (Get-ChildItem $c -Directory -ErrorAction SilentlyContinue)) {
+      if (Get-ChildItem (Join-Path $p.FullName "mods") -Filter "Prominent-GLOBAL*" -ErrorAction SilentlyContinue) { $found += $p }
+    }
+  }
+  return $found
+}
+# Если не нашли сами - просим указать папку сборки в окне выбора.
+function Select-InstanceFolder {
+  Write-Host "Открою окно - выбери в нём папку сборки Prominence II." -ForegroundColor Yellow
+  Write-Host "  (Узнать путь: лаунчер -> сборка -> вкладка Files -> 'Открыть папку'; нужна папка, в которой лежит папка mods.)"
+  try {
+    Add-Type -AssemblyName System.Windows.Forms
+    $dlg = New-Object System.Windows.Forms.FolderBrowserDialog
+    $dlg.Description = "Выбери папку сборки Prominence II (внутри должна быть папка mods)"
+    if ($dlg.ShowDialog() -eq "OK") { return $dlg.SelectedPath }
+  } catch { }
+  return (Read-Host "Или вставь путь к папке сборки сюда").Trim().Trim('"')
+}
+
 try {
   Write-Host "=== Сладкий Баклажанчик: настройка модов ===" -ForegroundColor Cyan
 
-  # 1. Находим сборку Prominence II
+  # 1. Находим сборку Prominence II (где бы она ни лежала)
   if (-not $InstanceDir) {
-    $roots = @("$env:APPDATA\AstralRinthApp\profiles", "$env:APPDATA\ModrinthApp\profiles") | Where-Object { Test-Path $_ }
-    if (-not $roots) {
-      Write-Host "Не нашёл лаунчер (AstralRinth или Modrinth App). Сначала установи лаунчер." -ForegroundColor Yellow
-      Get-PackFile; Show-ImportSteps; Finish 0
-    }
-    $all = @($roots | ForEach-Object { Get-ChildItem $_ -Directory })
-    $found = @($all | Where-Object { Get-ChildItem (Join-Path $_.FullName "mods") -Filter "Prominent-GLOBAL*" -ErrorAction SilentlyContinue })
+    Write-Host "Ищу сборку Prominence II на этом компьютере..."
+    $found = @(Find-PackInstances)
+    if ($FindOnly) { Write-Host "FOUND: $($found.Count)"; $found | ForEach-Object { Write-Host $_.FullName }; Finish 0 }
     if ($found.Count -eq 1) { $InstanceDir = $found[0].FullName }
+    elseif ($found.Count -gt 1) {
+      Write-Host "Нашлось несколько сборок Prominence II. Выбери нужную:" -ForegroundColor Yellow
+      for ($i = 0; $i -lt $found.Count; $i++) { Write-Host ("  [{0}] {1}" -f $i, $found[$i].FullName) }
+      $n = Read-Host "Номер сборки"
+      if ($n -notmatch '^\d+$' -or [int]$n -ge $found.Count) { Fail "Неверный номер." }
+      $InstanceDir = $found[[int]$n].FullName
+    }
     else {
-      if ($found.Count -eq 0) {
-        Write-Host "Сборка Prominence II в лаунчере ещё не установлена - сейчас скачаю её файл." -ForegroundColor Yellow
+      $ans = Read-Host "Сборка Prominence II уже добавлена в лаунчер? (д/н)"
+      if ($ans -match '^(д|y|да|yes)') {
+        $InstanceDir = Select-InstanceFolder
+        if (-not $InstanceDir -or -not (Test-Path (Join-Path $InstanceDir "mods"))) { Fail "В выбранной папке нет папки mods. Выбери папку самой сборки." }
+      } else {
+        Write-Host "Сначала нужно добавить сборку в лаунчер - скачаю её файл." -ForegroundColor Yellow
         Get-PackFile; Show-ImportSteps; Finish 0
       }
-      Write-Host "Нашлось несколько сборок Prominence II. Выбери нужную:" -ForegroundColor Yellow; $list = $found
-      for ($i = 0; $i -lt $list.Count; $i++) { Write-Host ("  [{0}] {1}" -f $i, $list[$i].Name) }
-      $n = Read-Host "Номер сборки"
-      if ($n -notmatch '^\d+$' -or [int]$n -ge $list.Count) { Fail "Неверный номер." }
-      $InstanceDir = $list[[int]$n].FullName
     }
   }
   if (-not (Test-Path $InstanceDir)) { Fail "Папка сборки не найдена: $InstanceDir" }
@@ -95,7 +130,12 @@ try {
   # 4. Скрипт синхронизации внутри сборки (всегда завершается кодом 0 - не мешает запуску игры)
   $sync = @"
 Set-Location `$PSScriptRoot
-`$j = Get-ChildItem "`$env:APPDATA\AstralRinthApp\meta\java_versions\*17*\bin\java.exe","`$env:APPDATA\ModrinthApp\meta\java_versions\*17*\bin\java.exe" -ErrorAction SilentlyContinue | Select-Object -First 1 -ExpandProperty FullName
+`$roots = @((Split-Path (Split-Path `$PSScriptRoot)), "`$env:APPDATA\AstralRinthApp", "`$env:APPDATA\ModrinthApp", "`$env:LOCALAPPDATA\AstralRinthApp", "`$env:LOCALAPPDATA\ModrinthApp")
+`$j = `$null
+foreach (`$r in `$roots) {
+  `$c = @(Get-ChildItem "`$r\meta\java_versions\*\bin\java.exe" -ErrorAction SilentlyContinue)
+  if (`$c.Count) { `$j = (@(`$c | Where-Object { `$_.FullName -match '17|21' }) + `$c)[0].FullName; break }
+}
 if (-not `$j) { `$j = (Get-Command java -ErrorAction SilentlyContinue).Source }
 if (`$j) { & `$j -jar packwiz-installer-bootstrap.jar -g -s client "$PackUrl" } else { Write-Host "Java 17 not found" }
 `$inst = `$PSScriptRoot
