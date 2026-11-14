@@ -34,7 +34,7 @@ function refresh(dir) {
     for (const e of fs.readdirSync(d, { withFileTypes: true })) {
       const r = rel ? `${rel}/${e.name}` : e.name;
       if (e.isDirectory()) walk(path.join(d, e.name), r);
-      else if (!["pack.toml", "index.toml"].includes(r)) files.push(r);
+      else if (!["pack.toml", "index.toml", "base-projects.json"].includes(r)) files.push(r);
     }
   })(dir);
   files.sort();
@@ -57,12 +57,19 @@ function sideOf(project) {
   return "both";
 }
 
+// ID проектов, уже входящих в базовую сборку (не дублируем и не добавляем как зависимости)
+function baseIds(dir) {
+  const p = path.join(dir, "base-projects.json");
+  return fs.existsSync(p) ? new Set(JSON.parse(fs.readFileSync(p, "utf8")).ids) : new Set();
+}
+
 async function addMod(dir, ref, opts, seen = new Set()) {
   const slug = ref.replace(/^https?:\/\/modrinth\.com\/(mod|plugin|datapack)\//, "").split(/[/?#]/)[0];
   if (seen.has(slug)) return;
   seen.add(slug);
   const { mc, loaderName } = readPack(dir);
   const proj = await api(`/project/${slug}`);
+  if (baseIds(dir).has(proj.id)) throw new Error(`${proj.title}: уже входит в базовую сборку`);
   if (proj.project_type !== "mod") throw new Error(`${slug}: это ${proj.project_type}, нужен mod`);
   const vers = await api(`/project/${proj.id}/version?loaders=${encodeURIComponent(JSON.stringify([loaderName]))}&game_versions=${encodeURIComponent(JSON.stringify([mc]))}`);
   if (!vers.length) throw new Error(`${proj.title}: нет версии под ${loaderName} ${mc}`);
@@ -75,6 +82,7 @@ async function addMod(dir, ref, opts, seen = new Set()) {
   console.log(`+ ${proj.title} ${v.version_number} [${side}] (${f.filename})`);
   if (!opts.noDeps) {
     for (const d of v.dependencies.filter((x) => x.dependency_type === "required" && x.project_id)) {
+      if (baseIds(dir).has(d.project_id)) { console.log(`  зависимость ${d.project_id}: уже в базе — пропуск`); continue; }
       const dp = await api(`/project/${d.project_id}`);
       console.log(`  зависимость: ${dp.slug}`);
       await addMod(dir, dp.slug, { ...opts, side: undefined }, seen);
