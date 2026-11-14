@@ -1244,215 +1244,215 @@ hash = "7f78c6f6239b39ea970cc327bb0b9b94164b6a7c6303c685b2024b27dea5c322"
 
 [[files]]
 file = "resources/archers/lang/ru_ru.json"
-hash = "5211aa975f02e547fa73380ad8f3d6824b6bfb890e9248c3d78ad749edabe2b1"
+hash = "8ccb41ec4b4955a0fa8f6f396399d15dc7ceacf04c743fbb6ce208a770ff0473"
 
 [[files]]
 file = "resources/archers_expansion/lang/ru_ru.json"
-hash = "778dd656d47cfd2df2a33313cd2e03839890504316cdb92f8a280e5d7728d2f4"
+hash = "c5694f4a29844bd6013fe0bc2d897a8149f27673d49eb2c35be67e9fbe1d3a40"
 
 [[files]]
 file = "resources/archon/lang/ru_ru.json"
-hash = "a206dbe1d3ede66d6a82bbfbcf758259e0bfd6df0bf620b691d2ffc7a939ef40"
+hash = "0cb949f935a0cfcbb2948e8f977d85e60597503985b80fe8d7aa34945b231d1b"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/bosses.json"
-hash = "529204d9cd6ef61f06be807c4bb2e47b891ba02334f4f48da76cdf9310e053d2"
+hash = "e22ad848fbb7d23f955c4a5ce856de350f11dd89592c5631452ffaf0bdbb9c42"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/effects_enchants.json"
-hash = "35713931b2ce7c3331d536a98043be46fb336173a61c88c9ff32dbadc3d7a1db"
+hash = "71b658158095b7365e6be2495271d9d118e49640c92acc1dfc0188890df9c8ff"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/mana.json"
-hash = "506a14517de7534a0b98aeace7b72012aea101edf71133c3b74e790240fa7c35"
+hash = "3eee347678f27d7db7312a6f094111751471e0754b94278f771b49ec2494540d"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/misc.json"
-hash = "d9dc8b097c25ff31bde45c31c2a2bd5dde9def7a22fee0ab370050ce58e716b9"
+hash = "ab6846b3137e6199b1a2934d4e925b947e05b2166e83e46a1cd891e7943a04d9"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/necromancy.json"
-hash = "285aaaf60c25b62872ff4e5d51f3248aebb381561e7f285a9e463a3a8adc4c9c"
+hash = "3105156f85f13db2d5fa099fb337512ad731ed40f234d47ed4cac48da27e1ee9"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/spells.json"
-hash = "b58bb8085f27e48895d49471f51586e47c0ba9c0e9eb02eda19c097c5f606317"
+hash = "06dd4c957c06ffa804908c166b7ed9673526ce108053e306a15405a4b2822ed6"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/world.json"
-hash = "46b85563c199f4080b07a39a57d066d0e799c45347ec6af737fb1077388d04d1"
+hash = "2ebf1bc850cb915ca54c0541804fc6614cc4e31865d08bd125081e9a9edf08fd"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/ayla.json"
-hash = "1ed6009c16e65694456ca66ef563ccffb2164706942dd92518d8d0e6164ef58e"
+hash = "5d2fa3c52c33b32ba6c82d2d5fed8139c4f4fac5b32765e2f8c23c1a81a89a18"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/inigo.json"
-hash = "a5deb06153f2dd94a1dad85746eab66e1f275357bf3eeeeb15072262c7ff6045"
+hash = "72dae9ad1e2dc1e855aec5ce0d39c449d59777ed8053be4590183d9c9ecb0127"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/leven.json"
-hash = "0a024111863a31c67b888b0f952c45a7a1ddfe5701ce32a5d0d3622ca55a7170"
+hash = "b35fb30e54c3c41b6ff00b79133ff5af37751cc294ad02eb50f48834deb69a21"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/null.json"
-hash = "d4b245f960f9769eb5ec451ba648ecdb6ffbcd09c93fb21dce2edf604f7befdf"
+hash = "f09a897d4193f29f320593472d530cd58b39981be81bb8476cfbab8bd4a84fcc"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/summoning_pedestal.json"
-hash = "8d9b2930998920550f08ad697190c695ee0f22ad7df21777c107b242470fdfa2"
+hash = "279617480bd472a3ae700a4248a76a88d0148c5a860ef12839ee689c01aabf05"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/tar.json"
-hash = "76e66703a78c2b61163dc9c7251942a2ed8f2053e061a463653c13c2bde81785"
+hash = "e016a895653825f20ce39655ec8f21a083218662893d49348a9fccd25b410efc"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/arcane.json"
-hash = "4103f26d9e1ac13fdd6eaf7faea4aa66a16695efd446da49bd697a257af71edf"
+hash = "a970928b5b24a0974668a0aa1b3cb343971155ae91ea3924174522396d8962c3"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/mana_boost.json"
-hash = "8d89d5048ecd395f66f8baab87e37fdb5b321812f7604323f2351d100e15aa5c"
+hash = "601723c0c101e0472a6007b3d905edd6ef2f92e2237d5d4568d8006b30f06d29"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/obstructed.json"
-hash = "26e0c17baa541beb5dda0234d860473bfbdbda175797a42237c7450680f26414"
+hash = "bf3a43a53d4a5e8b9b6486eb842a22106a6c33a6380b3a1e0b2040bde0faddee"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/rage.json"
-hash = "0607ad5408c74ae6bc7ae2602d6f890e08c88c44c9bdfde0c0e65eb41aa2b1bb"
+hash = "09cfc27cc06c1828030e26f730b10b3074536391ecab601093e7f5fabd465ec7"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/reaping.json"
-hash = "93aedd5df0ae7c44f91d170376761e2cea72e10a3d783bfbb4c4b221098c635a"
+hash = "dd49d81a871c53ed0f3d915427eb750fc667c4186d3d18d8da165e29aa64be9d"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/shadow.json"
-hash = "ab10278fb318fe94832f261593ae9800edabc5ba8cfc131897507e7681e3cce3"
+hash = "adea87af987933264c7aec8bd0774e8f861c52837123ced7dd8080fbde2795a4"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/sturdy.json"
-hash = "52cdfad809d4373bc5816c48271881b763a17df27bea04d5114845e36b10c5c7"
+hash = "d6131511d3f12c723e9f13fd1f8424e68e61bca7d32c9c6830be175f91a2b559"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/mana/basics.json"
-hash = "efc83d4da1d07b11102a213eb6ba1aaf38880b6d3ace42d9ecfd2c33a620c37b"
+hash = "7c84012008da31b9b1fb2bb9ad7c65a7e6afd2571ad9f94e74798249889af17f"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/mana/channeler.json"
-hash = "63c0b2770a9b5cb92784c7f801e61818c6fcb5e51f6de209cceb6b00dfca36ab"
+hash = "a6574fe21c5057bf9569b08bf6cb006bca74b06dfa5da92d818a2165a21389ee"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/mana/mana_catalysts.json"
-hash = "b663cca8c3ef6474869ba96cada60adecdace139e13d9e19c1dec3acb56f0c70"
+hash = "8ebc0e367c6bd34eb78bf094492ace581838f3486b70fb2ce199ea9a5d7d41b5"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/mana/scrolls.json"
-hash = "93eae7cc5f08e5fa6f9e3dbbb63984f5a1429c4b779a4e97c1a1db11b54c3ef3"
+hash = "18f7265240ae173ffcee5a408001ce9e41d07e3192f7216b6d6f654aae15c97d"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/combustion_charge.json"
-hash = "dd00dbe390731b994508c63c4dd55a3c103c4bacbfd0c24c1dc9b5953d006d97"
+hash = "2c463214eae88d6b86807c49e7279a52ad27b1981c70d011e49fe8222116f2b9"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/druid_boots.json"
-hash = "f604c29319857ff6c4057b215f8dbbe7e00ef8477650dddb2828a998d6ee437c"
+hash = "475b4b0f65be231377d9a588a51f61d4715f0faae6ffed2cd08239a5d5f25308"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/harvesters.json"
-hash = "37d009ea17b1b90c1b7fb4b2c2fb3a26f8b33306cc03ef124e456dbc1f8e5844"
+hash = "ca626486d7ec08e9822dde068fbd606fd859c159d4c7c1b00822841e3f2f0dee"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/lightning_bottle.json"
-hash = "fbf4959647976e166ade0c6a0228cd6eeac1e98a9120df5cff371ad501d05c10"
+hash = "ee878c2ca49f5682d813ecf7d6ab13b6d4240b9c8b3ae9b1934fe60f4468c406"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/mana_leech.json"
-hash = "3585dbd9d059b1dfdd2ae61d0185abfbcded4d3d8be32a56d0bb1d6abd92f513"
+hash = "f52e2675df2a0050669f9163217cadfb48039691e448abf8af86049419080a08"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/pouches.json"
-hash = "07df991667730e999bdde43d14674d731d1716fd76aec347f9b22671b510c024"
+hash = "4bd7cc9a0c9c902209aa044deb2729a29c0e2f4650a225c0c924721565cdcd32"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/soul_crusher.json"
-hash = "45e598f9b65ec080496a4b5950eabdc47af0a1cd7c68c4273995b2c1e551ff66"
+hash = "859ed4750bf6dcbc76a9371bd6f098a6ac738c3081faf02f9959f44730dbaba5"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/soul_scythe.json"
-hash = "b412640ece3974fddc3e486be202c5344b5ae327ab214c4599e0554287debe8c"
+hash = "62dc668f062f334921cecb0279c5937718bb2e40c4c6a9012f88e2d370343e49"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/soul_tomes.json"
-hash = "11bd91df625849ec511febe98e7832d762c56f76696e57ba6bd8df49b5461ea0"
+hash = "a17e7907e05af45af07f8d5eac8fc95bc319279df92e949d66c5ea6d81ae4693"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/souls.json"
-hash = "551ea433bd464eefd05af31d41bb516d94aab099f4d47802147ff1672855e4b5"
+hash = "39aef60fda95efa2e78c89cffafe152eaf62712e1a77622b8d7c308fff4efc1a"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/summons.json"
-hash = "536cecb86b9e44dc5e3b21629bc11b98cf0ef830b4f3bad0d3f7cb49000a1e8d"
+hash = "6259d0ec4b4ea81fb36911500ef4ba68a55fbf337dc0675f8c6675187fd75634"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/undead_staff.json"
-hash = "d845d5a6daeafee29f6d8008e7cc5d57cea6ca98b0587f7bb61c5259c46153c4"
+hash = "9dbb368f0f2e1a190d181d58fcfb77f2081b6a8e7337454f76f8f9b4675931c8"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/earth_spells.json"
-hash = "4f302a1823613f066a454280c868758ad67dee7c8bb9b8321e5fda602d61e4d9"
+hash = "8ba5602724603f65455111d828822a2c91847edc1bf65383902ea66daaa78180"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/end_spells.json"
-hash = "78781304e15ab94daf25348d93f5e4b719d9b9faaf58ce32a40b20bcc2a8c3fb"
+hash = "5c3202c11586ae1864e274f1d4f782537f18b8b876d9b1172f323d206431f9bb"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/fire_spells.json"
-hash = "4cbc82ee29da1d0771a7b645ab562d9333f75cfcb84d8c1259384185110ccb5e"
+hash = "819d9ca3d1bda2d1f787edc0fb9bd2283c31b8c1e4a81f8945649a9dc7ab8fa8"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/sky_spells.json"
-hash = "88cc94104467857382676d464e1838308856060851280e7c3a7f44913bae8601"
+hash = "c33e13a15ad646ee8c2fe081a3b8d73aacfab3c469bf0cfe0f7372e2d0396f31"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/tomes.json"
-hash = "e3462fc1840af8d5e2ef1c216632c411e9b9b317d5fdd30a61cb7eca718933b1"
+hash = "291d4c6c11c344fa1b0003ffa68d625f6e85ff0e88d81fb0d939ba24b54e9907"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/wands.json"
-hash = "d0f96d895aea8c5db36e5482af329531fd6e10132882143c97bb9d562caba65a"
+hash = "2a6eaeebc55c64dd43a1ef83a022b9504528929dbb7513046a6ec9d4d6fc6a36"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/water_spells.json"
-hash = "8fbce0297672ff9662e0947e55e66051a4f32e9907caed8eda50ce8c881667a4"
+hash = "561cef1e9336f62b3c25105b1c85e70afe5bbe89634dc4098fa7e93667e4144d"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/mana_berries.json"
-hash = "f0ff18c00c30742bc8df1c98b1573955ed5bf224c828b5de973fdb788db25363"
+hash = "613d9b46b07d6d1f0b0c9ba3861f57481d961d00cafa3512946916c6db2deb81"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/nodes.json"
-hash = "5af69f981f25e3aa6a618a04b272f80ae399e5cc561d627379d158fbdcbbdea9"
+hash = "bdaf1bc86d5600091d6af14cb8d7e0a548cd81c52f0168aa5267d6689343ae22"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/spires.json"
-hash = "0aef3361bc60fe4dd0ea152d2a6928579d806c4b4c1e15b93ec49653aa067201"
+hash = "bbd939fc9eb8e40cbb6e73490b7299114b11eac392fa6ce591bcbeb077011c04"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/wither_tombs.json"
-hash = "3bc348d4e22ba7e423790d96ae37522a61943722521972f3592c4ae256b4f085"
+hash = "142c12f0823420c846b80ce97dd470759c49c5132a71a70b333a4f75f9e5e0b7"
 
 [[files]]
 file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/wizard.json"
-hash = "fec3bea65b69e43643abf6f5b4bf9ef7ea11fdbfbcd7be1a3bc2eec5b2aadd4c"
+hash = "00de057d289d1db6ee647f07c398ad78ff75506ecf3de56b1840e2d8f7d79831"
 
 [[files]]
 file = "resources/artifacts/lang/ru_ru.json"
-hash = "d72d9dbe044874973e08635940f83b8f25e71f507208a648168111d4efa0c1f9"
+hash = "ff0d8792146811696dc9ae40b72e3df334028dabc77a35f0a40b02a6906dff48"
 
 [[files]]
 file = "resources/betterarcheology/lang/ru_ru.json"
-hash = "1df23d80db62e0e2e235b77e142051046e107cf284c023c04a7f5447aa555599"
+hash = "97675b575064e5aa42e25782419ae512b9cbca1b11f24c938c59118fff18f0fe"
 
 [[files]]
 file = "resources/betternether/lang/ru_ru.json"
@@ -1460,7 +1460,7 @@ hash = "b76b05cfeb1abb55e7376fc9be046b536db53e422167d9b69b7cf35ae02d2da3"
 
 [[files]]
 file = "resources/chipped/lang/ru_ru.json"
-hash = "b364f9649b162907dd4d428d633ceab9a920e728deaca3bf1c3fcb81c1a120ad"
+hash = "b18d089d8cd214e1ad1273d8b9b43bd1479854fcb1e9b3cfbe16abeda78eda59"
 
 [[files]]
 file = "resources/convenientdecor/lang/ru_ru.json"
@@ -1468,7 +1468,7 @@ hash = "05c490de8f6719e6d4702b28c0f6a690cdcc2c304b46bc9393f326231dd99608"
 
 [[files]]
 file = "resources/createaddition/lang/ru_ru.json"
-hash = "932f7ca8d23721fb52c56341c48459b9dd2595716797b82e606147f1311d25fa"
+hash = "0f5890a98b49455a1a9e6e3d47236b44964fbab6091cca7034b6db6193f3af8e"
 
 [[files]]
 file = "resources/createquesting/lang/ru_ru.json"
@@ -1476,11 +1476,11 @@ hash = "e2105cb6299197a68511d54c0b2199cf25480ba4046f95648a5f089062855d07"
 
 [[files]]
 file = "resources/creeperoverhaul/lang/ru_ru.json"
-hash = "4e7d2a59a74717a038775d175fdd545058f429bf436fdc55c6bc4abcda9a6ddf"
+hash = "6d7ce51285c6d48c39d2c70f1221e70af10f07087ab40a03dc6e2d7706156a42"
 
 [[files]]
 file = "resources/death_knights/lang/ru_ru.json"
-hash = "dbfec3e5d93c759d4a581d4f46b59f63b1ab6325d23a05fae2cb14fb9f7f6125"
+hash = "525fd9e60ba500bd631ac28aaef24f5b1e5a3bb575ca114fc89b744954d6b6ca"
 
 [[files]]
 file = "resources/decorative_blocks/lang/ru_ru.json"
@@ -1488,7 +1488,7 @@ hash = "787e80f3ed36aa86f03dac5b024721bd3bbe9741b59bf3847b95b18b2aadab40"
 
 [[files]]
 file = "resources/derelict/lang/ru_ru.json"
-hash = "3663adba547ae2945fbb0004064daf76b2e247cba9294398d4f7f70ab7c2f54c"
+hash = "a644b13043fd087a8a16cd5b6f6a59268ab1622e8932f5185a7477247d27a8d8"
 
 [[files]]
 file = "resources/dummmmmmy/lang/ru_ru.json"
@@ -1496,11 +1496,11 @@ hash = "7b6ca1d15e701b04d237810c488b52198bd6a7a71d4a5cf7a1bb8d8ecb50e9a8"
 
 [[files]]
 file = "resources/eldritch_end/lang/ru_ru.json"
-hash = "2516df96a0ee5daeaab0f88b121bc8d0acfc6d422629236f0b11e0f6e2446d28"
+hash = "fd6df938cda58cefb6e9c865190d1f8d9999c722599aaf91cd824e49bf33bcac"
 
 [[files]]
 file = "resources/emienchanting/lang/ru_ru.json"
-hash = "2ad6093162e043a98da9e70098d9cfc1d8dac81b44d9f796cc454210295730ed"
+hash = "cfee09d6333a367857ad32d8458d69978f0f8de4223cb043036c86f649b7d19c"
 
 [[files]]
 file = "resources/emiffect/lang/ru_ru.json"
@@ -1508,7 +1508,7 @@ hash = "02e2e7577888c77fa6cb7e83b3355eee4868cd4a80acaac9d411f367220bca8e"
 
 [[files]]
 file = "resources/emiloot/lang/ru_ru.json"
-hash = "aebc77c78e38a4c83d4d0ffa743407b4d63534862ed7a7cb2a1b0d7e84f114f2"
+hash = "59d2651cd33029d376ba7c60baa991c9af56220c162aac047f85e985ac17b2e9"
 
 [[files]]
 file = "resources/enchanted/lang/ru_ru.json"
@@ -1516,7 +1516,7 @@ hash = "30cc824c303c3598f7b39c22b8a89446adbb17207c4967ebea0ec05e46c2ec02"
 
 [[files]]
 file = "resources/eternal_attributes/lang/ru_ru.json"
-hash = "dde7aa4df9b74c8324effa8335475eb3044c297776a10fdce0d549d1f0876086"
+hash = "3c372afedc3b7acc4ffabdfdfc2a2e0dd3ba6fcffc59c9b7a8d6cead65607ec7"
 
 [[files]]
 file = "resources/extendedae/ae2guide/epp_intro/active_formation_plane.md"
@@ -1804,7 +1804,7 @@ hash = "887f5d9ffbc0a8088b0531e40d5c3bade59192a4ea612dde38f5fc1bd7c26339"
 
 [[files]]
 file = "resources/extraspellattributes/lang/ru_ru.json"
-hash = "8e2949a525e3fdbcdd8ee5622ba97043274e4edd0cd0441bc40cc7940e9b0317"
+hash = "1688a29fa32ef19d1fdab94b480e9f97bcc9c055a0ae3a1e2ced70c4367af0c4"
 
 [[files]]
 file = "resources/farmersknives/lang/ru_ru.json"
@@ -1832,7 +1832,7 @@ hash = "b7a78842b39b5ce32f2f96a50113e045208427f395c2530e61dbaa6d4b56b9c2"
 
 [[files]]
 file = "resources/invoke/lang/ru_ru.json"
-hash = "08e597e030d79fb7e42cdbb1eb0f7400769055ace8405c1e4c6ae5d76e40afd7"
+hash = "89f9988ceafb05cb47dcc02fbc9b3e2f1e7d9b357751182f879369b4bee27696"
 
 [[files]]
 file = "resources/ironchests/lang/ru_ru.json"
@@ -1844,11 +1844,11 @@ hash = "866e2b2454136a3cb2285a116a439e4ab359738b3d2c6307f4c9f1b53b6261be"
 
 [[files]]
 file = "resources/mcda/lang/ru_ru.json"
-hash = "b0c82639ebb97afe39a0dd7f040f64039eb4c1132f8d3f5ff1bea1a397b52ff0"
+hash = "ca019fb21e825c9d7a3343b8abb6734a5104f78990a5fd33ae006f6f4f2ac700"
 
 [[files]]
 file = "resources/mcdw/lang/ru_ru.json"
-hash = "066943e2cad502727aa51c6ad790c383f5955477242edf2729ab824b906e402d"
+hash = "7e35eaad20f784128fef0912b2d86deea702a8852e84f3fcb235b54755b72778"
 
 [[files]]
 file = "resources/merequester/lang/ru_ru.json"
@@ -1856,7 +1856,7 @@ hash = "ce8acf430e4b7391ed15ea90c4b7a51a4ef66cdc1131473b7a59cfa02967d6ed"
 
 [[files]]
 file = "resources/minecells/lang/ru_ru.json"
-hash = "8c2a6528285a97eac6c16b8159ce0e964b54361f80660f93fc89ab096e1cc901"
+hash = "64079f206257a6b2a1dd2ff72baf746d4eb8f22f2ba8c08c448872a0862a0c8c"
 
 [[files]]
 file = "resources/modpack-update-checker/lang/lol_us.json"
@@ -1876,7 +1876,7 @@ hash = "480de8533f980b3a89c1bb6d1c298eadefaa8a83a1f94950ac21ab696a0427ef"
 
 [[files]]
 file = "resources/moretotems/lang/ru_ru.json"
-hash = "d796c60f56abb63ab7d28f67895033f3acf86fd680131aba17b1c7ef31c7be57"
+hash = "0dd63dc177667e03289beaf58a2660d3bf137793fa49877fc71cc4373a3c4870"
 
 [[files]]
 file = "resources/mutantmonsters/lang/ru_ru.json"
@@ -1884,11 +1884,11 @@ hash = "25eafa3a2b87f0f4c67cf9807bc46e380b1c6c39b1f9fbe3bf989a4875667f80"
 
 [[files]]
 file = "resources/mythicmounts/lang/ru_ru.json"
-hash = "6c2392e3d54e6670fee135d783093d74d23f0d811cc374a5dfea8afeb87e6559"
+hash = "9f9704eed8f17ce02b8b82b112b1438b5d2456c57abea9832f706377f6188c91"
 
 [[files]]
 file = "resources/naturalist/lang/ru_ru.json"
-hash = "082953d3efe058f48944960bfc4d9f47e39cad18c1c18dcae19b74fc356ed4f3"
+hash = "854af1e6cf5c48bb23a948dbcd4792b76c7ea65d04f0c50260979d47c3834533"
 
 [[files]]
 file = "resources/obscure_api/lang/ru_ru.json"
@@ -1904,11 +1904,11 @@ hash = "e4bc090179cc95209518f08c2154e7f8327c9a68a959c0715d3368b9d2daa2d0"
 
 [[files]]
 file = "resources/paladins/lang/ru_ru.json"
-hash = "60331d41c0ee6417a0bd216bf30d7bda2173cc1682abbe493fe91911fb1c8c46"
+hash = "747c36f00a4e2c8b084f3e83f5253c725e0e251ddd139b7bcc604ab9256fe25b"
 
 [[files]]
 file = "resources/philipsruins/lang/ru_ru.json"
-hash = "a33fc9b8ed28babcb6894b732395889b5f4e98fe89cf4eced640a7a141aee8a5"
+hash = "eb69fd329a75a1faf9fcfc11bd91e1a2bd45b292aacc41cd3b233e5441ceb762"
 
 [[files]]
 file = "resources/promenade/lang/ru_ru.json"
@@ -1984,7 +1984,7 @@ hash = "ab2b4ace66a323e9960e5f2ccf6d9b43b1f1b8ef0da66ad35a94696733dd0ef8"
 
 [[files]]
 file = "resources/prominent/lang/ru_ru.json"
-hash = "5746e9bd3399d61a77dbf4b2df829fd16551085b1f0f24129ea1ec28f2accc0b"
+hash = "099c42fa8a7fe7e6d2ad5f204a527c36f4d6a928f1bdf7b4bfa5c697e8b156d9"
 
 [[files]]
 file = "resources/prominent/textures/gui/ability_plates/active.png"
@@ -2252,7 +2252,7 @@ hash = "a11a9a43885780f213f8d649e204bebcab2e4eaa18c74c2002bbef7eecbc7231"
 
 [[files]]
 file = "resources/prominent_talents/lang/ru_ru.json"
-hash = "f4de618584d7b6310c274c6848f2048d99a86466d92d0d9bfe69c59ee9c47f69"
+hash = "290191f1baf0cf49b99852f7ddf31150821bae031a8cd8c31697ba96dca7549e"
 
 [[files]]
 file = "resources/prominent_talents/textures/gui/itemlevel.png"
@@ -2292,7 +2292,7 @@ hash = "c948d0d6a25c05c3a1e8d7aeda71ee66b32a2ea10c84155095320b79105f8548"
 
 [[files]]
 file = "resources/rogues/lang/ru_ru.json"
-hash = "19c58800572408b4bce8494bc94156b608ed78b1aaca989cf73ffd9dcb1ddff3"
+hash = "a4378879005e20538b9c3dc262b2d57021ed8cacfab9cb38a1a01c65996fc311"
 
 [[files]]
 file = "resources/runes/lang/en_us.json"
@@ -2300,7 +2300,7 @@ hash = "0ee667f879726f53a2c1f45fc334a07791411678237cc9a4a859fc26d253c2ef"
 
 [[files]]
 file = "resources/sbprom/lang/ru_ru.json"
-hash = "e9b5be2f666667d7f7973209b14de85c73a25dae9d2a4b036ff14b51d0ec8a26"
+hash = "eb44a8c5ede21b286971d37baf47687d833a3cf6db2094d244b0d00ad252049e"
 
 [[files]]
 file = "resources/seasonsextras/lang/ru_ru.json"
@@ -2308,11 +2308,11 @@ hash = "26d5fe33fe09f1ee5227a27818a20278fcaffb83a120b66d8051915fe75b4df8"
 
 [[files]]
 file = "resources/shield_overhaul/lang/ru_ru.json"
-hash = "51bfa20ecf73eb369c88d800b80c88634d24984c336cf87c2e620ade3c168f67"
+hash = "4c3b8586b4bbce9a2d55da90939715c0692770cb4eec7b1c50dc510772e67962"
 
 [[files]]
 file = "resources/simplyswords/lang/ru_ru.json"
-hash = "911d80e2523d790b50c78f2c8cb4111f4a3519c085226d355f7433d94d268d54"
+hash = "9845bfc0960118f023c4d47b100aebfb7e1d2660f8634fdfe6f1f30f242ce4c8"
 
 [[files]]
 file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/categories/category_gem_socketing.json"
@@ -2652,11 +2652,11 @@ hash = "954f378aa5513ac23f75755cb9c4eefd568fd62e36212b394f836bbe099a437b"
 
 [[files]]
 file = "resources/soulsweapons/lang/ru_ru.json"
-hash = "efbbbcaf3792a5ec55253f0c8a72fdb534261edeacc1707746f08f2ea70d433f"
+hash = "87ed2e109b158ee752dcf1b8c033fb286c9d07d57f350fffa7d4eac73ef03250"
 
 [[files]]
 file = "resources/spellbladenext/lang/ru_ru.json"
-hash = "efda49af339919ae6e848d1c28b6fce7b3a73cd44e36aae220a5c2c7efbd15ab"
+hash = "73b492dd11c68caea6efed31cdd5e1a48e47adfb9d85f4717809db1270a421b7"
 
 [[files]]
 file = "resources/spellengine/lang/ru_ru.json"
@@ -2672,7 +2672,7 @@ hash = "ca369dae50cf6b962cb11dbf80291b071476faa74567bb9fe87273acd9f492a3"
 
 [[files]]
 file = "resources/swampierswamps/lang/ru_ru.json"
-hash = "22235a240ac4c4480371f2c0807bcbc5c406bfaa247f4689d5357e4641ee03a2"
+hash = "9183d6923783bc5e018b55644766349887274dd997040a0d5c1e02cd1b722e8a"
 
 [[files]]
 file = "resources/thermoo/lang/ru_ru.json"
@@ -2868,15 +2868,15 @@ hash = "61f604e1c1b9a6c98e9d42b0f8faaa9b0b7b5b9f99feac945938b7c60f314521"
 
 [[files]]
 file = "resources/treechop/lang/ru_ru.json"
-hash = "3a9311e06370cd6a0f5bd6aad4e3ad4328b38e28afa86d89e91d3292ca52d01b"
+hash = "771cf53a15457c37a828ba511128c28bfd988089cd74995b9ed3a137b013cc1b"
 
 [[files]]
 file = "resources/twigs/lang/ru_ru.json"
-hash = "dcfd21b81933d9d704d2180f7028cf68d4aee6078eb0856cdb1e73e15e6ce966"
+hash = "c9fed59fc5675bcb8c4699363052b406fa3aaf9aa217bd72a9de3fbab2422427"
 
 [[files]]
 file = "resources/villagersplus/lang/ru_ru.json"
-hash = "da3347a5a416c7675dad54a859fc559a7e9f9a0e3ad40f0c1277f216093d0869"
+hash = "b13edc4c0b9a68f5ac7a9dd2f4e690f7d146e74002f7d95403ff8572cef5e177"
 
 [[files]]
 file = "resources/winterly/lang/ru_ru.json"
@@ -2888,7 +2888,7 @@ hash = "86597fa69ac45dc6de19fa868d65d24d7e51e26a196ec51ee738a9077076b878"
 
 [[files]]
 file = "resources/xaeroworldmap/lang/ru_ru.json"
-hash = "4e38a10fe2b537e6183b0dcb856c1577dc22e87e130b7333877d524c946f7b4b"
+hash = "acc3e6ad42eec5a3fe40c94bc8464e3e0445c495771268a4866494d991a0ed81"
 
 [[files]]
 file = "resources/yigd/lang/ru_ru.json"
@@ -2896,7 +2896,7 @@ hash = "22d4f14ab8ea24ef2b4911480a921a0d34e8ab6b8500702b7c4a28b2d55e7621"
 
 [[files]]
 file = "resources/zenith/lang/ru_ru.json"
-hash = "e3a531a75158079300d91edcd1b91243b05219c052d1ddd11615f465c287500d"
+hash = "0c3bf7f35296b73ac28951c45ee78ce058a64f7a98222d2c05fb160736521140"
 
 [[files]]
 file = "resources/zenith_attributes/lang/ru_ru.json"
