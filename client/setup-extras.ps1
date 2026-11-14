@@ -15,19 +15,55 @@ $BootstrapUrl = "https://github.com/packwiz/packwiz-installer-bootstrap/releases
 function Finish($code) { if (-not $NoPause) { Write-Host ""; Read-Host "Нажми Enter, чтобы закрыть окно" | Out-Null }; exit $code }
 function Fail($msg) { Write-Host ""; Write-Host "ОШИБКА: $msg" -ForegroundColor Red; Finish 1 }
 
+# Официальная сборка Prominence II v4.1.8 (Modrinth CDN). Не храним у себя - качаем у автора, хэш проверяем.
+$ModpackUrl = "https://cdn.modrinth.com/data/EGs3lC8D/versions/WTpCW96X/Prominence%E2%84%A2%20II%20Hasturian%20Era%20v4.1.8.mrpack"
+$ModpackSha512 = "24ea0bec296e3e3eb7bb3e99d75664da46c55a8a27680d23c2ee6a628f30051a32a90cc7b7391e59f69cba08e0cd5ba761042d09a6389656dc730f39bb9ec898"
+function Get-PackFile {
+  $dl = $null
+  try { $dl = (New-Object -ComObject Shell.Application).NameSpace('shell:Downloads').Self.Path } catch { }
+  if (-not $dl) { $dl = Join-Path $env:USERPROFILE "Downloads" }
+  $f = Join-Path $dl "Prominence-II-v4.1.8.mrpack"
+  $good = (Test-Path $f) -and ((Get-FileHash $f -Algorithm SHA512).Hash.ToLower() -eq $ModpackSha512)
+  if (-not $good) {
+    Write-Host "Скачиваю сборку Prominence II v4.1.8 (около 450 МБ) в папку Загрузки. Подожди..." -ForegroundColor Yellow
+    if (Get-Command curl.exe -ErrorAction SilentlyContinue) { & curl.exe -L --fail --progress-bar -o $f $ModpackUrl }
+    else { $ProgressPreference = "SilentlyContinue"; Invoke-WebRequest -Uri $ModpackUrl -OutFile $f -UseBasicParsing }
+    if (-not (Test-Path $f) -or ((Get-FileHash $f -Algorithm SHA512).Hash.ToLower() -ne $ModpackSha512)) {
+      Remove-Item $f -ErrorAction SilentlyContinue
+      Fail "Сборка скачалась с ошибкой. Проверь интернет и запусти INSTALL.bat ещё раз."
+    }
+  }
+  Write-Host "Сборка лежит в папке Загрузки: $f" -ForegroundColor Green
+  try { Start-Process explorer.exe "/select,`"$f`"" } catch { }
+}
+function Show-ImportSteps {
+  Write-Host ""
+  Write-Host "ЧТО ДАЛЬШЕ:" -ForegroundColor Cyan
+  Write-Host "  1. Открой лаунчер (AstralRinth или Modrinth App) -> создать/добавить сборку -> 'Из файла' (Import / From file)."
+  Write-Host "     Выбери файл Prominence-II-v4.1.8.mrpack из Загрузок (папка уже открыта)."
+  Write-Host "  2. Дождись установки модов, запусти игру ОДИН раз до главного меню и закрой её."
+  Write-Host "  3. Закрой лаунчер и снова дважды кликни INSTALL.bat."
+}
+
 try {
   Write-Host "=== Сладкий Баклажанчик: настройка модов ===" -ForegroundColor Cyan
 
   # 1. Находим сборку Prominence II
   if (-not $InstanceDir) {
     $roots = @("$env:APPDATA\AstralRinthApp\profiles", "$env:APPDATA\ModrinthApp\profiles") | Where-Object { Test-Path $_ }
-    if (-not $roots) { Fail "Не нашёл лаунчер (AstralRinth или Modrinth App). Установи лаунчер и сборку Prominence II v4.1.8, потом запусти снова." }
+    if (-not $roots) {
+      Write-Host "Не нашёл лаунчер (AstralRinth или Modrinth App). Сначала установи лаунчер." -ForegroundColor Yellow
+      Get-PackFile; Show-ImportSteps; Finish 0
+    }
     $all = @($roots | ForEach-Object { Get-ChildItem $_ -Directory })
     $found = @($all | Where-Object { Get-ChildItem (Join-Path $_.FullName "mods") -Filter "Prominent-GLOBAL*" -ErrorAction SilentlyContinue })
     if ($found.Count -eq 1) { $InstanceDir = $found[0].FullName }
     else {
-      if ($found.Count -eq 0) { Write-Host "Не нашёл сборку Prominence II автоматически. Выбери её из списка:" -ForegroundColor Yellow; $list = $all }
-      else { Write-Host "Нашлось несколько сборок Prominence II. Выбери нужную:" -ForegroundColor Yellow; $list = $found }
+      if ($found.Count -eq 0) {
+        Write-Host "Сборка Prominence II в лаунчере ещё не установлена - сейчас скачаю её файл." -ForegroundColor Yellow
+        Get-PackFile; Show-ImportSteps; Finish 0
+      }
+      Write-Host "Нашлось несколько сборок Prominence II. Выбери нужную:" -ForegroundColor Yellow; $list = $found
       for ($i = 0; $i -lt $list.Count; $i++) { Write-Host ("  [{0}] {1}" -f $i, $list[$i].Name) }
       $n = Read-Host "Номер сборки"
       if ($n -notmatch '^\d+$' -or [int]$n -ge $list.Count) { Fail "Неверный номер." }
