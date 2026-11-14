@@ -11,6 +11,26 @@ hash = "737e71082015f1ee09103f611adfeff6700f6a0ec7331c3b3000ada540a67444"
 metafile = true
 
 [[files]]
+file = "mods/ftb-library.pw.toml"
+hash = "50a6fd162143306deb32308f3a61a10631992dc710e407fabf1217150e87089c"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests.pw.toml"
+hash = "6c14618376ea1ca80805606e479f0dc3e367d8fe132297049a5da014b828c4b9"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams.pw.toml"
+hash = "d4f412f1b4bf3386000acefa1d50d7b32f8287afb3fc4c48d2e057e52bb88292"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "697ec76c26d387cf07c2e05d351a3a9ad652c40e463c839aa419865f9bf42d91"
+metafile = true
+
+[[files]]
 file = "mods/skinrestorer.pw.toml"
 hash = "ac96fca535289d56336f8931ffde0366a39be9e09a9776997bf41c0d3c9d4864"
 metafile = true

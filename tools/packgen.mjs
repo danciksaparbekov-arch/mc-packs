@@ -4,6 +4,7 @@
 // Использование:
 //   node packgen.mjs init    <dir> --name "<имя>" --mc 1.20.1 --loader fabric --loader-version 0.19.3
 //   node packgen.mjs add     <dir> <modrinth-slug|url> [--side client|server|both] [--no-deps]
+//   node packgen.mjs add-url <dir> <name> <url> [--side both]
 //   node packgen.mjs remove  <dir> <slug>
 //   node packgen.mjs refresh <dir>      (пересчитать хэши индекса)
 //   node packgen.mjs list    <dir>
@@ -102,6 +103,28 @@ try {
     refresh(dir);
   } else if (cmd === "add") {
     await addMod(dir, arg, { side: flag("side"), noDeps: process.argv.includes("--no-deps") });
+    refresh(dir);
+  } else if (cmd === "add-url") {
+    // add-url <dir> <name> <url> [--side both]: мод по прямой ссылке (хэш считаем при скачивании, сам файл не храним)
+    const url = process.argv[5];
+    if (!arg || !url) throw new Error("add-url <dir> <name> <url> [--side both]");
+    const buf = Buffer.from(await (await fetch(url, { headers: UA })).arrayBuffer());
+    if (buf.length < 1000) throw new Error("скачивание не удалось");
+    const filename = decodeURIComponent(url.split("/").pop());
+    const side = flag("side") || "both";
+    const slug = arg.toLowerCase().replace(/[^a-z0-9_-]+/g, "-");
+    const hash = crypto.createHash("sha512").update(buf).digest("hex");
+    fs.mkdirSync(path.join(dir, "mods"), { recursive: true });
+    fs.writeFileSync(path.join(dir, "mods", `${slug}.pw.toml`), `name = ${q(arg)}
+filename = ${q(filename)}
+side = ${q(side)}
+
+[download]
+url = ${q(url)}
+hash-format = "sha512"
+hash = ${q(hash)}
+`);
+    console.log(`+ ${arg} [${side}] (${filename}, ${Math.round(buf.length / 1024)} KB)`);
     refresh(dir);
   } else if (cmd === "remove") {
     fs.rmSync(path.join(dir, "mods", `${arg}.pw.toml`), { force: true });
