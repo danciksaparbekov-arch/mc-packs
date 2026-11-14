@@ -1,0 +1,60 @@
+name: Change mod
+# Запускается ботом (workflow_dispatch) после одобрения: добавляет/удаляет мод, коммитит и синхронизирует сервер.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "add или remove"
+        required: true
+        type: choice
+        options: [add, remove]
+      slug:
+        description: "Modrinth slug мода"
+        required: true
+      side:
+        description: "client / server / both (пусто = авто)"
+        required: false
+        default: ""
+
+concurrency: sync-exaroton
+
+permissions:
+  contents: write
+
+jobs:
+  change:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Apply change
+        env:
+          ACTION: ${{ inputs.action }}
+          SLUG: ${{ inputs.slug }}
+          SIDE: ${{ inputs.side }}
+        run: |
+          # значения идут только через env + строгая проверка — без подстановки в shell
+          [[ "$SLUG" =~ ^[A-Za-z0-9_-]{2,64}$ ]] || { echo "bad slug"; exit 1; }
+          [[ "$SIDE" =~ ^(|client|server|both)$ ]] || { echo "bad side"; exit 1; }
+          P=packs/prominence2-extras
+          if [ "$ACTION" = "add" ]; then
+            if [ -n "$SIDE" ]; then node tools/packgen.mjs add "$P" "$SLUG" --side "$SIDE"; else node tools/packgen.mjs add "$P" "$SLUG"; fi
+          else
+            node tools/packgen.mjs remove "$P" "$SLUG"
+          fi
+      - name: Commit
+        run: |
+          git config user.name "mc-packs-bot"
+          git config user.email "mc-packs-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && { echo "нет изменений"; exit 0; }
+          git commit -m "${{ inputs.action }} ${{ github.run_id }}"
+          git push
+      - name: Sync Exaroton
+        env:
+          EXAROTON_TOKEN: ${{ secrets.EXAROTON_TOKEN }}
+          EXAROTON_SERVER_ID: ${{ secrets.EXAROTON_SERVER_ID }}
+          PACK_DIR: packs/prominence2-extras
+        run: node tools/sync-exaroton.mjs
