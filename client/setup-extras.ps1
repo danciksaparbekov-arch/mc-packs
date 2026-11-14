@@ -127,6 +127,64 @@ try {
 } catch { }
 '@
 
+  # 3b. Сервер в списке мультиплеера: добавляется один раз при установке и при первом запуске.
+  $serverPatch = @'
+try {
+  # Добавляем сервер в список мультиплеера (servers.dat) один раз. Файл не трогаем, если структура незнакома.
+  $marker = Join-Path $inst ".sb-server-added"
+  if (-not (Test-Path $marker)) {
+    $ip = "sladkiybaklazhanchik.exaroton.me:45698"
+    $nm = "Сладкий Баклажанчик"
+    $enc = New-Object System.Text.UTF8Encoding $false
+    $be16 = { param($n) [byte[]]@([byte](($n -shr 8) -band 255), [byte]($n -band 255)) }
+    $str = { param($k, $v) $kb = $enc.GetBytes($k); $vb = $enc.GetBytes($v); [byte[]](@(8) + (& $be16 $kb.Length) + $kb + (& $be16 $vb.Length) + $vb) }
+    $entry = [byte[]]((& $str "ip" $ip) + (& $str "name" $nm) + @(0))
+    $i32 = { param($b, $p) ([int]$b[$p] -shl 24) + ([int]$b[$p + 1] -shl 16) + ([int]$b[$p + 2] -shl 8) + [int]$b[$p + 3] }
+    $skip = $null
+    $skip = {
+      param($b, $p, $t)
+      switch ($t) {
+        1 { $p + 1 } 2 { $p + 2 } 3 { $p + 4 } 4 { $p + 8 } 5 { $p + 4 } 6 { $p + 8 }
+        7 { $p + 4 + (& $i32 $b $p) }
+        8 { $p + 2 + (([int]$b[$p] -shl 8) + [int]$b[$p + 1]) }
+        9 { $et = $b[$p]; $n = & $i32 $b ($p + 1); $q = $p + 5; for ($k = 0; $k -lt $n; $k++) { $q = & $skip $b $q $et }; $q }
+        10 { $q = $p; while ($b[$q] -ne 0) { $tt = $b[$q]; $nl = ([int]$b[$q + 1] -shl 8) + [int]$b[$q + 2]; $q = & $skip $b ($q + 3 + $nl) $tt }; $q + 1 }
+        11 { $p + 4 + 4 * (& $i32 $b $p) }
+        12 { $p + 4 + 8 * (& $i32 $b $p) }
+      }
+    }
+    $sd = Join-Path $inst "servers.dat"
+    $hdr = [byte[]](@(10, 0, 0, 9, 0, 7) + $enc.GetBytes("servers") + @(10))
+    if (-not (Test-Path $sd)) {
+      [IO.File]::WriteAllBytes($sd, [byte[]]($hdr + @(0, 0, 0, 1) + $entry + @(0)))
+      Set-Content -Path $marker -Value "created"
+    } else {
+      $b = [IO.File]::ReadAllBytes($sd)
+      if ([Text.Encoding]::GetEncoding(28591).GetString($b).Contains("sladkiybaklazhanchik.exaroton.me")) {
+        Set-Content -Path $marker -Value "already-present"
+      } else {
+        $okHdr = ($b.Length -gt ($hdr.Length + 5))
+        if ($okHdr) { for ($k = 0; $k -lt $hdr.Length; $k++) { if ($b[$k] -ne $hdr[$k]) { $okHdr = $false } } }
+        if ($okHdr) {
+          $n = & $i32 $b $hdr.Length
+          $start = $hdr.Length + 4
+          $q = $start
+          for ($k = 0; $k -lt $n; $k++) { $q = & $skip $b $q 10 }
+          if ($q -eq ($b.Length - 1) -and $b[$q] -eq 0) {
+            Copy-Item $sd "$sd.bak-sb" -Force
+            $n1 = $n + 1
+            $cnt = [byte[]]@([byte](($n1 -shr 24) -band 255), [byte](($n1 -shr 16) -band 255), [byte](($n1 -shr 8) -band 255), [byte]($n1 -band 255))
+            $old = if ($q -gt $start) { $b[$start..($q - 1)] } else { [byte[]]@() }
+            [IO.File]::WriteAllBytes($sd, [byte[]]($hdr + $cnt + $old + $entry + @(0)))
+            Set-Content -Path $marker -Value "added"
+          }
+        }
+      }
+    }
+  }
+} catch { }
+'@
+
   # 4. Скрипт синхронизации внутри сборки (всегда завершается кодом 0 - не мешает запуску игры)
   $sync = @"
 Set-Location `$PSScriptRoot
@@ -140,10 +198,11 @@ if (-not `$j) { `$j = (Get-Command java -ErrorAction SilentlyContinue).Source }
 if (`$j) { & `$j -jar packwiz-installer-bootstrap.jar -g -s client "$PackUrl" } else { Write-Host "Java 17 not found" }
 `$inst = `$PSScriptRoot
 $figuraPatch
+$serverPatch
 exit 0
 "@
   $syncPath = Join-Path $InstanceDir "packwiz-sync.ps1"
-  Set-Content -Path $syncPath -Value $sync -Encoding ASCII
+  Set-Content -Path $syncPath -Value $sync -Encoding UTF8
 
   # 5. Первая синхронизация сейчас
   Write-Host "Скачиваю моды (это может занять пару минут)..."

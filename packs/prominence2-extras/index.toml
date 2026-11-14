@@ -1,6 +1,74 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fancymenu/assets/gui/inventory/side_button_label_quests.png"
+hash = "f80e6106f1c5ffe62912be75e72cabf3c7925fcd00ee73913ac98f355f8962b3"
+
+[[files]]
+file = "config/fancymenu/assets/gui/inventory/side_button_label_stats.png"
+hash = "4ee30a1f1ce67eb261b0c0aaf19bfbf103ba6404996933f0e6a5c00283771a31"
+
+[[files]]
+file = "config/fancymenu/assets/gui/inventory/side_button_label_trinkets.png"
+hash = "3ec040446e2ab725559df38eab3a2511de538308ef0f471a0ece40af08ea91c9"
+
+[[files]]
+file = "config/fancymenu/assets/welcome_screen/useful_links.png"
+hash = "ebaef66d05d87c0ab5b2209352bbb93cf5364982bf69dadc8896e3da6f09680e"
+
+[[files]]
+file = "config/fancymenu/assets/welcome_screen/welcome_to_prominence.png"
+hash = "bad49aabc41b8afa7a6144f3c31c245b73fa0c6c454d819ac83ad0dfba1beafa"
+
+[[files]]
+file = "config/fancymenu/assets/welcome_screen/who_you_are.png"
+hash = "609c58dc1a4a507e828d7cf86e29120941dedd550f41dc49fcf0261f27ad820b"
+
+[[files]]
+file = "config/fancymenu/assets/welcome_screen/your_abilities.png"
+hash = "dc72c18b411c1365ce829661e6c35a6b810daee1bde16edaece9cb040e5c7cd7"
+
+[[files]]
+file = "config/prominence_localization/config.json"
+hash = "6db8e2542c496bf6459c9858631484cf53eb1bb146736634315cfe5a0632406a"
+
+[[files]]
+file = "config/prominence_localization/lang/ru_ru/fancymenu.json"
+hash = "ce3f1e2bb718b7bd1a830c0ecdc4c42fa61f80a34aa6b28729cd512733851fc2"
+
+[[files]]
+file = "config/prominence_localization/lang/ru_ru/ftbquests.json"
+hash = "23490743f02a0ae14834264e33fdb770f6e427bf789dee3ec3f26bbed99f6479"
+
+[[files]]
+file = "config/prominence_localization/lang/ru_ru/inventory_fix.json"
+hash = "78acf3353a7815e23638a8e96db8b4303d8c7850cdaa4509a280810096043e5c"
+
+[[files]]
+file = "config/prominence_localization/lang/ru_ru/puffish_skills.json"
+hash = "7544d2d62a4fbdc8314b9bec1ec59614836009ffee6bba230eec5bc30ed0879e"
+
+[[files]]
+file = "config/prominence_localization/version.json"
+hash = "bd62f5115056da93a755772d2b1ae416c1a7637b350716442f0e9b1cb19f97f3"
+
+[[files]]
+file = "config/vaultpatcher_asm/config.json"
+hash = "dac62c299a5d0b64b8d2febaa242159fb7fbfd78726debc92f34c928a0f32189"
+
+[[files]]
+file = "config/vaultpatcher_asm/eldritch_end.json"
+hash = "2e06ff96c4243a402b551582776d8ad65e4b4dd2a3eeb39f5563772ee3ef2c33"
+
+[[files]]
+file = "config/vaultpatcher_asm/prominent_global.json"
+hash = "f6c88357d2e11e78f1abfdb1895e17443d437c40a58d7a630d3c24dd48b4f53b"
+
+[[files]]
+file = "config/vaultpatcher_asm/prominent_talents.json"
+hash = "5a570265b73227e3e72848fed851b92d4b2e908ccb6458575b8d9e03fd73ad2f"
+
+[[files]]
 file = "mods/another-furniture.pw.toml"
 hash = "3de376c13ea2d1b9671e9d4a5c0f757d8163fe150f15c52f90a1dd685435e695"
 metafile = true
@@ -56,6 +124,10 @@ hash = "0f170663bb0f70d773ac5c3d24f09747253c5ba8a855b3a45fe7f1952e574b78"
 metafile = true
 
 [[files]]
+file = "mods/prominence-localization-1.0.0.jar"
+hash = "1d574835bc352790d6b6379b8e7e9bc7a74c3e6dc51795bd437c6ab168a9544c"
+
+[[files]]
 file = "mods/s-lib.pw.toml"
 hash = "e2db67a635e8b036561f4fb832473c61878dff4a35a18931de0ab7f4de726c01"
 metafile = true
@@ -69,3 +141,2763 @@ metafile = true
 file = "mods/skinrestorer.pw.toml"
 hash = "ac96fca535289d56336f8931ffde0366a39be9e09a9776997bf41c0d3c9d4864"
 metafile = true
+
+[[files]]
+file = "mods/vaultpatcher-all-1.4.4.jar"
+hash = "4541bfa02173b3d7106a19cd49fc5a31924efec54cbbe993b77abe57c2f95a29"
+
+[[files]]
+file = "resources/adventurez/lang/en_us.json"
+hash = "a04e10da45611f24d6c2b0c2f1cbc1e0fece415f42dab5b3c3fd83671f737980"
+
+[[files]]
+file = "resources/adventurez/lang/ru_ru.json"
+hash = "a04e10da45611f24d6c2b0c2f1cbc1e0fece415f42dab5b3c3fd83671f737980"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/ae2-mechanics-index.md"
+hash = "9767354c70d98d369d7503734f366d90b71e71adc3580e0c350ae508dd14c238"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/autocrafting.md"
+hash = "1938fec439d135ccee27df135c5a51ab47806d61f3c81e2513558bd8838252d1"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/bytes-and-types.md"
+hash = "d123c90440e3ad4b311d94752966897ad7b0064564d9ae08f5682e83d285d36f"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/cable-subparts.md"
+hash = "9416f40c02eec53317984c2b0b17277403530f9bd821c0c9b960a4187db5f3ae"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/certus-growth.md"
+hash = "5ba454410ead11595e72dfd1097ce154fd922be364d3a7fc303097f0cdc1518c"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/channels.md"
+hash = "58481223ada23c91b4a6d7f49ec0d34b5f3d4e4cabafd26d528f56316192f0a4"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/devices.md"
+hash = "34c6ccc463ca33e74b8486a4d3cb6170e78992b181986bb594489fba5e78e21f"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/energy.md"
+hash = "76020940100d6978042fb1ebc4bf9f7ab7cc18c91524068da67d4c0ea971a214"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/import-export-storage.md"
+hash = "19499b42f28618bccdcdf9a14d836826d43430ab7e4bc5d10593bb227f47a8dc"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/me-network-connections.md"
+hash = "355250e695085aa0ababcc787ebae1c655293fb230e14d6a1e3bbc1165f7ef3e"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/meteorites.md"
+hash = "fbcfe1bae350ee9144ef4f60e478f9ccbfdcb55c731a5d427092c386d10e2d6a"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/p2p-tunnels.md"
+hash = "087d57a377e952d14e0251959a3d04bdb20a022fd1893926d84aaee681390d25"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/quantum-bridge.md"
+hash = "478107eafc65ab71a31e1312e525a1354d8e8b114e3d70d4e4a29a5b707b8964"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/spatial-io.md"
+hash = "cb68fb509383dbd46142a4be24a72bfe8ae41c8dba9d84d2dc31ea7d3e62d2e4"
+
+[[files]]
+file = "resources/ae2/ae2guide/ae2-mechanics/subnetworks.md"
+hash = "f63dd4902b5113d70be5238a276cf669663bda2149ecf35902211a935595d490"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/1024_channel_controller_p2p.snbt"
+hash = "805a0544e0e0b2b24286d6b44e54301fcc2206123c47372688ca3f0237b772f2"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/1024_channels_through_quantum_bridge.snbt"
+hash = "061203af7e8ecc0c4dbd158a334431853cd1d1142d3a02e130818b868a552d90"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/2_networks_1.snbt"
+hash = "92cc3898ca6723f4acdd92c1d08a47c299138466711acf8651beb9b0f597f333"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/2_networks_2.snbt"
+hash = "7572317f721474328362a4b79c350a4cc921edc97948571b9d31ff98f6bf1f86"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/accelerator_connections.snbt"
+hash = "6c766fe4d79b21c47b79ab45e61167f37166a8265369b25288bd78d1017c4b9e"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/actually_1_network.snbt"
+hash = "7d63170aa7de906cdf21e785c4e3fd37006526732c977cab6fbf6052bb78f26b"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/actually_1_network_2.snbt"
+hash = "a06319a5b3caa86419bef9bbcac6e009d490d8e0843abde5225effb9cd17b296"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/advanced_certus_farm.snbt"
+hash = "0045eda893341afe9f67acb8a86d0870533d710341b39bb10ad9f0d798f4079f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/amethyst_farm.snbt"
+hash = "edee5a0004d6cf43cf7c14860950a3859587b8d0e7440293359b8ee3192e87db"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/annihilation_filtering.snbt"
+hash = "cddb30c3e0e85ca6db64955ec51cfe8ed0048a941aa50bbb705e88ca598f33bf"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/assembler_tower.snbt"
+hash = "bbca68d1f648c976c50ca926c860aa159c5e3c6f69560f79155b9900537e6419"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/autocraft_setup_greebles.snbt"
+hash = "cf4df243605843438fc9bcaea1c3cbd7b8ec1cc7a24e6ccc796411f0d3fbc8f7"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/bad_network_structure.snbt"
+hash = "32fd52867b00f75a5c00723f249b53c8cc91bf7623179bdf1dc23b2346f359d5"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/better_spatial_storage_3x3x3.snbt"
+hash = "e25bb4240cc29ef5f405a10aa0eb8639a871b8cc0edd0c0485142070598e7065"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/budding_blocks.snbt"
+hash = "f5ce924b881de6f0a14b2c3777d95ca83cab6f4e4d92fc3d30ee9fccb8b2aa9c"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/budding_certus_1.snbt"
+hash = "c8d371e361d6588e5fd5e312261d2c14181d25239a4ad7df4b7fc279eaf7f19c"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/budding_certus_2.snbt"
+hash = "9d6a5aca5e5e918a5479bd541acfb60d3285ee3bc376299eb2dd61537be370d0"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/cable_anchor.snbt"
+hash = "32210869cd1145113d2b1a7f833f0bbea732ae9f33dc9382574be11142821d7f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/cables.snbt"
+hash = "a50971f980e17fa24940071570b910ea3f789da53f94662997cf62ea7ae0aa3d"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/cell_dumper_filler.snbt"
+hash = "8289131be8673eb748cc651e46dda02d6df14c69a4f93ef109f5d712022233f1"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/channel_demonstration_1.snbt"
+hash = "d0309b4c1fa684821fe301aff9c0c048dbf86f30aea20778916972614f98ae8f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/channel_path_length_issue.snbt"
+hash = "bf49d5edff8d3ed3fa4846b81dc0943395ae90cf47274b2a1292a3656da92225"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/channel_path_length_issue_fix.snbt"
+hash = "4154204f8f1f91b9f277cde6da0b4c4b4df07a95ec2b4a98ddb589e8f2fb12fc"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/charger_automation.snbt"
+hash = "c07f48050f285a200610133bf2e18feb8fcb01542be8d03474d49ed784e01e99"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/charger_automation_array.snbt"
+hash = "c07230f92cbb7ddfbda8aacce37d00749b9c20a35e9e6b9e071a53951f95eada"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/charger_hopper.snbt"
+hash = "a28f9b89128dfa24283530cb0a3d1ef27ffb161564b25f7216f268cf6621b7ce"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/chest_color.snbt"
+hash = "e4474456ffc79b8e5b7cd0153a41574ceb8951638e205964f30af28a957859d3"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/controller_rules.snbt"
+hash = "b2aa9845ae8a369964bf031563b0994cdddd49b9b684bcb2778889545055228e"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/controllers.snbt"
+hash = "fc9ffc81a4bd62e723b00f7214a7f263dfe79080c5c71c9a011e45f464fb5a7b"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/crafting_cpus.snbt"
+hash = "13eb135c23b90ea83b2d203734c097dabc3382e3b5e1478d09835c0c406cd080"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/crank_on_stuff.snbt"
+hash = "4517c997b2fa744e7276617415f57973160123ab897dfbd121ba569aa78e8abd"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/decorative_certus.snbt"
+hash = "be6a7bae387dab6cc1449b79fcff6fcdc5ce765c40ef9f306c320b1d955155f1"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/decorative_fluix.snbt"
+hash = "765097776de8749e07ae24b7630330bd93ef5cf5b9288437b27923786071d73d"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/decorative_sky_stone.snbt"
+hash = "0a31e0ae92bf9054c6fbf956b949726fd95372dcaba880f6a8c4a905036ebbb0"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/facades_1.snbt"
+hash = "32a1a172c551e4af978340a8e3ac6d404e62922954ea9fce5ff85ff5f28edf6b"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/facades_2.snbt"
+hash = "efdf1ff78d7b8da49df1ff113980db56ccd7514de0479b49dea0896b916ed27d"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/facades_3.snbt"
+hash = "3c63d9b38a71525edac9c23430aeda9bd645baf18d3bb22bcda986e4038f2d0e"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/fluix_covered_cable.snbt"
+hash = "2e67d0055ab095bd1571e5fabb5c8994673210b0d6459542ce83e7f7f469db7f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/fluix_covered_dense_cable.snbt"
+hash = "97422b56e715ab2a961bd268da55c446ab1d8889c9c192b247f89563f0513417"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/fluix_glass_cable.snbt"
+hash = "f08b362006a0541c45fb37dae1287c61015debad1c316c1700c93f201a93f4e7"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/fluix_smart_cable.snbt"
+hash = "da7f81af73279eec7b31508e9e2d7f5e79c5d8916ee83423d96efe114903833a"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/fluix_smart_dense_cable.snbt"
+hash = "942e9d46a9b90fda53d067e9f4e28877965fda1cab9ea885e421b7eebb13633d"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/formation_plane_demonstration.snbt"
+hash = "a7e3bff8b5d24ab9384e1d3d6f5da436f0eb47146e7561d5f68cfdebd485d078"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/furnace_automation.snbt"
+hash = "7b50cc6030f19bc0ae322d9403176cf19d116a762227f905b1c80c4e41ab6912"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/growth_accelerator.snbt"
+hash = "212c76900ef715b3a8c540fa8f28ef90386acd844398de4c0c07009783e0538f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/illuminated_panels.snbt"
+hash = "85471ee1e8c82471ffc0f22b1a3e65b7b34c5ea82490303a15fa1ed297d2699b"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/import_export_pipe.snbt"
+hash = "8e427da20fb08c940fc23b9b8d6044e0345b5c87c94baff2c61e05e768f4bb49"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/import_export_storage.snbt"
+hash = "0e178afc42e3787f41d933b8ac3573298935dcd11360864bb9107ff3dfdbaadb"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/import_storage_export_pipe.snbt"
+hash = "3968c22af9a814025e687076c6d981d0d4d7c9efea02c2c716e702a16d6e4a6d"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/import_storage_pipe.snbt"
+hash = "3a1fb3b537a5bdee44fe2d7d8f79802cb5ccc7422baaee9c319cc99caa639c43"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/inscriber_hopper_automation.snbt"
+hash = "95e0a41a4c31666274ad7c8caff84ca766bc208597106f60fe5446e4ff94de9e"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/interface_autostocking.snbt"
+hash = "6c08358bdf728daf86d31d6836ae8679dca15da3bfd082de56e4e6ad5c5e2b25"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/interface_internals.snbt"
+hash = "4a9de76349230a29381a371fece329da59ba43153960cbc9c35f2a1bfb1c7650"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/interface_pipes.snbt"
+hash = "4301e0b570c841eb92ea0a54f9042c15be15f0e3c07d689796990ca0ffdf8626"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/interface_storage.snbt"
+hash = "d36e0700483f84cdc4932dc16a8ae42a8fbcf19571a71844f4eb4a967a8f77e2"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/interface_storage_pipe.snbt"
+hash = "c4a5a609610a9b8a5d21254ce4cda4b764f52b46c11365a4cc9c47e85f2c41a1"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/level_emitter_autostocking.snbt"
+hash = "9b5dc9fb05e807df13c026d48807871baad85171ad21b8b64e8d644b80e7e2b0"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/local_storage.snbt"
+hash = "03ad3a355f99f7f59c4a2d48f40cfae2da4905840d16c10d4c46af79669121d0"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/machine_automation_1.snbt"
+hash = "bb5c94d981605a6bb541b4f3d7dc17ecc4ab262654042f40a8f8596febecbd5c"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/machine_automation_2.snbt"
+hash = "8d5e05cd2f16bb641353b5394f92776dbe4876a0a9abf443235d1b4aa0507b6d"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/many_to_many_pipe.snbt"
+hash = "4ab978670e2880ca41562f99423e0d2ce14d175d4c2770ee84ddccdd5bcbc293"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/metallurgic_infuser_automation.snbt"
+hash = "28b30e8e2645f55d80cc2e691662a7814493ab81c98b3d9ed819c7d25cb6f623"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/meteor_interior.snbt"
+hash = "21532197852e3427e45616abf62ea0404b919672f6f6184e40505da2cb4b9c6a"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/meteorite-crater.png"
+hash = "b2d8f98af95abf13c762164844832e8796181fc90dc8dc40fdda08a6bab5c4f2"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/monitors.snbt"
+hash = "ec6772f736b199428aba6bc46bcb81265a5100883b8a6c21b90a8109995f8668"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/ore_fortuner.snbt"
+hash = "7088923ac56abdcac4e37afbffcbcffb7f4d0d7cc450214136513d55a2127755"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/p2p_barrel_barrel.snbt"
+hash = "2af8133f74baa0df8459205a0b3d2348ce4770c0151af831aa7f301808d040cd"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/p2p_channels.snbt"
+hash = "af234e8f5247ed1b844817d2f9d04031c0ddb1b6b1a437660cc674c082cecb8c"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/p2p_compact_channels.snbt"
+hash = "e1b3e64e5e1744e63a4d4621d596a495de0766cc0db62dd23c88bafb38ddcf58"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/p2p_hopper_barrel.snbt"
+hash = "dc0815a8eccf977047330ab1f4160f91dba4ecafdf4541fa94a585c8bc23d1e3"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/p2p_linking_frequency.snbt"
+hash = "808a74ff536945dcd1d8a353e3a883f3efdf014ebe6e3d3528d023dfd344af0d"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/p2p_nesting.snbt"
+hash = "c25e99190115b3488773f7826aed4d6582de48f09fe3f07a6bc0db03b8347314"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/p2p_portal.png"
+hash = "5fb029ce82400b4c9a32475896ffc81a3f6ff81986586af4864f6df801e7bcfd"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/p2p_redstone.snbt"
+hash = "b27718d6c2f61195bcc7fbe2bd02009ab39b9f3bddfd79dd7be00ae484334ab7"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/p2p_tunnels.snbt"
+hash = "8fabb691437dffc2a4869222dabaa87a5c5a1fda12aa83e91e4a8048f54bf1bb"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/pattern_provider_directional_connection.snbt"
+hash = "8781588940b384e56e50cb2f4d236af3d04707ea3ac6da797d8cae638d9347d2"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/pattern_provider_network_connection_1.snbt"
+hash = "d14503b18c724631521acaba1572caa6e630aa245009721381a8631f6fd69ab5"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/pattern_provider_network_connection_2.snbt"
+hash = "f5fc94bf8b280bf42993767e51cd018d4247d2241e3a439601b4b34bece3c4c4"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/processor_automation.snbt"
+hash = "7dce94f9312c723f9096d20a0581a0a686b08a0202708047851af055b7c5e165"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/provider_interface_storage.snbt"
+hash = "2c03e2b46392d1d9055787ba43817e87c906b3af0a5c487035cf288f41850619"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/provider_misconception_1.snbt"
+hash = "4a52b9f0c7ec5dd419935e3eb7943f98e9ba72a4bd34e2015246ac751cb87c44"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/provider_misconception_2.snbt"
+hash = "5f82bf2d966ab433b05221cc6619bb71d883c8809da85050bcc727269ea92141"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/provider_misconception_3.snbt"
+hash = "65d98a0e63f011098e3b52e048b157dc465bf28c45fb1c0b0f9d8eb7e1452825"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/quantum_bridge_internal_structure_1.snbt"
+hash = "a48921694699430cd541cc2fd3e811e3911c0cb80a5fe252d9e628c334151f9f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/quantum_bridge_internal_structure_2.snbt"
+hash = "afd9bccfd9443b04cfa5ed0579636e871f31c678c2b66fcd2df1fc678f742cd5"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/quartz_fiber.snbt"
+hash = "b97ac76998b81a1f5b981434b6b0957be30aa98a2b92b4cf8adf215ec91401f2"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/quartz_fixture.snbt"
+hash = "aa4e7253a617ca86c39320480b27c7ae73fc6188d1129020c3779d882e17e6c3"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/regulated_cobble_gen.snbt"
+hash = "0b9620aaa4d86a3ae862f7d5e1a7bcb29ade6f1850ba9cc27a0861f467be432f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/semiauto_certus_farm.snbt"
+hash = "64caaf86df38392b7dbf3b3be3e76bf57d532bd01c77edb78a7f416320ff4095"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/simple_certus_farm.snbt"
+hash = "68b7b86a6f8e521f3723f56ecca29e34f4709261277c37c4b89318fcb38901aa"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/spatial_storage_1x1x1.snbt"
+hash = "0e099d367136f2b9a472d7d0cc58130b11d5ca0645dc441969ce5667a024144f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/spatial_storage_3x3x3_pylon_demonstration.snbt"
+hash = "f6cb4bde93a953b66d0a4f42163151f8df57be90067552d0cac13ba64fb20abc"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/standalone_assembler.snbt"
+hash = "2c6aa3291749e5641b6069be43ff649622c239f7652284176cc3ab96192c7067"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/storage_export_pipe.snbt"
+hash = "88a0d00e0f58f9c579a08a4dbf112586978acbe0c951712aef87ed17c40b50e1"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/subnet_demonstration.snbt"
+hash = "0ed683615f6f2821dc34e42805fa5d9256e7f3e08d7e425646e5b3c5bc30f71b"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/subpart_no_connection.snbt"
+hash = "23a75d84b132e1b7560eea9d64f8bc3c46ba454764f94e4d0b1b2c85b387a875"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/subparts_demonstration.snbt"
+hash = "9fb547b7e5cf24c02e50815b857aefbe35338b726780d237edf08f8f43cfdcb5"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/terminal_colors.snbt"
+hash = "1b2ce86bb5eaf7d4de78354e4a0447921f3df71ff82c609f7288b8888f1b97ee"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/terminal_placement.snbt"
+hash = "0b2d3e41557c26c5aa2116b31e3eada19ca5078872bf3e519f17aeb894ecf371"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/terminals.snbt"
+hash = "6040d247a35ec252ba515e0e3f78ea38e23b5b1b6322bbca4951922856110a9a"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/throw_in_water.snbt"
+hash = "a5027b283fb82b38ebbf131b914285bbdc097cbbd2031d5015e34f03a8f11396"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/tiny_me_system.snbt"
+hash = "3af82a8afde219cac491a14c13c436a0f1c862e845c9d39fc4fec26e5bada418"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/toggle_bus.snbt"
+hash = "55422ffe96e6eac30d895c7cf49c4f27104bc5e3a4eaae13d938425c88137f58"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/assemblies/treelike_network_structure.snbt"
+hash = "7594220e191f025a611b1f15b9e8131f87ec18728718bce1ae2f6d7dbbfaaf9c"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/annihilation_plane.snbt"
+hash = "84ac1756aac92564d99a263adaf423d64082e3bf818b525e3c24cb69484b7318"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/cable_energy_acceptor.snbt"
+hash = "22d5e3cf4a4b99bd28ba41aaadc6c6a8f9337a20260d3763367ebf375275acb8"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/cable_interface.snbt"
+hash = "ae325564b3c38138ae09bae78c4c4d7f283ad7576c2d9e7fc03cf0702cd91394"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/cable_pattern_provider.snbt"
+hash = "29c2ea9364017f3ab8c33e6505679ab218d8b3689836cbd18e90d0a1384d5f43"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/chest.snbt"
+hash = "80d3e314ee9125f95b3550838f73d38fbc3e53fcf3d4d1af4cd306fd10f0bdb9"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/crafting_terminal.snbt"
+hash = "99dafbef959ad102a862dcdd826db321c0c8370d36a76bebdbd6e7392348ee2f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/drive.snbt"
+hash = "6773b45882961817bf05ecee0d0b42d096e8e26661f8bbf83b083ad81be9b58a"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/export_bus.snbt"
+hash = "e7219d42c88a6bebc1acd7ff337c94063f05b20372e254e64e12d7bf11344a9c"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/formation_plane.snbt"
+hash = "869acb5d1bf3768bd4632d0b8eb754a8e9202efa4ede752df2616af5cb6f5d69"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/import_bus.snbt"
+hash = "4eaf51cc89ba5649c1748b29d614f820594393bf69fd946533a6a9b9d98e02ea"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/level_emitter.snbt"
+hash = "be793621109bf3cf8012e332e289276798cc60f5157538d904e02504fdd2d75b"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/pattern_access_terminal.snbt"
+hash = "3ed38050321e5cc6dfe55f722bc9e84ddbc0d73dd9005414ed749c6433b74b1c"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/pattern_encoding_terminal.snbt"
+hash = "a3673f914c68b9f6996ab73a33eb856ba7c2c7a70989cd69586134fa256ec551"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/storage_bus.snbt"
+hash = "4ce183278a4d213535511ec15b4ff24e17841075175bc1876251431ef24d1f14"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/blocks/terminal.snbt"
+hash = "c15683c71a636636308a7fe063d890d08e157eb24a622c2742de705866d33a94"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/1_type_cell.png"
+hash = "0ee090f4ce8e0d417a467bd9470a783468051f60fd86389044147cc15b0f6dd8"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/63_type_cell.png"
+hash = "d1022c38df1fe483e1923fbdf048769d4e44e1beebe23b02ae21dc7043e17f9c"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/calculation_pattern.png"
+hash = "75363547d4247b00a4aae6d344b754d0a2d329c83084c52cda53bf9b65f6f511"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/calculation_pattern_small.png"
+hash = "d6c12e852a8dc7447bfe0b89ee1be20c360567b790158a202d241e4f2d6721a1"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/charger_pattern.png"
+hash = "25b67c1a087056762f6f2939d412fd3b66950cddf33d180190f1913a17f8b3a1"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/charger_pattern_small.png"
+hash = "6f4702afbc5665606f18ea6167f018ef9839741db6686cdc2a388fdd1245ed7f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/engineering_pattern.png"
+hash = "af11349c7deee4a2966ea4291c70a4c000022df859c28e83aaa88507c76a5f02"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/engineering_pattern_small.png"
+hash = "f872d21b27feb1deeccb49a749522ffa3347787998cc8703987c93a09dd220f8"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/facade_recipe.png"
+hash = "4eede2b669b855f1ad9a3090324dcd25df0451e0f84d164c8bdaa9d35bf8aa9b"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/flawed_budding_pattern.png"
+hash = "9c0dedc5bfa35b04660bc38fbd7ba626b8baea957321416111ba6d65d026bf7d"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/flawed_budding_pattern_small.png"
+hash = "b6c7ac7a826845d9c047756ccb28960d0e78e5ee36456493b2b44791e8af42a8"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/fluix_pattern.png"
+hash = "7818feb0dc1a8f822aaee780c708b49970c5af0512e98ad10c3abafbbe1209fc"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/fluix_pattern_small.png"
+hash = "275e1168182c30124e12cb41c5b1c5ca251241bfd40c88188a853188de6e0207"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/furnace_pattern.png"
+hash = "ab74fec77f256944f7d11a7735fac6cf8a07a2c8b2fd4fa307f3b952ce754394"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/furnace_pattern_small.png"
+hash = "334394cace7f757ecd463882449cb1b11ee7503b41c172a09efcf318f74c3cda"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/inscriber_gui.png"
+hash = "e01d3fb731001a0ca9a2ecbcc391693d5ad0fcd570d1cef102752261bba9754f"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/inscriber_sides.png"
+hash = "ac2f08af11aa7ab9f8f9d45a131e56f7b73748051e8ba0c9a9a45ac89f0581b0"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/logic_pattern.png"
+hash = "52bed8c59fc0600fbdd5dd1ff4415f7af57e9ab681389978024ab07c437d5f74"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/logic_pattern_small.png"
+hash = "7d854701ff196e26304a046ff1ac258260b00bf09894e43e991c5c101772a934"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/minus.png"
+hash = "50fe192b3874320e8db91962ad379de76dd52a3dd10333f9da032ba0fadbc055"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/p2p_quantum_network.png"
+hash = "e4851859ffde3eece002324f42b6f442b7b995d58957a5f4bf2a137bea63bd2e"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/plus.png"
+hash = "9af02d15f4f053bc8d2da44a211619c866ee5e45c0d80ab7a692133a90fff6ba"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/processor_flow_diagram.png"
+hash = "76c9b444c4e39c68ea9752208509bb9babc257257e041961eb572a48500582ef"
+
+[[files]]
+file = "resources/ae2/ae2guide/assets/diagrams/quantum_bridge_demonstration.png"
+hash = "62a13746dfb827eec39665ee506637aea7ac4b95c28eae6361d752957d9557d0"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/advanced-certus-farm.md"
+hash = "1bb1f9e8e1ee693f1e3d5263b324daf9e1876e2d61b4f45a087e963b6f319c29"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/amethyst-farm.md"
+hash = "bd288f362b5c610dc0def47d4175a0501ae3edef86ce23747e2464353860fdad"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/cell-dumper-filler.md"
+hash = "b7ad8ace82b175f25a8bccf2ef9510139a37fb7824731ca396cef9cf47e6b75f"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/charger-automation.md"
+hash = "ff1634dfc5ae035d990302284f3177dc0136a634705d8452afe7deb70754aaa3"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/example-setups-index.md"
+hash = "091f71ed733b8b3c5bd76aed80047e6cbd577e58743b0559ce49b1e4638d271f"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/furnace-automation.md"
+hash = "df5b2001a4da1046f40e121a0512ef33dc7aec6006e4ef89e31567e14c1597b6"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/interface-autostocking.md"
+hash = "9641880b2be09cd9554c62ee6c6e2bc8e691ba389b748d4a84b0feb5e552b521"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/level-emitter-autostocking.md"
+hash = "2712c7b62663233c5fca1042481094b19a684fc19c7f20db617bd75af55a11b8"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/main-network.md"
+hash = "8fa72cbd77ff8172d550356c96c9f25f552a6e2c7be70ed704c985ea5052fcf8"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/ore-fortuner.md"
+hash = "f552a6697b1774e61dfd5aeaefe62477a43018d0746460e012573d15358aa8bd"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/pipe-subnet.md"
+hash = "371ef72e4a6db38e16048e253ccf7cf90c973db0f1547f76c8f362fc11deaca1"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/processor-automation.md"
+hash = "4d137e4bde58a6c06f11b2cfabc66aa08cf369fe58c3b515795f930c84edfd60"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/regulated-cobble-gen.md"
+hash = "81c9822f160335539e97c7a77673efb4f54747c36becc519246156a49e961f62"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/semiauto-certus-farm.md"
+hash = "abaf7b4b6ab73730bf37471577208aa29385264fe96780f996033ab72f556452"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/simple-certus-farm.md"
+hash = "fda8b080fddff54d56132736bf6a34d822ccce751a89d6f2ca316f56c5248ba7"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/specialized-local-storage.md"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "resources/ae2/ae2guide/example-setups/throw-in-water-automation.md"
+hash = "e53935e0ea8b6a2471730e589510cf085f603064c298bdbdb19f7e9c53365024"
+
+[[files]]
+file = "resources/ae2/ae2guide/getting-started.md"
+hash = "979085b73a6d6fc2be21df91d7e2e03ef6bd17859d11b21ba37785a1646d104b"
+
+[[files]]
+file = "resources/ae2/ae2guide/gui/entropy_cool.png"
+hash = "066ffc87a8cc27397e0f29caea88b081f568e3b507c29c0c013d2f03792318d6"
+
+[[files]]
+file = "resources/ae2/ae2guide/gui/entropy_heat.png"
+hash = "2cc04a496ebfe1f7e9ddfba0c4aa9c5d8233e8563ad2befc7c729394f54858b8"
+
+[[files]]
+file = "resources/ae2/ae2guide/gui/inscriber_arrows_bg_light.png"
+hash = "1a0e33dcd52b9ff9a83c9453c812cdfe9b2a34507773aa9ed50388184e946270"
+
+[[files]]
+file = "resources/ae2/ae2guide/gui/large_slot_light.png"
+hash = "54531089c154586ac5bec5e7468614bc71f79fe4ac1befdb7f432d8de58c9ca7"
+
+[[files]]
+file = "resources/ae2/ae2guide/gui/recipe_arrow_filled_light.png"
+hash = "0b0c6a49ece8b3094c75867b2e895e14e441fe9fee0c97256d1e239f7e8fb618"
+
+[[files]]
+file = "resources/ae2/ae2guide/gui/recipe_arrow_light.png"
+hash = "6de546857669cc9f5edc9f6fdd82cbbffac9642490c32f7142ba589127c4c40f"
+
+[[files]]
+file = "resources/ae2/ae2guide/gui/slot_cross.png"
+hash = "1065bc51890ae57298d4415d314696f97c83c76306422dbe9f704fbc4ca670a8"
+
+[[files]]
+file = "resources/ae2/ae2guide/gui/slot_light.png"
+hash = "c006be8b05adab4e76baf0d1e3bc4f48e7ef79368c184e9e9f45f80df562c24f"
+
+[[files]]
+file = "resources/ae2/ae2guide/index.md"
+hash = "67473c5ec3ce869ba55f6cf9b05c5124136ea8d30e137079ca731f55949f6da9"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/annihilation_plane.md"
+hash = "6f21c9ed6cce1363d9b78df221c737129769f33296b3c7da6413ac2a662a90ce"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/budding_certus.md"
+hash = "821d6060c62bd43621c6e838be6633dd0d9cb1118fcf69360df62bf78192052c"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/cable_anchor.md"
+hash = "b50a300c4e3d780a7090ac8c10c7fed96cc71f81e967fafa9bae43bb82bdfb62"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/cables.md"
+hash = "0b78c910ea733dc226ddb92af86e2b7e9a4f82879b404d282e1a2a1c48f3385c"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/cell_workbench.md"
+hash = "8761fedf9dfaeb74bda16ad4a5beaef083c46ea69995afac8234309f41a4e1fb"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/certus_quartz_crystal.md"
+hash = "ea80fd94e3888c38f7176d4bec786294dde412a230cf2e16aedcaf371b94fa00"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/certus_quartz_crystal_charged.md"
+hash = "27371564e489747924472765d61898b9482ceb7243f24649ab0ec171d003c767"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/certus_quartz_dust.md"
+hash = "2bb37c0d51aa5000c8339a89bf994240d7afbe85bbd25ba34927f62d4e1e053d"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/charged_staff.md"
+hash = "44481c18dfb0bb09e9109e6ee5362fe3fe4f7752dc02f7b95b4ecea19d03a0e8"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/charger.md"
+hash = "5cbbb1276e5db928a2bf5c9ac85060d11f3d298a5ca4c61367672049ef79a08a"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/chest.md"
+hash = "79c7c1ea9f682df0f5414aa871cb8d64915384d7580e102b83e292d2a0bbea55"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/color_applicator.md"
+hash = "802e377d3b8cb10489a1e81d4e0fb55627fc397e2dea2e2bd00d7c6e4b6627ec"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/condenser.md"
+hash = "1f6297bd2c314db1ee9aa5dff1a7fe5edfc90a340204cbed70b7fd33e8883269"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/controller.md"
+hash = "e6fa915657739c77484a92003e11065b357058251a5a54ecd22b289856fa8a58"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/crafting_cpu_multiblock.md"
+hash = "756b74250ff3d98d77774db168ff49511ac3fcfae959e90b5da1bd49d75f559a"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/crank.md"
+hash = "b044fd28c28a9f0588eecef6bbd38e60b632af036c91629ed425dc2f80cd86c6"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/crystal_resonance_generator.md"
+hash = "efd7b51d95988b309a8ad4a00e349c5c86dde1848783639f1780b4c94c6dc8a7"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/cutting_knives.md"
+hash = "1420c8ea04d643d41c36035a7359ffd65c727a607be7d27eebc264915952215b"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/decorative_certus.md"
+hash = "a3aacabdec963b305d00d4f6669f2c56b16899c4c51743136aa2afdc4f2a38cb"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/decorative_fluix.md"
+hash = "600501ba8eb3caca885a0665fa4e23ffc30f5c72c942e7b189d8b3bfaedf0ebe"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/decorative_sky_stone.md"
+hash = "3342d58bcd26b45ed27f98e22bf8a2f5304f2ba7077f8381ba83df96815b2548"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/drive.md"
+hash = "2feb6689a03ba472a35264cd44b2e3f0907e79611210a364a2b15733c8a25c31"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/ender_dust.md"
+hash = "b0ab053a6547e0d8f628d7f3d7b1074fa641dd220850de8f4e05c3952fab5d62"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/energy_acceptor.md"
+hash = "2f70c34cabcae78a4f4a9b52bd2a7530d702792a7a9133fde821e228d8a4bce8"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/energy_cells.md"
+hash = "fc452cc5e01c7a26bf8e0c839b4073ef28b2582613a704cc0eeed5895c2c6dbe"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/entropy_manipulator.md"
+hash = "a4a73567f50784554830663ed9e4c2e26ae22e1b2e7ed910e4262061a998032f"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/export_bus.md"
+hash = "ad6e736e299a946afff35d3c776f532d2bae34588d7e14a7e7a8a5fb44818561"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/facades.md"
+hash = "858967564e49cda518fe5b02ee7a2970a971460e7e8e06a03f5b02627d384bd1"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/fluix_block.md"
+hash = "66681bae877b513cbdb2875c1ca8bb1ebd8d1ef95eeb704013657f09ebb37fd4"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/fluix_crystal.md"
+hash = "0183d32b01a5af028950fd5f486fe756476b9b0f42a281dcfc0a3af2831751bc"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/fluix_dust.md"
+hash = "60d8fa746cd24e9cc210872fbd744b07ede599abbb71a41c5a23a2753fabe97e"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/fluix_pearl.md"
+hash = "6d77b180b9f57df81ac6d63785017b629de25963c38481bd3e3d833c36175ffc"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/fluix_tools.md"
+hash = "60a97382a1945a6d4f5bad3c943d563c7a2338a2f714a74f1760b0f2f3812fe4"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/fluix_upgrade_smithing_template.md"
+hash = "18f2f2ae48f89ba7fc113c670b42bd942d3ead139c85900697f7cc2460434f60"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/formation_annihilation_core.md"
+hash = "7bf97c8cf0c3ae98c31ecc8b7e64540cbfec1d8b701f14314caa7f3a8605b31d"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/formation_plane.md"
+hash = "0c5ad52d7bab68664545ac58c06113185599f0fc73ec894fa078f4e1064f3e08"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/growth_accelerator.md"
+hash = "d0fc59791c7aff44775f6199bcb43614d856d36c0883e8865130b3c2d9f76114"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/guide.md"
+hash = "e5bbdbfd1f1e9923d8d2f6ea1d1803492e3cc291f80df647497071b5be051cae"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/illuminated_panels.md"
+hash = "5ced8bd62d62607b62710c65fe1e41d851311638e798eefe7a8d5a2096b4edaf"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/import_bus.md"
+hash = "2e1efccb098eb355f1af188020bc6d247c1cbc29c4176bea42f3a2e3c7eb8bb1"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/inscriber.md"
+hash = "e73edbad6b3528126c8db63465af3aeaedcf79cebd2ab02bd189cf627682744f"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/interface.md"
+hash = "8fd4d2f8edf8698c3056cbe56e817f79c0afa2716e2e7d2edd1ef62d42b95ada"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/io_port.md"
+hash = "d5e3435fcc34bb5aefd59cb89529dadfa4b39954f51c8a3d48992fa725680a88"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/items-blocks-machines-index.md"
+hash = "e916ebebfc882e18dc9f6d1cc900f17e0e0d4424b1fc13597105cbb32736f153"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/level_emitter.md"
+hash = "6f7d748debdf2d23f50d1e2c81ce959a4a1c1637777e4d6c9236a8c71a9699bb"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/matter_ball.md"
+hash = "f8872d353acd2cef7fbec50966a8199be92dcf7c2a9cb4d936983ebbf0f2d1fa"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/matter_cannon.md"
+hash = "b75df977b642236866b286bd8dc7b39ddd71fa754dd77882246c90149840e4bf"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/memory_card.md"
+hash = "c0fbb140bdcfe78072e281e166e97bf65f1f70ba2c20381eb0660f03189d0b1d"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/meteorite_compass.md"
+hash = "e702f7f54e31e160ca4acc2de4088046f2535445f1d0b6d46b2d57d80e47b5ec"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/molecular_assembler.md"
+hash = "8f17182f2f1f5a00a4f95c21730557b4ac4c421025350d232deebac59e856366"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/monitors.md"
+hash = "aaaac61489210b38773563388937bcce45a9e74e7a2baa220dfd81d5e3d39b96"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/mysterious_cube.md"
+hash = "0a3e023f2f9a1d7f3c805d060bf63aeb9f5b48b6844acca10f23dfdbcfb3b5be"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/network_tool.md"
+hash = "3606cb3576de3f8f52f20725d8440c6daa834c229687bfdb5912f0ddab84ff92"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/p2p_tunnels.md"
+hash = "4b55e3a5d05ef307bc18d0c784a8a53a496914c24eafedc384905de3365f3407"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/paintballs.md"
+hash = "c8c62de0c22166e4f471233937257aa2c6acfd088f9cf90eacf13974d1c0d53b"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/pattern_provider.md"
+hash = "5ff1a5ff7bedc6a146bb9b55b50e398f070c3a89f182c29dd69a0871b961e076"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/patterns.md"
+hash = "6282c1953081862517882f78edf8195941c23cf00aabfca8acc1cf9417a01be7"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/presses.md"
+hash = "1f1a4c457928400c0f662dd4405474f15a74f3ad4c9fc5445b04dad4a378c8c9"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/processors.md"
+hash = "4034127c8a6a559650c48468c948448c309ed6451a30a321a11c5dd8c1b334eb"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/quantum_bridge.md"
+hash = "bff621d75d49ed98fb43286a4b4542dd4a7a8f9010c576a5aa774ea53cb15c62"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/quartz_block.md"
+hash = "85d2d08791f43abdbf375c73e92a66dfa7a212c0c1dffa5bd1a46673cc6e3297"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/quartz_fiber.md"
+hash = "bffbdb3661b156d7c637081187b162d0a06dba4ecd4b84dc36bd665961246433"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/quartz_fixture.md"
+hash = "d44af34bafc2f37aa28f8dc488cfd3892a126e0dc98d2290938f4fc5cb702b2b"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/quartz_glass.md"
+hash = "3f09d77efe10b045f82257c9401ac784854a4038ffa77d7921374135d4bef81d"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/quartz_tools.md"
+hash = "0798fefb2014b55c489aaf7f2529c54111382147e36c727283b4655589cdbff7"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/singularities.md"
+hash = "1b1a1638e11fc2e026c1cbe751fd65060156a6ca839336d6c005a8cd4b25c9ec"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/sky_dust.md"
+hash = "b538ce563bd7db1fbc8459257edaf888868a32de5472878021774d79878f7d1c"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/sky_stone.md"
+hash = "8b84a6ec0c1bca340d7b787e4ab643484e516de98544d6f95115a68d3cc54b2a"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/sky_stone_tank.md"
+hash = "11077d3f01a7d62aa19240b171818acd82ba90d425774f2bf296d15984578c5c"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/spatial_anchor.md"
+hash = "e62dd8c90dca919dfa54b8c5bbcf1196426b1bd1b53806e19660ac84ae14e259"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/spatial_cells.md"
+hash = "e5497227591c79b05c34db517c2f480998fabe37de0bab332bf50b3aca56cafb"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/spatial_io_port.md"
+hash = "c898568b3f83b7741ab5f4e7cca31bac3d36e07895fee76573f36212fad34a12"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/spatial_pylon.md"
+hash = "4555adb68b576cb70074373427a9e1513b98c35ef8b9836bc2ae71ac2b20cea8"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/storage_bus.md"
+hash = "e01b94cdd4df8088fb81926d5f3f70f16c6febf0a8167d6356c1f0ed16abbafc"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/storage_cells.md"
+hash = "5c3c002a311a0a9967158f67abd466f24888e60b7b8b08b760592ebcf8a87cc8"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/terminals.md"
+hash = "c2b89ff178db57053a3048263812b7fc1697151a7367d6ad00aa2e7241f2fdfd"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/tiny_tnt.md"
+hash = "9b7641cb6ea4bb5e57fa3e5f8bb8dc7b066e211ceddd8b1ff5926e2d382158f6"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/toggle_bus.md"
+hash = "10f9e0985884ffd4e36c5692154d5dab3d52b29de155bde9ee081d9b361709d3"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/upgrade_cards.md"
+hash = "be45707319305e3604605228dbef6e021a10f299e9084a690f9216389bdfdd42"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/vibration_chamber.md"
+hash = "4d7d3fe3a99f41f30b4773d9d86c54f752798290e697f28e7ef9a00e7180d53d"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/view_cell.md"
+hash = "fe03dbcba1f9fc482534e01e75e008bd82b3b49a02ef82a7e91bf6808dd1f490"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/wireless_access_point.md"
+hash = "1755d0ba9313faa6017704c29f765adf9615494f7a9d848f574e44f926c0f25b"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/wireless_receiver.md"
+hash = "855e9b079742ce183cba438152e823fda573026dee678c3373b67038e1fe1101"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/wireless_terminals.md"
+hash = "e9bf497720a9af30a3c8af9ab3bcb5ea89d40149bee6f0d448c5f76dd059dbc5"
+
+[[files]]
+file = "resources/ae2/ae2guide/items-blocks-machines/wrench.md"
+hash = "612d92d39f920e4041d30f72c4545fb1be5836dea4a0d35336709a94d9083179"
+
+[[files]]
+file = "resources/ae2/ae2guide/tips-and-tricks.md"
+hash = "69c29a090960cd493b3798964e304ee0e83152768dbb7c7e493e8e78e04f1076"
+
+[[files]]
+file = "resources/ae2/lang/ru_ru.json"
+hash = "7f78c6f6239b39ea970cc327bb0b9b94164b6a7c6303c685b2024b27dea5c322"
+
+[[files]]
+file = "resources/archers/lang/ru_ru.json"
+hash = "5211aa975f02e547fa73380ad8f3d6824b6bfb890e9248c3d78ad749edabe2b1"
+
+[[files]]
+file = "resources/archers_expansion/lang/ru_ru.json"
+hash = "778dd656d47cfd2df2a33313cd2e03839890504316cdb92f8a280e5d7728d2f4"
+
+[[files]]
+file = "resources/archon/lang/ru_ru.json"
+hash = "a206dbe1d3ede66d6a82bbfbcf758259e0bfd6df0bf620b691d2ffc7a939ef40"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/bosses.json"
+hash = "529204d9cd6ef61f06be807c4bb2e47b891ba02334f4f48da76cdf9310e053d2"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/effects_enchants.json"
+hash = "35713931b2ce7c3331d536a98043be46fb336173a61c88c9ff32dbadc3d7a1db"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/mana.json"
+hash = "506a14517de7534a0b98aeace7b72012aea101edf71133c3b74e790240fa7c35"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/misc.json"
+hash = "d9dc8b097c25ff31bde45c31c2a2bd5dde9def7a22fee0ab370050ce58e716b9"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/necromancy.json"
+hash = "285aaaf60c25b62872ff4e5d51f3248aebb381561e7f285a9e463a3a8adc4c9c"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/spells.json"
+hash = "b58bb8085f27e48895d49471f51586e47c0ba9c0e9eb02eda19c097c5f606317"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/categories/world.json"
+hash = "46b85563c199f4080b07a39a57d066d0e799c45347ec6af737fb1077388d04d1"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/ayla.json"
+hash = "1ed6009c16e65694456ca66ef563ccffb2164706942dd92518d8d0e6164ef58e"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/inigo.json"
+hash = "a5deb06153f2dd94a1dad85746eab66e1f275357bf3eeeeb15072262c7ff6045"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/leven.json"
+hash = "0a024111863a31c67b888b0f952c45a7a1ddfe5701ce32a5d0d3622ca55a7170"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/null.json"
+hash = "d4b245f960f9769eb5ec451ba648ecdb6ffbcd09c93fb21dce2edf604f7befdf"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/summoning_pedestal.json"
+hash = "8d9b2930998920550f08ad697190c695ee0f22ad7df21777c107b242470fdfa2"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/bosses/tar.json"
+hash = "76e66703a78c2b61163dc9c7251942a2ed8f2053e061a463653c13c2bde81785"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/arcane.json"
+hash = "4103f26d9e1ac13fdd6eaf7faea4aa66a16695efd446da49bd697a257af71edf"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/mana_boost.json"
+hash = "8d89d5048ecd395f66f8baab87e37fdb5b321812f7604323f2351d100e15aa5c"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/obstructed.json"
+hash = "26e0c17baa541beb5dda0234d860473bfbdbda175797a42237c7450680f26414"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/rage.json"
+hash = "0607ad5408c74ae6bc7ae2602d6f890e08c88c44c9bdfde0c0e65eb41aa2b1bb"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/reaping.json"
+hash = "93aedd5df0ae7c44f91d170376761e2cea72e10a3d783bfbb4c4b221098c635a"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/shadow.json"
+hash = "ab10278fb318fe94832f261593ae9800edabc5ba8cfc131897507e7681e3cce3"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/effects_enchants/sturdy.json"
+hash = "52cdfad809d4373bc5816c48271881b763a17df27bea04d5114845e36b10c5c7"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/mana/basics.json"
+hash = "efc83d4da1d07b11102a213eb6ba1aaf38880b6d3ace42d9ecfd2c33a620c37b"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/mana/channeler.json"
+hash = "63c0b2770a9b5cb92784c7f801e61818c6fcb5e51f6de209cceb6b00dfca36ab"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/mana/mana_catalysts.json"
+hash = "b663cca8c3ef6474869ba96cada60adecdace139e13d9e19c1dec3acb56f0c70"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/mana/scrolls.json"
+hash = "93eae7cc5f08e5fa6f9e3dbbb63984f5a1429c4b779a4e97c1a1db11b54c3ef3"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/combustion_charge.json"
+hash = "dd00dbe390731b994508c63c4dd55a3c103c4bacbfd0c24c1dc9b5953d006d97"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/druid_boots.json"
+hash = "f604c29319857ff6c4057b215f8dbbe7e00ef8477650dddb2828a998d6ee437c"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/harvesters.json"
+hash = "37d009ea17b1b90c1b7fb4b2c2fb3a26f8b33306cc03ef124e456dbc1f8e5844"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/lightning_bottle.json"
+hash = "fbf4959647976e166ade0c6a0228cd6eeac1e98a9120df5cff371ad501d05c10"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/mana_leech.json"
+hash = "3585dbd9d059b1dfdd2ae61d0185abfbcded4d3d8be32a56d0bb1d6abd92f513"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/misc/pouches.json"
+hash = "07df991667730e999bdde43d14674d731d1716fd76aec347f9b22671b510c024"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/soul_crusher.json"
+hash = "45e598f9b65ec080496a4b5950eabdc47af0a1cd7c68c4273995b2c1e551ff66"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/soul_scythe.json"
+hash = "b412640ece3974fddc3e486be202c5344b5ae327ab214c4599e0554287debe8c"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/soul_tomes.json"
+hash = "11bd91df625849ec511febe98e7832d762c56f76696e57ba6bd8df49b5461ea0"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/souls.json"
+hash = "551ea433bd464eefd05af31d41bb516d94aab099f4d47802147ff1672855e4b5"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/summons.json"
+hash = "536cecb86b9e44dc5e3b21629bc11b98cf0ef830b4f3bad0d3f7cb49000a1e8d"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/necromancy/undead_staff.json"
+hash = "d845d5a6daeafee29f6d8008e7cc5d57cea6ca98b0587f7bb61c5259c46153c4"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/earth_spells.json"
+hash = "4f302a1823613f066a454280c868758ad67dee7c8bb9b8321e5fda602d61e4d9"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/end_spells.json"
+hash = "78781304e15ab94daf25348d93f5e4b719d9b9faaf58ce32a40b20bcc2a8c3fb"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/fire_spells.json"
+hash = "4cbc82ee29da1d0771a7b645ab562d9333f75cfcb84d8c1259384185110ccb5e"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/sky_spells.json"
+hash = "88cc94104467857382676d464e1838308856060851280e7c3a7f44913bae8601"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/tomes.json"
+hash = "e3462fc1840af8d5e2ef1c216632c411e9b9b317d5fdd30a61cb7eca718933b1"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/wands.json"
+hash = "d0f96d895aea8c5db36e5482af329531fd6e10132882143c97bb9d562caba65a"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/spells/water_spells.json"
+hash = "8fbce0297672ff9662e0947e55e66051a4f32e9907caed8eda50ce8c881667a4"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/mana_berries.json"
+hash = "f0ff18c00c30742bc8df1c98b1573955ed5bf224c828b5de973fdb788db25363"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/nodes.json"
+hash = "5af69f981f25e3aa6a618a04b272f80ae399e5cc561d627379d158fbdcbbdea9"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/spires.json"
+hash = "0aef3361bc60fe4dd0ea152d2a6928579d806c4b4c1e15b93ec49653aa067201"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/wither_tombs.json"
+hash = "3bc348d4e22ba7e423790d96ae37522a61943722521972f3592c4ae256b4f085"
+
+[[files]]
+file = "resources/archon/patchouli_books/grimoire/ru_ru/entries/world/wizard.json"
+hash = "fec3bea65b69e43643abf6f5b4bf9ef7ea11fdbfbcd7be1a3bc2eec5b2aadd4c"
+
+[[files]]
+file = "resources/artifacts/lang/ru_ru.json"
+hash = "d72d9dbe044874973e08635940f83b8f25e71f507208a648168111d4efa0c1f9"
+
+[[files]]
+file = "resources/betterarcheology/lang/ru_ru.json"
+hash = "1df23d80db62e0e2e235b77e142051046e107cf284c023c04a7f5447aa555599"
+
+[[files]]
+file = "resources/betternether/lang/ru_ru.json"
+hash = "b76b05cfeb1abb55e7376fc9be046b536db53e422167d9b69b7cf35ae02d2da3"
+
+[[files]]
+file = "resources/chipped/lang/ru_ru.json"
+hash = "b364f9649b162907dd4d428d633ceab9a920e728deaca3bf1c3fcb81c1a120ad"
+
+[[files]]
+file = "resources/convenientdecor/lang/ru_ru.json"
+hash = "05c490de8f6719e6d4702b28c0f6a690cdcc2c304b46bc9393f326231dd99608"
+
+[[files]]
+file = "resources/createaddition/lang/ru_ru.json"
+hash = "932f7ca8d23721fb52c56341c48459b9dd2595716797b82e606147f1311d25fa"
+
+[[files]]
+file = "resources/createquesting/lang/ru_ru.json"
+hash = "e2105cb6299197a68511d54c0b2199cf25480ba4046f95648a5f089062855d07"
+
+[[files]]
+file = "resources/creeperoverhaul/lang/ru_ru.json"
+hash = "4e7d2a59a74717a038775d175fdd545058f429bf436fdc55c6bc4abcda9a6ddf"
+
+[[files]]
+file = "resources/death_knights/lang/ru_ru.json"
+hash = "dbfec3e5d93c759d4a581d4f46b59f63b1ab6325d23a05fae2cb14fb9f7f6125"
+
+[[files]]
+file = "resources/decorative_blocks/lang/ru_ru.json"
+hash = "787e80f3ed36aa86f03dac5b024721bd3bbe9741b59bf3847b95b18b2aadab40"
+
+[[files]]
+file = "resources/derelict/lang/ru_ru.json"
+hash = "3663adba547ae2945fbb0004064daf76b2e247cba9294398d4f7f70ab7c2f54c"
+
+[[files]]
+file = "resources/dummmmmmy/lang/ru_ru.json"
+hash = "7b6ca1d15e701b04d237810c488b52198bd6a7a71d4a5cf7a1bb8d8ecb50e9a8"
+
+[[files]]
+file = "resources/eldritch_end/lang/ru_ru.json"
+hash = "2516df96a0ee5daeaab0f88b121bc8d0acfc6d422629236f0b11e0f6e2446d28"
+
+[[files]]
+file = "resources/emienchanting/lang/ru_ru.json"
+hash = "2ad6093162e043a98da9e70098d9cfc1d8dac81b44d9f796cc454210295730ed"
+
+[[files]]
+file = "resources/emiffect/lang/ru_ru.json"
+hash = "02e2e7577888c77fa6cb7e83b3355eee4868cd4a80acaac9d411f367220bca8e"
+
+[[files]]
+file = "resources/emiloot/lang/ru_ru.json"
+hash = "aebc77c78e38a4c83d4d0ffa743407b4d63534862ed7a7cb2a1b0d7e84f114f2"
+
+[[files]]
+file = "resources/enchanted/lang/ru_ru.json"
+hash = "30cc824c303c3598f7b39c22b8a89446adbb17207c4967ebea0ec05e46c2ec02"
+
+[[files]]
+file = "resources/eternal_attributes/lang/ru_ru.json"
+hash = "dde7aa4df9b74c8324effa8335475eb3044c297776a10fdce0d549d1f0876086"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/active_formation_plane.md"
+hash = "4e99c68a4f2786365f9bc96742b6d4114e673434e4e669eb928c6dd65eb47d5a"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/caner.md"
+hash = "2db1e431e2e1ca189320b1842858f51729fbaba46cb12ed04191acbaf53711e4"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/crystal_fixer.md"
+hash = "5d92b25828b67f1a09879b7789f7ac32cda86ba95ede6f20ba75f5f5c8a201f0"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/epp_intro-index.md"
+hash = "a87fcdf576c76395ffe15ddf31217efde6a40455f2fb8397886fbe24b46d9487"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/extended_charger.md"
+hash = "ed18601851467423f3956494ae5a54787fcb44b27b93e21e5c2b825c40675907"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/extended_drive.md"
+hash = "738613de58dd5b62dd18b2a3d910cfd073f1a3dcbedfeaffe9d004447c403781"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/extended_inscriber.md"
+hash = "fe638c477ea42f6793f114cd32f1dbbac4a7c039e209dc59ec6b2d6ecfb52c72"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/extended_interface.md"
+hash = "ee331c6c175bc76cc3bbd868f4bab4a4421165506da1b5b25943b7212f4d7f10"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/extended_io_bus.md"
+hash = "cd771cccfe23f8c1c0a4b22f80022518e8f66e704552bd8f4d2651f6d91098b3"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/extended_io_port.md"
+hash = "34721c490f073c605d2d25cc75b5a429448b587d7b14b41a45bdd416ef098d83"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/extended_modecular_assembler.md"
+hash = "efc357fc4359191e1aea7b3d26faa1222eb482203db1519648e99b2ae0ab269d"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/extended_pattern_provider.md"
+hash = "7786e76cdb39aed48c6b2829d0c2dd27cded3c981693fb5f37059029698c46e2"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/extended_pattern_terminal.md"
+hash = "27eaf3252ccd9635d1b7716d3bc3cba43577c953dbd69c8df4007e26be3d16fa"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/infinity_cell.md"
+hash = "bd53b56aa4f5747772e025401142fb26413620472ce144c2b049b0d61c967a71"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/ingredient_buffer.md"
+hash = "c786606499f7a510fb328061f2d33194e3ea1e92dfe8da8775bc6d79c158d8f7"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/mod_export_bus.md"
+hash = "dc0f52b573692d00d55b6928f7466c0710d932d5c43b7fc12e9c3499d822efb1"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/mod_storage_bus.md"
+hash = "7a2cf6ed152060f4f8450ca046bcdf0080f85c50e8cb64bacf540d5639230d55"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/packing_tape.md"
+hash = "6c5b2006f90174018ec969e03ff485a341ce2580f5b9d4f769b3ad9c6966f8bd"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/pattern_modifier.md"
+hash = "e7789af386bb70ce234b6150c42c20c3fd6a490ab8892ee0fa1a1e5d73332b04"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/precise_export_bus.md"
+hash = "f54c3e4eaacb87750ddf4f64845aff8957d451801f9db8386eb2fd0ef99c508b"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/precise_storage_bus.md"
+hash = "ee96876424b7391807d5c01d8a80604b6b2de0a6b226a325be86ca467cfda399"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/tag_export_bus.md"
+hash = "14af08e87a870af99a809e9f3624885335d9adef3fe0e679648035151661a7a5"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/tag_storage_bus.md"
+hash = "5db47e9ff02f2e2998c5176f2865406e05836fb2b30d44dcb49af4a029a9189f"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/threshold_export_bus.md"
+hash = "cd78a114b54c7479e5dd14d7f792b63fbc1d2a40f326e2083e60486bb1a981d1"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/threshold_level_emitter.md"
+hash = "0464fffa923cc46de813b90a8f24ae0fb317d347a92be998e7a3c2553dbc914b"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/upgrade_items.md"
+hash = "f9567be6090f89089dbc28eadfb1ada1286a06fced4ae415c6d0d7b532f258c7"
+
+[[files]]
+file = "resources/extendedae/ae2guide/epp_intro/wireless_connector.md"
+hash = "2c7a7f798c62f22602dd299ee03907dc288b378e113a3454d36ba08e38d4e897"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/caner_gui.png"
+hash = "660d9f4703ada1e7dd8d330dd42bfc67a2168d5166c9f27f4dea45b71cb440a3"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/ei_gui.png"
+hash = "35b3727c242e7d34fcd9af838c6224770a7fcd78bc873ff84d2181fe47c07d01"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/epa_gui1.png"
+hash = "f921b25056a398d7de12d613409e312173f4a1ddfb4c46c9a774bde46e8debeb"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/epa_gui2.png"
+hash = "516833221b91594db29fbd00ca9cd660898377572ce15366fac6e91fa0bf17c1"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/epa_gui3.png"
+hash = "51eda4f8e4b92922f77eb0c98e4b9900b97d0376205bb9bacc029a2976d543f4"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/epp_gui.png"
+hash = "4e306bc7b2cbd1a9edcce12311b44517f3145d2eeb999b7ca30576ea8a5e3f0e"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/fill_energy.png"
+hash = "41c5e5bda16c2dc60c4fd894724c07f77ed5516a3af7427aac883b65b958fc11"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/fill_water.png"
+hash = "8cda9140d4a7fc3934dfeefb3cec518cd4bc02bb63443a515d2562b31c7ffde1"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pm.png"
+hash = "38558aef582d0dfcfd147234691494196313f662583af0262b822b293b76a1f5"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pm1.png"
+hash = "9b8a928712d72dcd271d94f88e119aa8a9463af5786968a5f4fc197a28496392"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pm2.png"
+hash = "c4821ab24601ddb58d07b110242174a629db8d3c60c28adf07ce937cff75a108"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pm3.png"
+hash = "f93970b7b11da7f58af0cc23c5578b2019e6de27510cfa6ba2058baf6a201de2"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pm4.png"
+hash = "beebde2d646e11df9a0ae3b0f983ede440379cea69b7234ac98ae774216f7449"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pm5.png"
+hash = "66ecfbf5430d3a1ab0650f0e8bf969f6a74076945d9f12a9d98df6d2ac6998c2"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pm6.png"
+hash = "079126fc9a91dc560d7ec461ed1d69ad6d5e34e4840fe92400145101010b87b5"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pm7.png"
+hash = "4373d6b5037e52ea2537b11e6fa73a7c3fb0c33eeb988ee81e69b1bd625ce353"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pre_bus_gui1.png"
+hash = "52aa530ced10dc4445ddfbe29f3c5502f2981d58c18372cec92c7bd450db54bb"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pre_bus_gui2.png"
+hash = "9ba5d058ed490b2a6d630527ddeb62a2390b823299be79c189e0b929b5573a1a"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/pre_storage_bus.png"
+hash = "5a3e98885b7c7712ab0debd5584cb6f4ffc37f9e0d761fd46562c6f7828d8560"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/thr_bus_gui1.png"
+hash = "0aa7555449ddccbbe95846b491ceb110a759af2fe251e097090dd8e378227650"
+
+[[files]]
+file = "resources/extendedae/ae2guide/pic/thr_bus_gui2.png"
+hash = "2664f13f2eb1b4d138023c4a91bf54209bc1e2aa0a1b0318265a46c600a95363"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_active_formation_plane.snbt"
+hash = "8d2eee57df33237a709e7c8b7312bb2eacc8ec20373fc49348b3976bf53a2191"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_ex_export_bus.snbt"
+hash = "4ea665318fe61c02f2af6647be160636af775e8323e2c4c3e91e382d903c6d4d"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_ex_import_bus.snbt"
+hash = "1ac5af066861b7e15c9cf66980460558f093ff3cbc33cb1f843357b69960bd6d"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_ex_interface.snbt"
+hash = "78e9cfe72cff4f9201a782d4623bbceace2906b5d83b4a9fb7cf5d1e18148d0b"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_ex_pattern_provider.snbt"
+hash = "b926a79527dc36962b4229df5fc03e23c51a0060b7c27e2d8671c4291addefab"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_ex_pattern_terminal.snbt"
+hash = "2bc0424e83d9bb18b19c4a71dcce370c58a8fea2e7c4eb591a5d8ef7fbfe7b1f"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_mod_export_bus.snbt"
+hash = "2b169f64cac16afbfb5adf58c9127d0f0b28df0a0005b6801652d41bf15674c5"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_mod_storage_bus.snbt"
+hash = "932deeb06e1edbaf3e3434a3b2ef0dc91450a7ad35abe67cd1d906fce942de14"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_precise_export_bus.snbt"
+hash = "28c86733209ece72a792ac695ca45fa7e866275c370a8d62e9dd529892a8b6e6"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_precise_storage_bus.snbt"
+hash = "ef5c30e9dfc604b98abb02c026069ae09c47b9f98aa8830267c70bab649e058b"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_tag_export_bus.snbt"
+hash = "79448ac6150025b1be231b3f1f3793143fa74ab7fb9743a6717617e849a2d50e"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_tag_storage_bus.snbt"
+hash = "76036feeba017d2a6d6136c01db0311af4e35ff09b04a1dd08e531851e38b5ac"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_threshold_export_bus.snbt"
+hash = "7692b1b8d7f4d7bf72b982c2f2edad3cac5526de628fe1f029a36ff952c0e308"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/cable_threshold_level_emitter.snbt"
+hash = "ee73666ea23a56c3dbeedb80b6215c52424586793c7144cb0987f78d501e0667"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/caner_auto.snbt"
+hash = "33f7b3e466bc0ad1488f43451cd1b88ab0884e77a5d3cff5cfa3e3d4d417dadb"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/caner_example.snbt"
+hash = "3dfc187256f5e547cd216ae01e3a38aae4e133913526f961fc03e6f14d04db69"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/crystal_fixer.snbt"
+hash = "bc5b0765bcb2234d2b3b98081e473357e8732a2d59546037b0fe379e59a3b9e2"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/upgrade_show_1.snbt"
+hash = "851cac2614f6b76a938c3b863bbfc3cfc4832b72ac30cb18b95bfaefbc2cac6e"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/upgrade_show_2.snbt"
+hash = "c2b9625b12826c202a8c87b605dc37aeeb4ba971d0d52ff4e38f73f74060cc16"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/wireless_connector_off.snbt"
+hash = "d38ed95641df65cb008151ead22bcfdf482ff5637b398fcfae45b37ccf2cb7df"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/wireless_connector_on.snbt"
+hash = "8cce23a0715f7c527d004603e9dbcf8162140579e5094841dc49f15b8d714a8d"
+
+[[files]]
+file = "resources/extendedae/ae2guide/structure/wireless_connector_setup.snbt"
+hash = "6f0b8797b006dca7fed0c24aef993c6695994abbf5d413355da0fb042ddc4b96"
+
+[[files]]
+file = "resources/extendedae/lang/en_us.json"
+hash = "887f5d9ffbc0a8088b0531e40d5c3bade59192a4ea612dde38f5fc1bd7c26339"
+
+[[files]]
+file = "resources/extraspellattributes/lang/ru_ru.json"
+hash = "8e2949a525e3fdbcdd8ee5622ba97043274e4edd0cd0441bc40cc7940e9b0317"
+
+[[files]]
+file = "resources/farmersknives/lang/ru_ru.json"
+hash = "013a5ab05dceb4a13a9e0809e8eb9259024054bc714e2eeb521c0d93d4d40c7d"
+
+[[files]]
+file = "resources/forcemaster_rpg/lang/ru_ru.json"
+hash = "d8f2127fdc5e6d41606bcfc5e9a4290bf377cb28258bd523b0bf1b3427532d43"
+
+[[files]]
+file = "resources/icarus/lang/en_us.json"
+hash = "dfc54afa8fa00f6a346011933cee7055f140bbc72901d84c50672deb1759e031"
+
+[[files]]
+file = "resources/icarus/lang/ru_ru.json"
+hash = "1a639a4cc4e41a4fdb9cd4c722a8abb46e304a8ae4010ab669e0c78269e615a9"
+
+[[files]]
+file = "resources/idwtialsimmoedm/lang/ru_ru.json"
+hash = "34a7d923e7610bf6fb8e749461584d358e93aa08f172a5fb5ac6432a6eba53ad"
+
+[[files]]
+file = "resources/inventorysorter/lang/ru_ru.json"
+hash = "b7a78842b39b5ce32f2f96a50113e045208427f395c2530e61dbaa6d4b56b9c2"
+
+[[files]]
+file = "resources/invoke/lang/ru_ru.json"
+hash = "08e597e030d79fb7e42cdbb1eb0f7400769055ace8405c1e4c6ae5d76e40afd7"
+
+[[files]]
+file = "resources/ironchests/lang/ru_ru.json"
+hash = "bd7085db08ec6835e6256f5b8c8313d277e04cb82f14ebf92e052aa4e9316e84"
+
+[[files]]
+file = "resources/justhammers/lang/ru_ru.json"
+hash = "866e2b2454136a3cb2285a116a439e4ab359738b3d2c6307f4c9f1b53b6261be"
+
+[[files]]
+file = "resources/mcda/lang/ru_ru.json"
+hash = "b0c82639ebb97afe39a0dd7f040f64039eb4c1132f8d3f5ff1bea1a397b52ff0"
+
+[[files]]
+file = "resources/mcdw/lang/ru_ru.json"
+hash = "066943e2cad502727aa51c6ad790c383f5955477242edf2729ab824b906e402d"
+
+[[files]]
+file = "resources/merequester/lang/ru_ru.json"
+hash = "ce8acf430e4b7391ed15ea90c4b7a51a4ef66cdc1131473b7a59cfa02967d6ed"
+
+[[files]]
+file = "resources/minecells/lang/ru_ru.json"
+hash = "8c2a6528285a97eac6c16b8159ce0e964b54361f80660f93fc89ab096e1cc901"
+
+[[files]]
+file = "resources/modpack-update-checker/lang/lol_us.json"
+hash = "424c2f55f7e5ace4992754c2ebe00d69297093fda2ca902ee942dbd9032370bc"
+
+[[files]]
+file = "resources/modpack-update-checker/lang/ru_ru.json"
+hash = "35dadd2c16ff5c28cea19d51a3449399eef1b6c8cf52a58a29dcd12a03492d10"
+
+[[files]]
+file = "resources/more_armor_trims/lang/ru_ru.json"
+hash = "d0b8c84d092af10bd8258ba87b7393e46c35cdaf00a47d9744b83f98add8feba"
+
+[[files]]
+file = "resources/more_rpg_classes/lang/ru_ru.json"
+hash = "480de8533f980b3a89c1bb6d1c298eadefaa8a83a1f94950ac21ab696a0427ef"
+
+[[files]]
+file = "resources/moretotems/lang/ru_ru.json"
+hash = "d796c60f56abb63ab7d28f67895033f3acf86fd680131aba17b1c7ef31c7be57"
+
+[[files]]
+file = "resources/mutantmonsters/lang/ru_ru.json"
+hash = "25eafa3a2b87f0f4c67cf9807bc46e380b1c6c39b1f9fbe3bf989a4875667f80"
+
+[[files]]
+file = "resources/mythicmounts/lang/ru_ru.json"
+hash = "6c2392e3d54e6670fee135d783093d74d23f0d811cc374a5dfea8afeb87e6559"
+
+[[files]]
+file = "resources/naturalist/lang/ru_ru.json"
+hash = "082953d3efe058f48944960bfc4d9f47e39cad18c1c18dcae19b74fc356ed4f3"
+
+[[files]]
+file = "resources/obscure_api/lang/ru_ru.json"
+hash = "ab1f7c2582c0cf94de9636fcfd4f7fef466883f3c9763223291bb75198d52eaa"
+
+[[files]]
+file = "resources/oceansdelight/lang/en_us.json"
+hash = "e70b1d4e3dadc4ef649510bc9aa224538683cc2a120fa425fc54998ed533ea1f"
+
+[[files]]
+file = "resources/opacpvp/lang/ru_ru.json"
+hash = "e4bc090179cc95209518f08c2154e7f8327c9a68a959c0715d3368b9d2daa2d0"
+
+[[files]]
+file = "resources/paladins/lang/ru_ru.json"
+hash = "60331d41c0ee6417a0bd216bf30d7bda2173cc1682abbe493fe91911fb1c8c46"
+
+[[files]]
+file = "resources/philipsruins/lang/ru_ru.json"
+hash = "a33fc9b8ed28babcb6894b732395889b5f4e98fe89cf4eced640a7a141aee8a5"
+
+[[files]]
+file = "resources/promenade/lang/ru_ru.json"
+hash = "3a684b1609b9286a7cf86bb972cb448084a68ef649b752bc0160fce6923b3338"
+
+[[files]]
+file = "resources/prominent/advancements/1000_years_later.json"
+hash = "e15390a4faeac956a88d20f108d8c4d538cf3af92d8be07af7cde5f402b66553"
+
+[[files]]
+file = "resources/prominent/advancements/ashedar.json"
+hash = "7fa691a2c94b612e324a50cbeac5ea620bebbff39860b8a4c128d6ec9b3e04b6"
+
+[[files]]
+file = "resources/prominent/advancements/azhar.json"
+hash = "e767ea3ccb20360dfeba0726e60d2ead187ed7634f4bb9807e3a66ca44a0eeac"
+
+[[files]]
+file = "resources/prominent/advancements/bosses/fallen_archmage.json"
+hash = "cbf850c6de3fa87e6cf72715823993e8a8cf53275ad559f7c11814dd98f2eeb4"
+
+[[files]]
+file = "resources/prominent/advancements/end_of_voids_invasion.json"
+hash = "66cbf4aa2ad614d4553e2cae1f6d4626aef5441c1a50a976496d8d06886eefa3"
+
+[[files]]
+file = "resources/prominent/advancements/foatf.json"
+hash = "e3ba444f6e1f8ea6dc12d7f9a2147ef8d852c6d61b2a1dd355ec03f81993224e"
+
+[[files]]
+file = "resources/prominent/advancements/frostmourne.json"
+hash = "71de4eceb6a660ccfdef8deff042ca02c641d6d2f2fd83c8ceee4de38eb0c7d9"
+
+[[files]]
+file = "resources/prominent/advancements/fyralath.json"
+hash = "7b967e1aff5b66b788c8dce2f0d9f3077ac45a69ea281b2d4e87661f8ef99b9e"
+
+[[files]]
+file = "resources/prominent/advancements/intro/reaching_overworld.json"
+hash = "457c781f3be8876c000570056d7c32530542c5a3e31065f84773b661ed59164b"
+
+[[files]]
+file = "resources/prominent/advancements/intro/welcome_to_vaaz.json"
+hash = "73ee9be23d5027928cb1f1cdaa94b5535494b004382a8dc7f7034723d6da9d06"
+
+[[files]]
+file = "resources/prominent/advancements/level_10.json"
+hash = "bf8ea42afbc7d483aa1b1522ca7f6de9e581785e2af7bf6730033a0ff4d01780"
+
+[[files]]
+file = "resources/prominent/advancements/level_50.json"
+hash = "fa798abd72d6366e2c7ceae99dc6ff0f1e9090a3486105bb5860d96506f74453"
+
+[[files]]
+file = "resources/prominent/advancements/molten_core.json"
+hash = "14d2b6e5a93137e97eacaa46747d9085c39d2d416d1a0e486699991349bd8093"
+
+[[files]]
+file = "resources/prominent/advancements/supernova.json"
+hash = "b27f97dcc8ed94df00e13124f929fb92f268b557e036674aadbe05e25878024a"
+
+[[files]]
+file = "resources/prominent/advancements/voids_invasion/dialogue_skellak_chapter_1.json"
+hash = "fa22adfa5c9c6e660d194aa640d1d651ad52fd24e2c78002f0dc1ee1a44846f8"
+
+[[files]]
+file = "resources/prominent/advancements/voids_invasion/dialogue_skellak_molten_core.json"
+hash = "a591a149a75bd131e4967f91cd59df3e70041d67dc77ed36038004b2f6595632"
+
+[[files]]
+file = "resources/prominent/advancements/voids_invasion/killed_eye.json"
+hash = "ab2b4ace66a323e9960e5f2ccf6d9b43b1f1b8ef0da66ad35a94696733dd0ef8"
+
+[[files]]
+file = "resources/prominent/lang/ru_ru.json"
+hash = "5746e9bd3399d61a77dbf4b2df829fd16551085b1f0f24129ea1ec28f2accc0b"
+
+[[files]]
+file = "resources/prominent/textures/gui/ability_plates/active.png"
+hash = "0d7cad321c650ec74d54fa44bb71ad48369cfba2efd8870c1102f7a1fe8131c8"
+
+[[files]]
+file = "resources/prominent/textures/gui/ability_plates/passive.png"
+hash = "0fd26c839a2ff3c32326989d6b313efef8027f19dd97ade36bec00160125599f"
+
+[[files]]
+file = "resources/prominent/textures/gui/challenge_end.png"
+hash = "dd31bdc42a62bc2075365a2422e75d4843b5e71b4ec0f08abae40d3153595e19"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/1_0.png"
+hash = "c87391414da09e7ff93cde0b16e86dc41da0b10917734bc1e812cd2d18df9493"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/1_1.png"
+hash = "e8442bf73690b43cc0130f7913dc72bae6171b68c7cf8e47d681c8f4f1ec85e0"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/1_2.png"
+hash = "c7b5a6bae6ea429e72c7dd8ff7afb468a691c42e796ea32b9d14e331337948d6"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/1_3.png"
+hash = "65ef531e2769527337296a7bce741a536c2d7f61e5317a7d4d80be7f97d07b16"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/1_4.png"
+hash = "b0a659e59274f14b45306486bcd33642f58715adc18813abe5bd9b9cc3ab386e"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/1_5.png"
+hash = "6e6db19981e16f1f6ce1d12bf7042932df2dd55208e79d08e75776907a86f7e5"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/1_6.png"
+hash = "a789c45c1bc771ff2c79424c377526c3aa808971ee81bdea9abf9d77584cb40a"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/2_0.png"
+hash = "8028cde8a3bee9b8ad1f3eff1b2fe3f6e6821986f8d49c20f91312ebc99fee87"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/2_1.png"
+hash = "76a78e77683badc96dd4ce8868a1cc2fe38a762ec657986815ed25a7e63ae9a2"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/2_2.png"
+hash = "4092df3ed401d322c2ee48f0c854fc5e5efef3f8470ce5a05ab90f2a9b81fecb"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/2_3.png"
+hash = "0819a2072d36d0ae29cbfb265fd13754d6c356ecbd45567daa1b005f8a5f2d98"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/2_4.png"
+hash = "e86fffd004d3f95e2fe3d313607abd69fb7a5c44c23719691a4b5e102221c841"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/2_5.png"
+hash = "4a581aa58a80f1295303dea0d94b7dc838f9d7d6f8899f0517fc5253cee6650b"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/2_6.png"
+hash = "ee27032ac7cb72a0350f9326136be2170b2c540b3a3f41ce7a95828bf0fddd68"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/2_7.png"
+hash = "9ef9dfc00f24c32621f86484a476450e0c4f9a4c58e4bd02076e67e6bbe035c2"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/2_8.png"
+hash = "3071b9779c981f64304caffaca13bb0b04e9cf22514f198f812b65ba004a8ef4"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_0.png"
+hash = "4dea6c8790aee8de0647922a9c7c2163e57fba7a8319ec96d170daafb9a60cf2"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_1.png"
+hash = "236c73370aff5dc1964a7be461227a2654dc6e5881d724ea9dee9c76eb0f7c9e"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_10.png"
+hash = "6a2602c69925c71ec210dd706f4eb7352aa22f1a07cad6266f91915afcd7272e"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_2.png"
+hash = "87ea53d60a0800871ffa49c75e0eac50acdf0bf3404ae909e3b17ea731044a0d"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_3.png"
+hash = "b88fb09aa445540cd1780b42e43bea3fbb3867ce07a034d4b538d8868f8c781e"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_4.png"
+hash = "712bd9f38163232ac36750009cdf7820603016f90e1f1b6494fa5fac731cdd80"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_5.png"
+hash = "bb5a809dcbf78df46d734d56a54b0204afa4501ff8c4d7be55c8ace84300cf9d"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_6.png"
+hash = "200e89a896f03391eecf5e8141bb69226cade3800f71246c8a8422af796c945b"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_7.png"
+hash = "c6466e81aee716d338d7933cad258550568867f74d5d2a74beb11d21b0f944d6"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_8.png"
+hash = "e92ee7829b3d336de18ec577d76816471a4a9dd2f20efad6e96391382204c1eb"
+
+[[files]]
+file = "resources/prominent/textures/gui/ench_limit/3_9.png"
+hash = "0da900d7d4c7c6aa6fc454973eb71b3dcf2c434d205d1e18cecf6bef9fadc615"
+
+[[files]]
+file = "resources/prominent/textures/gui/lottery_screen.png"
+hash = "c93fec98d8f206cbd1b9f58960cc09bfa3e6ca8023017ae6bff917f886b03f8f"
+
+[[files]]
+file = "resources/prominent/textures/gui/trader_screen.png"
+hash = "cffcf89555f00ef6ed32d825e8c4bef87b20c8b9ea24d80b582417f451789a96"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/10.png"
+hash = "5a2468958af4a1a561fe2abd74a810686cdfd7600e67e813e54efcb898c7e974"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/15.png"
+hash = "c28accee45c13988dd0ef30700ade739d94c85529d107678efe0af0a580ede33"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/20.png"
+hash = "c55572af59c9cd66271818069c7831e80cabfd28da70aaeb3dacdaf28ad3a5d5"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/25.png"
+hash = "49044b40df0997189214c4d1d94f742cf9f582e5b007c39b969781f2cc9c1bbc"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/30.png"
+hash = "d207cb5b226255b7a21082d2d1fe630c3d5efb8f27c72e78c456f0b6bc41abaf"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/35.png"
+hash = "a5815255f1dd619663263195394f93e9f617ef26076af4b7eabb4a57c2daabf3"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/40.png"
+hash = "ecfa4bbce7278e18d1f1caa1e1d669786745c5885ed348058e80466b2de98cbb"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/45.png"
+hash = "85c271fdf63f73c045d4a4802e19215b806dad7369d3350b3371d7ed2f4931f1"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/50.png"
+hash = "7dd55d3fd8ddb2357e48a0abbe167dd9b6b763a1cf00846e08ba679d492aea12"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/55.png"
+hash = "5817916f489a302d648b299a4494bb54121014098eb20ad29ece6de871d00076"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/60.png"
+hash = "5da2d146b1f5fb1e4b36eb866e07c238092ef79fb9e0ef11e5d91a20eaa04753"
+
+[[files]]
+file = "resources/prominent/textures/icon/leveling/65.png"
+hash = "9f02507afb3a8f20153532e7ca423c99a56acde993bab3c766e9b76e2d6cf617"
+
+[[files]]
+file = "resources/prominent/textures/icon/primordial_forge/primordial_tier.png"
+hash = "e2735b64ec6f92829cfe8b77fcda9ace12d1ac0729490d75815f8fb71f690442"
+
+[[files]]
+file = "resources/prominent/textures/icon/talent_tree/active.png"
+hash = "0d7cad321c650ec74d54fa44bb71ad48369cfba2efd8870c1102f7a1fe8131c8"
+
+[[files]]
+file = "resources/prominent/textures/icon/talent_tree/fate.png"
+hash = "f4feb435fd50cbe8affe2e1768f2a67f4874802f48142f857cd46574baa66fc9"
+
+[[files]]
+file = "resources/prominent/textures/icon/talent_tree/passive.png"
+hash = "0fd26c839a2ff3c32326989d6b313efef8027f19dd97ade36bec00160125599f"
+
+[[files]]
+file = "resources/prominent/textures/text/melee.png"
+hash = "ebfb6f5aeedf4362608d9f1933dd7c9a53435bed33ad2b7439bf3a9d4ee478be"
+
+[[files]]
+file = "resources/prominent/textures/text/mission.png"
+hash = "8a60389d5ba762cf43276164328e714fbc0814ab69f340efd22daba21b4bc52b"
+
+[[files]]
+file = "resources/prominent/textures/text/prision.png"
+hash = "cd4fef57b13d3780e6a1d18bc34f5698724dcb58c97fa27ded13fe25c8a77921"
+
+[[files]]
+file = "resources/prominent/textures/text/prominence-desc.png"
+hash = "f6b6ed85c726ac7ba70dd80061f4c782d21d4a8e6e89e5981f1ceae6a662aac1"
+
+[[files]]
+file = "resources/prominent/textures/text/ranged.png"
+hash = "6e6b6bdf7b779ce55b88bfb1de04241229c5647e61b3a909ed0f4627b53dbe1b"
+
+[[files]]
+file = "resources/prominent/textures/text/save_the_world.png"
+hash = "66094432f575768258074b15a7222046847ebffaeba6684dd64dd61311da6990"
+
+[[files]]
+file = "resources/prominent/textures/text/storage.png"
+hash = "85d94330ed9675c3022dad0b91f2cc0e036a3fa20a818a5a4615427b737709f0"
+
+[[files]]
+file = "resources/prominent/textures/text/tech.png"
+hash = "8be335bf6a112737520662628c0926adb2103708f32f073dbe5d93640f76a6f7"
+
+[[files]]
+file = "resources/prominent/textures/text/the_basics.png"
+hash = "4073309c538c7ffb342c62a5ba5516d763948201a045f0d669132ae17d58a22a"
+
+[[files]]
+file = "resources/prominent/textures/text/the_beginning.png"
+hash = "6b3e1da85eb66398e145447a45e6c89ad37e4b25f27ca989d080cc1372df3c06"
+
+[[files]]
+file = "resources/prominent/textures/text/the_bumblezone.png"
+hash = "cc33b18127feff39138aef4c7e9669fa4c498dbe3012a7d409e0a685f8a7ce11"
+
+[[files]]
+file = "resources/prominent/textures/text/the_end.png"
+hash = "7825c61e9e7f5116ea3aebb3adf397eb9bebaf6750dc868035b2bee1aab86d29"
+
+[[files]]
+file = "resources/prominent/textures/text/the_nether.png"
+hash = "42f3ec382f4381afa4cf16338ef7daaa7fdbf5bcc3ffbbeb9382151039d85f8f"
+
+[[files]]
+file = "resources/prominent/textures/text/the_otherside.png"
+hash = "18676dbcbbedea38b20b4f2a3ee24910f3b8eb1bfc586d73ec9d51565368c8a5"
+
+[[files]]
+file = "resources/prominent/textures/text/the_paradise.png"
+hash = "46dc9d28a7287e357e50964575d3f627a138da0e6037b6440ea7408303a0aec5"
+
+[[files]]
+file = "resources/prominent/textures/text/welcome.png"
+hash = "5a8a25da38295e0ae65d31aa676d2a86e5688cebb915d5a8441e2bea326e3bc1"
+
+[[files]]
+file = "resources/prominent/textures/text/wizards.png"
+hash = "aff59b3db7e76279163e22362c445a819f7e172621eca423e787c76a107c0719"
+
+[[files]]
+file = "resources/prominent_ost/lang/ru_ru.json"
+hash = "a11a9a43885780f213f8d649e204bebcab2e4eaa18c74c2002bbef7eecbc7231"
+
+[[files]]
+file = "resources/prominent_talents/lang/ru_ru.json"
+hash = "f4de618584d7b6310c274c6848f2048d99a86466d92d0d9bfe69c59ee9c47f69"
+
+[[files]]
+file = "resources/prominent_talents/textures/gui/itemlevel.png"
+hash = "fe8022ccc83572616fba8a821e0a394d2654f289c003ba15a3991e6b1bd81f0d"
+
+[[files]]
+file = "resources/prominent_talents/textures/gui/level.png"
+hash = "80489b2f58ead682de3bb7d74a0c75346cd6d52e84aa89ae38ec113f7b5646ed"
+
+[[files]]
+file = "resources/prominent_talents/textures/gui/popup/level_up_normal.png"
+hash = "a0e42d9860675a8ef78fa93d03c53872fee4163d5c89bdcd40e0b2b1cdd23ca7"
+
+[[files]]
+file = "resources/prominent_talents/textures/gui/popup/level_up_talent.png"
+hash = "236dfa07ac719ac83323ca34120ad05c4c72069fa59308183e3e986188c478bd"
+
+[[files]]
+file = "resources/prominentbase/lang/ru_ru.json"
+hash = "0634a607c78540d8f7e47bc42a2cabd5a6807fc85595bc2c5cf02de446fa8139"
+
+[[files]]
+file = "resources/puffish_attributes/lang/ru_ru.json"
+hash = "b4e24ea22ff20f8ce71f92404f4337602b390f3e597884a3b01b973a59975d05"
+
+[[files]]
+file = "resources/quartzelevator/lang/ru_ru.json"
+hash = "d34fb83c2669f5ba2107a100e8fd2e72be18b2a3043eafbea4bcf993513c8971"
+
+[[files]]
+file = "resources/ranged_weapon/lang/ru_ru.json"
+hash = "08a9bc41f8ce5fcaca66718ab38e892a99ffe247745ebda3b9ac4867ce1975ca"
+
+[[files]]
+file = "resources/regions_unexplored/lang/ru_ru.json"
+hash = "c948d0d6a25c05c3a1e8d7aeda71ee66b32a2ea10c84155095320b79105f8548"
+
+[[files]]
+file = "resources/rogues/lang/ru_ru.json"
+hash = "19c58800572408b4bce8494bc94156b608ed78b1aaca989cf73ffd9dcb1ddff3"
+
+[[files]]
+file = "resources/runes/lang/en_us.json"
+hash = "0ee667f879726f53a2c1f45fc334a07791411678237cc9a4a859fc26d253c2ef"
+
+[[files]]
+file = "resources/sbprom/lang/ru_ru.json"
+hash = "e9b5be2f666667d7f7973209b14de85c73a25dae9d2a4b036ff14b51d0ec8a26"
+
+[[files]]
+file = "resources/seasonsextras/lang/ru_ru.json"
+hash = "26d5fe33fe09f1ee5227a27818a20278fcaffb83a120b66d8051915fe75b4df8"
+
+[[files]]
+file = "resources/shield_overhaul/lang/ru_ru.json"
+hash = "51bfa20ecf73eb369c88d800b80c88634d24984c336cf87c2e620ade3c168f67"
+
+[[files]]
+file = "resources/simplyswords/lang/ru_ru.json"
+hash = "911d80e2523d790b50c78f2c8cb4111f4a3519c085226d355f7433d94d268d54"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/categories/category_gem_socketing.json"
+hash = "c8c5f5f52d61fa9dc0e7d37855f24142567abf02fcf79fce7e577ad9f0a7afb0"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/categories/category_rune_etching.json"
+hash = "373d5fd0db46c1a741341ff0e8a9a01b34dcd6c2d5796ea0305eac38194850cd"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/categories/category_unique_weapons.json"
+hash = "8ad552dc204359d5e69cdc64ade3ea1e4ed912e48827924f59ae0d8d310d9eeb"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/categories/category_weapon_variants.json"
+hash = "ab38d07ee9f8037c8fb0852ee53ada732312da61c048f732a43101cd2bfe6535"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/gem_socketing/entry_empowered_remnant.json"
+hash = "c44de4de4009e08ad58f3b5099f2ad5270f9962d6d429a42ed465b59e9395a34"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/gem_socketing/entry_howto_socket_gems.json"
+hash = "de149448c02b00550354b78bf795e7ccdd0ccdb71dc262dbb5cc34efd5be78b9"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/gem_socketing/entry_netherfused_gem.json"
+hash = "b15ecd812d2e4cf8fe80f7fb9a61306021183f14901d3e4a59362bf09fa7841e"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/gem_socketing/entry_runefused_gem.json"
+hash = "7e974c863c50bdd1155fc1bdc3ae62eaba079dfa692eecd2491bf1764e02114d"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_active_defence.json"
+hash = "b03baa54b7d531001c5e4d71eecb431360d3c4d2666e9227f1fcb3ba2a96fe3b"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_float.json"
+hash = "0c0c25cda7f651e771b1650d6f9b4e41216d3e212fbf99d460c9905f88cd98d2"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_freeze.json"
+hash = "1a8a3252592f8ca012bb800e70c933f997f40035704269c27aef47fa1fcd7daa"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_frost_ward.json"
+hash = "ca7ae2fdc5715202eb40d7301a745508e6d0af7538b0a8e77fd6dca251bcb086"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_imbued.json"
+hash = "a90de01f78b7430b1e49b64247877c3d5c3b2538d5315b99ff05954e44dd2d16"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_immolation.json"
+hash = "e42698ab60b80b3f9ee2a409fa435e4ac9df89d7355f5c8fd2d3f0b1694b739c"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_momentum.json"
+hash = "5251b04924a0141edfba8f903fecb53ba018a6780e17762d65cfe1840ab88df0"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_pincushion.json"
+hash = "460616f02ef323810d6ad46c5ae5b0c7cc08e3a0071cab1f88a22ad52e481338"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_shielding.json"
+hash = "35a6e05c49f9a18295c706a9c424c079afd43576bd37494ce232293a3c686796"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_slow.json"
+hash = "67f2093d1a2950cd003948dd494490002ce02c101234daee4802b2f110676399"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_stoneskin.json"
+hash = "e436e848ca697c3b12c36668c257d178c218157dbf999b777ac2dab3b35a9dc0"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_swiftness.json"
+hash = "a869712f6ff07e6be4a2079cfa286b45a6aef3296230d17e2c89ee7fa9095a7c"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_trailblaze.json"
+hash = "446db385f13cb54764bbc38fc0259385281343b1293b0d71664a21532f39a43f"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_unstable.json"
+hash = "c7c17690584a28f2286eac7e9a77b9fb86f819d6a984f428802d27cf4806a052"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_ward.json"
+hash = "666439d7aa86ec9ca7d76693f184c7d8f994e214c073a98e1d12b686ed3d8d50"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_weaken.json"
+hash = "2bbc630b2aed33042d3ca78089340251101d6e861f3129914f1214c2806977aa"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_wildfire.json"
+hash = "c20a77dbb93f9106db347415b64c5150b1ea851ed3963fe316128b0f491028f8"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/rune_etching/entry_rp_zephyr.json"
+hash = "9d4dc77159ce9956ffb2ed9e5f6a99cbf8c670dc2e3be5bee2c3873ee3194b5c"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_arcanethyst.json"
+hash = "99f276beec84b2da874152601f859cf5fd6c9106f83be8d651e0f38fc5bfbfff"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_bramblethorn.json"
+hash = "e803235b6e19edaa131c876bd50ca6cb9a367f5c4b65ec10b7ea9c756e17734c"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_brimstone.json"
+hash = "8bfc0a48f26e21b54765de314052fcd00880d8339fd8c6760aa25664678b7613"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_caelestis.json"
+hash = "78b7f582e7d2d72e10386e2b8a12caf8f13cb3a20fcaf021e2044fbdf3aa60fc"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_decaying_relic.json"
+hash = "9d3750c71c2fabb2935181ae5a4756c5c71445708a7b96bad5f5fa5c0d3a8660"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_dormant_relic.json"
+hash = "bc1dc06482d60bd8b370183fc0363b4883f9381c27aea8096615cc31f0a3cc6c"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_emberblade.json"
+hash = "891a68bb25a466515a9fbba1ef0c87ca51544f313f75a2edeaf3cf5701379088"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_emberlash.json"
+hash = "723bd2f27a21e7f4cc51351ea06206e8c85dacec4c692c5bee36316c337a4910"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_enigma.json"
+hash = "bc194a8bdfb4b2355f106ca06f526874e5797d62d692f20d6deba7a368126d34"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_flamewind.json"
+hash = "5236b772a6f6f2832aab6e37faf1ae9f725d0dc3df5d31ed73bf357efcd0db96"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_frostfall.json"
+hash = "305b7d54a811d4abfb764da39aae6b382e8dcc26abf3838f803e25e6e516ba7c"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_hearthflame.json"
+hash = "c4afa4adf97e6315fd087d8b566e79e59e92fdea78459a4493450d1ff85b57af"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_hiveheart.json"
+hash = "419e740c976e5f64a0c2d9f3482828cd65513dbffe60dd53b8ec1b590b6cb710"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_icewhisper.json"
+hash = "4d3c3aabf11bd1817d06f3d45e9ce6b5c9717e6602816afd9f20cfb9d763ebfa"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_livyatan.json"
+hash = "656a442129cc37b5f62922a972ef3208958c5d4c34f8e52a0388c8125bc62ffe"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_longsword_plague.json"
+hash = "fbf33e5634be7086747dc462c4cab8fe78d1ff316ee5170bc4f0796e3aaa643e"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_magiblade.json"
+hash = "1de500abb6e7c8124a821c1624ea5d2e23443a7a12d30d1d576f88c0913ebc47"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_magiscythe.json"
+hash = "a81f0c4eb62c5a3040c091bc71d6ca8700e2608b9bd8c544fb7175840fb9c1a1"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_magispear.json"
+hash = "d5bd74f09d3a4619c7b339e22cabb9f0cafba2d96561751fd0011cbb7da52b71"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_mjolnir.json"
+hash = "85430913ed11e56e0505bdb0587c369b7bce626c6935e71d21dd40e1c95dd94a"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_molten_edge.json"
+hash = "abe4160679d122d6f16ad309d85a9f49c7a7aa6029351f90e717dd8b79a216ca"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_ribboncleaver.json"
+hash = "ec6a2d89923fe081782e3997ce9a8ff2911039f787a348ed229c742e39193fb2"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_shadowsting.json"
+hash = "c88a2ee6bacb51c42cc44be3a946eb6909a5b3d504e589554bc88298b89cbe4d"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_slumbering_lichblade.json"
+hash = "bd745c294053fd83efa97e98b3691c70f18378152bb9e60189bf56461709f626"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_soulkeeper.json"
+hash = "f43afbb292a4aaddfffedbac670e2b6afc6a87f545de3872101413163f3dcb21"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_soulpyre.json"
+hash = "e6a72dc4e4c9a81b23842362c65d738e36686cd1185ff70a06e1acb8776c4b34"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_soulrender.json"
+hash = "5dd271c580acefd589b84bc88d3d94878a1b6666d4f5e268916f5ddd369bd8ee"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_soulstealer.json"
+hash = "9fb3dfb1fefd4a18f52991ec07e613514385f6613c28cba0afc7bae38a3e075c"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_stars_edge.json"
+hash = "d1d1fda2a1017ef742c9f3e78ef5ac8607da542815730d63f9f64cc6a2952872"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_stormbringer.json"
+hash = "c3744af8c1aeb7ff7ea91ef1902aeeb5c4bf16bea21fbf0ad43d9289b0dee61b"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_storms_edge.json"
+hash = "603eade88922f31590745fe7a29ba188a9db678718a108833d6a2588b1fd7544"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_sword_on_a_stick.json"
+hash = "bf2853e1a40d973b101ec750c022edf01c7359c53592c35597c4fd36ca892104"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_tempest.json"
+hash = "efdd27c983d995d66995afc028c37dbc59fe1699c1115df13fd716f2286c73c6"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_the_watcher.json"
+hash = "a2e1520d51d5b107a4beb673c1de179cb746e1f709a949b43f00058ae446b7d9"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_thunderbrand.json"
+hash = "26be11a2b5dba3a3518bb6be6b72ba74dcf7d1421431232bddd0c10a55e10b43"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_twisted_blade.json"
+hash = "4c1d783e21ba53256a9185ac1168291cda92aede126d74fbe77205630368d52b"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_watching_warglaive.json"
+hash = "e32ea22f6dc783d29253bb16e66ba2db566008ab50b34e5c8efff49b70f3febb"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_waxweaver.json"
+hash = "a3c56a7fe41814de4d7101e49edc1694ad5cd42c9c3e5030bf1694ce275575e6"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_whisperwind.json"
+hash = "02abd97be3908a76347917c92d94f9c5694303b33444e35c28bad6870f640030"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/uniques/entry_wickpiercer.json"
+hash = "2cfb3975a274fcefbced68b0eeeb9fb4aaa3e5a8e38f806fdf9e13994c9a627d"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_chakram.json"
+hash = "8b09d208177aed7490af16e41dbc853227b3a6b677948c1538e8d6344fc03269"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_claymore.json"
+hash = "e7acf5f2a7670a59efca537c4031a4e0823f931bcccb36be5f2e6d618086d562"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_cutlass.json"
+hash = "68893c1f9f28a638c7d1000b2a4878fcf75cbc8d6b50f807001db7b3032d7f07"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_glaive.json"
+hash = "a7e900598fbfd5c85d1b1e9f9a1d2c12bf9a5884dccd8ca65f42ee783258d53f"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_greataxe.json"
+hash = "9b70e0105744b4e6f62eb21628c3f466a3ce25de00ff95f1359305c3daf5651d"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_greathammer.json"
+hash = "5765a7023bf383e90c236c135bcb3128905a753e3b202b3df4152bf24648ee68"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_halberd.json"
+hash = "bdd6968c9ca5d48d5e75f814268fdbd9dba6c3862aaa50dad9cae7c6298de961"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_katana.json"
+hash = "fb34a7482270ecbe939b984cd9e7b5659502691f11221be39607c23b8d548bcd"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_longsword.json"
+hash = "c479b36143cc520970c2229d805bd1804c7be0a19a424cab8601d11b728e79c6"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_rapier.json"
+hash = "94548dcee413abb4133ff4b519dc9139df0eedfa0a5e9338e7694e7cf5b42db6"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_sai.json"
+hash = "47f8e85bcda7806a768bedd9a25f71b927e04761113e0954759a4541dcdad1e0"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_scythe.json"
+hash = "6a5e2cd320593d1ae96689608e4242010258120613dae0282d7946ae6d7d45d5"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_spear.json"
+hash = "8b5ec10248dd7b533acd0a6285caf591b3ef9e9b18849e84786d55507244d144"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_twinblade.json"
+hash = "727548537ad9cf2a92b2ba6f8b60652861342bdd4f7997d5b6c44d4b08840aeb"
+
+[[files]]
+file = "resources/simplyswords/patchouli_books/runic_grimoire/ru_ru/entries/weapon_variants/entry_warglaive.json"
+hash = "1b4b0b5e4ea5ecb3b3570cafc9cb12dad34ab5f2132c618a911b72b6df2b2d7e"
+
+[[files]]
+file = "resources/smallships/lang/ru_ru.json"
+hash = "a1109a3cf9255429a0febb5db95504cb0a06e1f96d2b1f683fdf59dab4051f07"
+
+[[files]]
+file = "resources/snifferplus/lang/ru_ru.json"
+hash = "8b4bf41ef227bcd810cecb12d74c3c7f59fdf6ce95538ba534afbad7eca1e353"
+
+[[files]]
+file = "resources/soulmaster/lang/ru_ru.json"
+hash = "954f378aa5513ac23f75755cb9c4eefd568fd62e36212b394f836bbe099a437b"
+
+[[files]]
+file = "resources/soulsweapons/lang/ru_ru.json"
+hash = "efbbbcaf3792a5ec55253f0c8a72fdb534261edeacc1707746f08f2ea70d433f"
+
+[[files]]
+file = "resources/spellbladenext/lang/ru_ru.json"
+hash = "efda49af339919ae6e848d1c28b6fce7b3a73cd44e36aae220a5c2c7efbd15ab"
+
+[[files]]
+file = "resources/spellengine/lang/ru_ru.json"
+hash = "88c81685e285f51c8504183ae02f906a810164a1e0c5b2124418a909a5e70ed3"
+
+[[files]]
+file = "resources/spellpower/lang/ru_ru.json"
+hash = "74a74e6dd2e85271aa65acb9a4ec8444e3bf51e4823621eb131f225cb0cccd32"
+
+[[files]]
+file = "resources/stoneworks/lang/ru_ru.json"
+hash = "ca369dae50cf6b962cb11dbf80291b071476faa74567bb9fe87273acd9f492a3"
+
+[[files]]
+file = "resources/swampierswamps/lang/ru_ru.json"
+hash = "22235a240ac4c4480371f2c0807bcbc5c406bfaa247f4689d5357e4641ee03a2"
+
+[[files]]
+file = "resources/thermoo/lang/ru_ru.json"
+hash = "0b8e2f1b72d6490969bf16fbe62312fb276e695befa01eba74003f44cc655344"
+
+[[files]]
+file = "resources/things/lang/ru_ru.json"
+hash = "2a953168a48da1479fe0b7be0849e7597f19167f046802e782cf3498c59f8bd2"
+
+[[files]]
+file = "resources/things/lavender/books/almanac.json"
+hash = "ebc904f5c18579d5f01f4555f899b83c81ace31395ce62267f193637501e7617"
+
+[[files]]
+file = "resources/things/lavender/categories/almanac/ru_ru/blocks.md"
+hash = "32236eabd1a18b867307e881fa9cc5d8bf8b79f4a197b684685cad57887ec4ee"
+
+[[files]]
+file = "resources/things/lavender/categories/almanac/ru_ru/items.md"
+hash = "18886e26ad9b240cf91895cb76ec36d5bb1dde95e8dd4aa4557e7c3b769889af"
+
+[[files]]
+file = "resources/things/lavender/categories/almanac/ru_ru/trinkets.md"
+hash = "a1089bc3a3e7b889937c543e2969535385e3607a9d48d10a59a4219a181223b1"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/blocks/diamond_pressure_plate.md"
+hash = "aba53988a7ac61197d3cc6983788ff9920afb4ada9ed3d7aecf4e249aa5e0561"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/blocks/gleaming_ore.md"
+hash = "917344bbe590f65c27abe5afed2c186be5a9d4daa426c829cc0cd0edb08adf14"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/blocks/glowstone_fixtures.md"
+hash = "6e8c15984d21128ea7771fb6c31e70de0a15751de3cd8b94ed35b4420e04065d"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/diamond_pressure_plate.md"
+hash = "aba53988a7ac61197d3cc6983788ff9920afb4ada9ed3d7aecf4e249aa5e0561"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/gleaming_materials.md"
+hash = "111e798e4acf97d79115a3cfb4f201405a6538e173713a32824ea95100221acc"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/gleaming_ore.md"
+hash = "917344bbe590f65c27abe5afed2c186be5a9d4daa426c829cc0cd0edb08adf14"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/glowstone_fixtures.md"
+hash = "6e8c15984d21128ea7771fb6c31e70de0a15751de3cd8b94ed35b4420e04065d"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/items/apples.md"
+hash = "05c962d28b2bc44f653c044e3c9fcf59e1aec68c73eb5c525d60c0b487f7d27c"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/items/bater_wucket.md"
+hash = "acab3b90390542b778faeb57c33e11d498fea723ea232c99530e1ce0a20c32de"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/items/container_key.md"
+hash = "571494823acc6541c6a707a56043b3681cdb562de75b90858d529a4fcabea48a"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/items/displacement_tome.md"
+hash = "dd9c578673238c862a9fe4500adf7f0e4f69ebfc451bcd61ff44c8b59aa10cbd"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/items/gleaming_materials.md"
+hash = "111e798e4acf97d79115a3cfb4f201405a6538e173713a32824ea95100221acc"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/items/hardening_catalyst.md"
+hash = "778fdd24bea2fade6f0538d704065ddd841226812cae8f264223a5e4173adf0a"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/items/infernal_scepter.md"
+hash = "db1cc11364f2b720d3b3fade11c89d067e3a0251d2f22a1b935dfc76317eb6d1"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/items/item_magnet.md"
+hash = "411b1ec873f10727d535f3648e27dde7cf39df974467c126fa067c4e7bd12817"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/items/recall_potion.md"
+hash = "a2583b862d2316fbe1240a87795f2e7343871afa2cb8f517205e040e239f9261"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/landing_page.md"
+hash = "e1d9f21e6a743ceceb149789cd39c9ef3d4d98f5d6484deb62f74a6da667ffcb"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/retribution.md"
+hash = "36f55c7be40e3040ba911bdadcd227b15b518bba659835bb0545f88a4af9d6c4"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/agglomeration.md"
+hash = "ed537adef06ce18da3192ea3e07bf940e53f844f2ee11a788f7d48e4f0d05770"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/arm_extender.md"
+hash = "55bae4468d782f49c62799ef500de6b505156b5049d785aafd95f5997c95581b"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/broken_watch.md"
+hash = "4540275c23bb194810f0e997d1dfe61fe5ed4e060370a6406b5125292c9c630f"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/ender_pouch.md"
+hash = "0a763c4036b34f8fd50d5d405fa1d69607ed188ed01b2579de02934125c847b5"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/hades_crystal.md"
+hash = "f3af6f43cf38fbd76518433c423b286b6d7e63178bab9abb1c5c32bec8294158"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/luck_of_the_irish.md"
+hash = "c1420e751ac018a6d336d283567e788783e155cca518fb37c66c2253d68c45d4"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/mining_glove.md"
+hash = "a7a9d3e02d3c9c39058b0a188e43eaec295f046daca2bed84d2a6ae5fe0d3334"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/monocle.md"
+hash = "33c2f4098905ed6febad66cc21dd91c2b6b91183d484537adf60b9b9dc671711"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/mossy_necklace.md"
+hash = "2d9f7930cd5fed33418976833f0b423569866e94106132ebfd268ad21a2dd01c"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/placebo.md"
+hash = "8b8b5ebb35bcb5ae4e04ee628ddbd97e0967043cd3f23107bcd0c04d746c4e42"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/rabbit_foot_charm.md"
+hash = "1bdb446f48bbe3a82ac11fd5a52c3870f2ab16f67e6f8601ec286d70e00dc968"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/riot_gauntlet.md"
+hash = "f28bc0c18cabef24f20ae298930740c4190e75035c6279ac6e3740176bd60f5d"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/shock_absorber.md"
+hash = "1422bf08aff8a544520cc4ec95f5cc4daf06a9a1542074c9709c0370a90be00b"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/socks.md"
+hash = "1ed8db759091cba9043747ce0647100b94e7c0aa4d80401c4c21c2352805ce4d"
+
+[[files]]
+file = "resources/things/lavender/entries/almanac/ru_ru/trinkets/wax_gland.md"
+hash = "0104f4891974c880406c42b0f4efe2f842d250d1a582669c72311232f7fa5c45"
+
+[[files]]
+file = "resources/tiered/lang/ru_ru.json"
+hash = "2c9375814faea4ea9e088556a602b5db94c5a3b631e6797b62e3e8d1711315da"
+
+[[files]]
+file = "resources/tiered/textures/plates/common.png"
+hash = "d01eecafce50261e2d80ce68bd7997a57a0608a2e1d63cf1fcee733f8a61fe67"
+
+[[files]]
+file = "resources/tiered/textures/plates/epic.png"
+hash = "a4ac4277850daed5f541b40602f5eb9eeb722b9eadf3a76452f2b89a27991f64"
+
+[[files]]
+file = "resources/tiered/textures/plates/legendary.png"
+hash = "5e29f7d00c1ddba55bfadd7f5be8a571f75b7512cd5a2251c8a3e28253a13e3e"
+
+[[files]]
+file = "resources/tiered/textures/plates/mythic.png"
+hash = "943850b0ce6e92ef1640878e1ae62f4076cf9cda79a3ab356daa8655d3586a01"
+
+[[files]]
+file = "resources/tiered/textures/plates/rare.png"
+hash = "bfa1e3c198ae755360b1b557c91e819c363a700d21873d74bc889c2b87af88bb"
+
+[[files]]
+file = "resources/tiered/textures/plates/uncommon.png"
+hash = "d23f552f435dd8ed3f1fcc179367c9133541d68c6c3e9e84b3426c29f02652c0"
+
+[[files]]
+file = "resources/transmog/lang/ru_ru.json"
+hash = "078abfb0e4e3fe341c1c04e4153613f82e31bb2da2fca52ed206c94305d5d412"
+
+[[files]]
+file = "resources/travelersbackpack/lang/ru_ru.json"
+hash = "61f604e1c1b9a6c98e9d42b0f8faaa9b0b7b5b9f99feac945938b7c60f314521"
+
+[[files]]
+file = "resources/treechop/lang/ru_ru.json"
+hash = "3a9311e06370cd6a0f5bd6aad4e3ad4328b38e28afa86d89e91d3292ca52d01b"
+
+[[files]]
+file = "resources/twigs/lang/ru_ru.json"
+hash = "dcfd21b81933d9d704d2180f7028cf68d4aee6078eb0856cdb1e73e15e6ce966"
+
+[[files]]
+file = "resources/villagersplus/lang/ru_ru.json"
+hash = "da3347a5a416c7675dad54a859fc559a7e9f9a0e3ad40f0c1277f216093d0869"
+
+[[files]]
+file = "resources/winterly/lang/ru_ru.json"
+hash = "5975da879511cb0df6e3c2eddcd3c48f59adffaee07a468ac37b832c65bb937f"
+
+[[files]]
+file = "resources/wizards/lang/ru_ru.json"
+hash = "86597fa69ac45dc6de19fa868d65d24d7e51e26a196ec51ee738a9077076b878"
+
+[[files]]
+file = "resources/xaeroworldmap/lang/ru_ru.json"
+hash = "4e38a10fe2b537e6183b0dcb856c1577dc22e87e130b7333877d524c946f7b4b"
+
+[[files]]
+file = "resources/yigd/lang/ru_ru.json"
+hash = "22d4f14ab8ea24ef2b4911480a921a0d34e8ab6b8500702b7c4a28b2d55e7621"
+
+[[files]]
+file = "resources/zenith/lang/ru_ru.json"
+hash = "e3a531a75158079300d91edcd1b91243b05219c052d1ddd11615f465c287500d"
+
+[[files]]
+file = "resources/zenith_attributes/lang/ru_ru.json"
+hash = "017abae97181f4bd02a669d74c217bcdcbe0c1c2ed5e9a672afc6f9f7bc9867a"
