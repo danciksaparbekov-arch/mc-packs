@@ -120,8 +120,15 @@ try {
   $o = $null
   if (Test-Path $cfg) { $o = Get-Content $cfg -Raw | ConvertFrom-Json }
   if ($null -eq $o) { $o = [pscustomobject]@{ CONFIG_VERSION = 1 } }
+  # Актуальный адрес нашего Figura-бэкенда (меняется при перезапуске туннеля на pc2); если не ответил - остаётся прежний/общий
+  $host2 = $null
+  try { $host2 = (Invoke-WebRequest -Uri "https://mc-server-bot.danislam2003.workers.dev/figura" -UseBasicParsing -TimeoutSec 6).Content.Trim() } catch { }
+  if ($host2 -notmatch '^[a-z0-9.-]+$') { $host2 = $null }
   if (-not $o.PSObject.Properties["server_ip"]) {
-    $o | Add-Member -NotePropertyName server_ip -NotePropertyValue "figura.shsr.ru"
+    $o | Add-Member -NotePropertyName server_ip -NotePropertyValue $(if ($host2) { $host2 } else { "figura.shsr.ru" })
+    [System.IO.File]::WriteAllText($cfg, ($o | ConvertTo-Json), (New-Object System.Text.UTF8Encoding $false))
+  } elseif ($host2 -and $o.server_ip -ne $host2) {
+    $o.server_ip = $host2
     [System.IO.File]::WriteAllText($cfg, ($o | ConvertTo-Json), (New-Object System.Text.UTF8Encoding $false))
   }
 } catch { }
@@ -163,7 +170,7 @@ try {
       if ([Text.Encoding]::GetEncoding(28591).GetString($b).Contains("sladkiybaklazhanchik.exaroton.me")) {
         Set-Content -Path $marker -Value "already-present"
       } else {
-        $okHdr = ($b.Length -gt ($hdr.Length + 5))
+        $okHdr = ($b.Length -ge ($hdr.Length + 5))
         if ($okHdr) { for ($k = 0; $k -lt $hdr.Length; $k++) { if ($b[$k] -ne $hdr[$k]) { $okHdr = $false } } }
         if ($okHdr) {
           $n = & $i32 $b $hdr.Length
