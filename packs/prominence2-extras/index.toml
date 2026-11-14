@@ -6,11 +6,6 @@ hash = "737e71082015f1ee09103f611adfeff6700f6a0ec7331c3b3000ada540a67444"
 metafile = true
 
 [[files]]
-file = "mods/modmenu.pw.toml"
-hash = "d7145fd1bd8b4bb6a3b84652a96a68870fb3ab32230f27520bb9362fd17ec39f"
-metafile = true
-
-[[files]]
 file = "mods/skinrestorer.pw.toml"
 hash = "ac96fca535289d56336f8931ffde0366a39be9e09a9776997bf41c0d3c9d4864"
 metafile = true
