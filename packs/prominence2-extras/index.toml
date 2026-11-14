@@ -38,7 +38,7 @@ hash = "ce3f1e2bb718b7bd1a830c0ecdc4c42fa61f80a34aa6b28729cd512733851fc2"
 
 [[files]]
 file = "config/prominence_localization/lang/ru_ru/ftbquests.json"
-hash = "23490743f02a0ae14834264e33fdb770f6e427bf789dee3ec3f26bbed99f6479"
+hash = "1e60287ae7a1d8e673f23ef2e45ef253f3c4bb284f92da797cfd88547470a9fb"
 
 [[files]]
 file = "config/prominence_localization/lang/ru_ru/inventory_fix.json"
