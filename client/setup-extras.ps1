@@ -40,7 +40,8 @@ Set-Content -Path $syncPath -Value $sync -Encoding ASCII
 & powershell -NoProfile -ExecutionPolicy Bypass -File $syncPath
 
 # 5. Hook command for the launcher
-$hook = "powershell -NoProfile -ExecutionPolicy Bypass -File `"$syncPath`""
+$hookPath = $syncPath -replace '\\', '/'   # forward slashes: launchers may treat backslashes as escapes
+$hook = "powershell -NoProfile -ExecutionPolicy Bypass -File `"$hookPath`""
 try { Set-Clipboard -Value $hook; $c = " (copied to clipboard)" } catch { $c = "" }
 Write-Host ""
 Write-Host "DONE. Now in the launcher: Instance settings -> Launch hooks -> Pre-launch, paste$c :"
