@@ -1,0 +1,23 @@
+name: Sync Exaroton
+on:
+  push:
+    branches: [main]
+    paths: ["packs/**", "tools/sync-exaroton.mjs"]
+  workflow_dispatch:
+
+concurrency: sync-exaroton
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Sync extras to Exaroton
+        env:
+          EXAROTON_TOKEN: ${{ secrets.EXAROTON_TOKEN }}
+          EXAROTON_SERVER_ID: ${{ secrets.EXAROTON_SERVER_ID }}
+          PACK_DIR: packs/prominence2-extras
+        run: node tools/sync-exaroton.mjs
