@@ -9,4 +9,4 @@ if errorlevel 1 (
   pause
   exit /b 1
 )
-powershell -NoProfile -ExecutionPolicy Bypass -File "%TEMP%\mc-setup-extras.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -File "%TEMP%\mc-setup-extras.ps1" -SearchDir "%~dp0."

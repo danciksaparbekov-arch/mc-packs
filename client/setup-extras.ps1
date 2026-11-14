@@ -5,6 +5,7 @@
 param(
   [string]$InstanceDir,
   [switch]$NoPause,
+  [string]$SearchDir,
   [string]$PackUrl = "https://raw.githubusercontent.com/danciksaparbekov-arch/mc-packs/main/packs/prominence2-extras/pack.toml"
 )
 $ErrorActionPreference = "Stop"
@@ -77,6 +78,24 @@ exit 0
     Write-Host ""
     Write-Host "Моды не скачались. Если ты ещё ни разу не запускал игру - запусти её один раз до главного меню, закрой и запусти установку снова." -ForegroundColor Yellow
     Finish 1
+  }
+
+  # 5b. Эмоции: если рядом с install.bat лежит zip с эмоциями - ставим их
+  if ($SearchDir -and (Test-Path $SearchDir)) {
+    $ez = @(Get-ChildItem $SearchDir -Filter "*.zip" -ErrorAction SilentlyContinue | Where-Object { $_.Name -like "*emote*" })
+    if ($ez.Count -ge 1) {
+      Write-Host "Ставлю эмоции из $($ez[0].Name)..."
+      $eout = Join-Path $InstanceDir "emotes"
+      New-Item -ItemType Directory -Force $eout | Out-Null
+      Add-Type -AssemblyName System.IO.Compression.FileSystem
+      $zf = [IO.Compression.ZipFile]::OpenRead($ez[0].FullName); $en = 0
+      foreach ($e in $zf.Entries) {
+        if ($e.FullName -like "__MACOSX*" -or [string]::IsNullOrEmpty($e.Name) -or $e.Name -like "._*") { continue }
+        [IO.Compression.ZipFileExtensions]::ExtractToFile($e, (Join-Path $eout $e.Name), $true); $en++
+      }
+      $zf.Dispose()
+      Write-Host "Эмоции установлены: $en файлов (в игре меню эмоций - клавиша B)."
+    }
   }
 
   # 6. Команда для лаунчера
