@@ -6,11 +6,6 @@ hash = "737e71082015f1ee09103f611adfeff6700f6a0ec7331c3b3000ada540a67444"
 metafile = true
 
 [[files]]
-file = "mods/no-chat-reports.pw.toml"
-hash = "aab48014a56bd4b7a6f9bce36cbb3c07e8d064fa1640194ecc268fd2e2c8601b"
-metafile = true
-
-[[files]]
 file = "mods/skinrestorer.pw.toml"
 hash = "ac96fca535289d56336f8931ffde0366a39be9e09a9776997bf41c0d3c9d4864"
 metafile = true
