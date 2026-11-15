@@ -79,6 +79,11 @@ hash = "5a2481a03b85891967a6e1099a0987156a3a08770e27209a58fba143053b83ec"
 metafile = true
 
 [[files]]
+file = "mods/cosmetic-armor.pw.toml"
+hash = "195105e5e989cd109d5f644b58eca2e06f9d487d80ea365fa42033675aac7ac7"
+metafile = true
+
+[[files]]
 file = "mods/emotecraft.pw.toml"
 hash = "bd53dcb193060715c659e96aedafd08dedd193ebb1f0a79fe15f6786a315a6c0"
 metafile = true
