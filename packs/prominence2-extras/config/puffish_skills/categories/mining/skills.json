@@ -1,0 +1,62 @@
+{
+	"mine_1": {
+		"definition": "mine_1",
+		"x": -315,
+		"y": 0,
+		"root": true
+	},
+	"mine_2": {
+		"definition": "mine_2",
+		"x": -245,
+		"y": 40,
+		"root": false
+	},
+	"mine_3": {
+		"definition": "mine_3",
+		"x": -175,
+		"y": 0,
+		"root": false
+	},
+	"mine_4": {
+		"definition": "mine_4",
+		"x": -105,
+		"y": 40,
+		"root": false
+	},
+	"mine_5": {
+		"definition": "mine_5",
+		"x": -35,
+		"y": 0,
+		"root": false
+	},
+	"mine_6": {
+		"definition": "mine_6",
+		"x": 35,
+		"y": 40,
+		"root": false
+	},
+	"mine_7": {
+		"definition": "mine_7",
+		"x": 105,
+		"y": 0,
+		"root": false
+	},
+	"mine_8": {
+		"definition": "mine_8",
+		"x": 175,
+		"y": 40,
+		"root": false
+	},
+	"mine_9": {
+		"definition": "mine_9",
+		"x": 245,
+		"y": 0,
+		"root": false
+	},
+	"mine_10": {
+		"definition": "mine_10",
+		"x": 315,
+		"y": 40,
+		"root": false
+	}
+}

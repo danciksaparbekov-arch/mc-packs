@@ -66,6 +66,23 @@ for (const m of wanted) {
   console.log(`+ ${m.filename}`); changed++;
 }
 changed += excludedNow;
+
+// ---- обычные файлы пака, которые нужны и серверу (server-files.json: {"prefixes": ["config/puffish_skills/"]}) ----
+// Заливаем по тому же пути, если содержимое отличается. Ничего не удаляем.
+const sfPath = path.join(PACK, "server-files.json");
+const prefixes = fs.existsSync(sfPath) ? JSON.parse(fs.readFileSync(sfPath, "utf8")).prefixes || [] : [];
+const plain = [];
+(function walk(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const f = path.join(d, e.name); e.isDirectory() ? walk(f) : plain.push(path.relative(PACK, f).split(path.sep).join("/")); } })(PACK);
+for (const rel of plain.filter((f) => prefixes.some((pr) => f.startsWith(pr)))) {
+  const local = fs.readFileSync(path.join(PACK, rel));
+  const cur = await exa(`files/data/${enc(rel)}`);
+  if (cur.ok && Buffer.compare(Buffer.from(await cur.arrayBuffer()), local) === 0) continue;
+  // родительские папки (если ещё нет)
+  const parts = rel.split("/").slice(0, -1);
+  for (let i = 1; i <= parts.length; i++) { try { await exa(`files/data/${enc(parts.slice(0, i).join("/"))}`, { method: "PUT", headers: { "Content-Type": "inode/directory" } }); } catch { /* уже есть */ } }
+  await exaJson(`files/data/${enc(rel)}`, { method: "PUT", headers: { "Content-Type": "application/octet-stream" }, body: local });
+  console.log(`~ ${rel}`); changed++;
+}
 // ---- сохраняем состояние ----
 await exaJson(`files/data/${enc(STATE)}`, { method: "PUT", headers: { "Content-Type": "application/octet-stream" }, body: JSON.stringify({ files: nowFiles }, null, 2) });
 

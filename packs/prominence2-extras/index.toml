@@ -53,6 +53,30 @@ file = "config/prominence_localization/version.json"
 hash = "bd62f5115056da93a755772d2b1ae416c1a7637b350716442f0e9b1cb19f97f3"
 
 [[files]]
+file = "config/puffish_skills/categories/mining/category.json"
+hash = "f94ea335cf57c1148778c76c061b4ba95606df94c99fcaf17e406cc50f194f2c"
+
+[[files]]
+file = "config/puffish_skills/categories/mining/connections.json"
+hash = "da156e31f4c1fe4fcca7fe613492099a000c0e208b240c174401076960d4aabd"
+
+[[files]]
+file = "config/puffish_skills/categories/mining/definitions.json"
+hash = "271f81552b258ccdd769f8e3d18881783f86e1658906c90b5f4200f9875870cc"
+
+[[files]]
+file = "config/puffish_skills/categories/mining/experience.json"
+hash = "c54dadb5802728f837ecaa8f02d0cd0e35241a14b7efc3f358dbd7553484776d"
+
+[[files]]
+file = "config/puffish_skills/categories/mining/skills.json"
+hash = "853cd065a2404fde06fec2b707f4bc28c43bf77f84148fb2a14014994c00a683"
+
+[[files]]
+file = "config/puffish_skills/config.json"
+hash = "024fa77cba7daa3460cec0910e91134eaee1ebedcfffcf399565ee5e8c904a4b"
+
+[[files]]
 file = "config/vaultpatcher_asm/config.json"
 hash = "dac62c299a5d0b64b8d2febaa242159fb7fbfd78726debc92f34c928a0f32189"
 

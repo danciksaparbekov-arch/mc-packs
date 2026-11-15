@@ -35,7 +35,7 @@ function refresh(dir) {
     for (const e of fs.readdirSync(d, { withFileTypes: true })) {
       const r = rel ? `${rel}/${e.name}` : e.name;
       if (e.isDirectory()) walk(path.join(d, e.name), r);
-      else if (!["pack.toml", "index.toml", "base-projects.json", "server-exclude.json"].includes(r)) files.push(r);
+      else if (!["pack.toml", "index.toml", "base-projects.json", "server-exclude.json", "server-files.json"].includes(r)) files.push(r);
     }
   })(dir);
   files.sort();

@@ -1,0 +1,282 @@
+{
+	"mine_1": {
+		"title": "§6Проворные руки 1",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+4%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mine_2": {
+		"title": "§6Проворные руки 2",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+8%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mine_3": {
+		"title": "§6Проворные руки 3",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+12%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stone_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mine_4": {
+		"title": "§6Проворные руки 4",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+16%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mine_5": {
+		"title": "§6Проворные руки 5",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+20%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mine_6": {
+		"title": "§6Проворные руки 6",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+24%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mine_7": {
+		"title": "§6Проворные руки 7",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+28%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mine_8": {
+		"title": "§6Проворные руки 8",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+32%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mine_9": {
+		"title": "§6Проворные руки 9",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+36%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mine_10": {
+		"title": "§6Проворные руки 10",
+		"description": "§7Копаешь быстрее.\n \n§e+4% §7к скорости копания (итого §e+40%§7)",
+		"size": 1,
+		"frame": {
+			"type": "texture",
+			"data": {
+				"unlocked": "prominent_talents:textures/frames/circle_selected.png",
+				"available": "prominent_talents:textures/frames/circle.png"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:mining_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	}
+}
