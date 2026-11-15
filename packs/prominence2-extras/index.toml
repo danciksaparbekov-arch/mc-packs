@@ -176,6 +176,11 @@ hash = "ac96fca535289d56336f8931ffde0366a39be9e09a9776997bf41c0d3c9d4864"
 metafile = true
 
 [[files]]
+file = "mods/trade-cycling.pw.toml"
+hash = "d2485aee2cc33fc691b9011fa72cc1e240e9a526a3d1281d3973fb707ea34454"
+metafile = true
+
+[[files]]
 file = "mods/vaultpatcher-all-1.4.4.jar"
 hash = "4541bfa02173b3d7106a19cd49fc5a31924efec54cbbe993b77abe57c2f95a29"
 
