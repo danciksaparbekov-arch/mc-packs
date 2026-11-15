@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/carryon-common.json"
+hash = "575361854ddbf8ef99806fa00a305a85e4ad691c209bddc600a50b6a32f45d1d"
+
+[[files]]
 file = "config/fancymenu/assets/gui/inventory/side_button_label_quests.png"
 hash = "f80e6106f1c5ffe62912be75e72cabf3c7925fcd00ee73913ac98f355f8962b3"
 
