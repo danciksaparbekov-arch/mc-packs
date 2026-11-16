@@ -19,7 +19,14 @@ jobs:
           set -eu
           echo "$CMD" | grep -Eq '^gamerule (logAdminCommands|sendCommandFeedback) (true|false)$' || { echo "command not allowed"; exit 1; }
           base="https://api.exaroton.com/v1/servers/$EXAROTON_SERVER_ID"
-          status=$(curl -s -H "Authorization: Bearer $EXAROTON_TOKEN" "$base/" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);console.log(j.success?j.data.status:"error:"+j.error)})')
-          echo "server status code: $status (1 = online)"
-          [ "$status" = "1" ] || { echo "Server is not online: not starting it, command not run"; exit 2; }
+          getstatus() { curl -s -H "Authorization: Bearer $EXAROTON_TOKEN" "$base/" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const j=JSON.parse(s);console.log(j.success?j.data.status:"error")}catch(e){console.log("error")}})'; }
+          # Ждём, пока сервер включится (до 12 минут), но сами его не запускаем
+          status=$(getstatus)
+          for i in $(seq 1 48); do
+            echo "server status code: $status (1 = online)"
+            [ "$status" = "1" ] && break
+            sleep 15; status=$(getstatus)
+          done
+          [ "$status" = "1" ] || { echo "Server did not come online: command not run"; exit 2; }
+          sleep 10
           curl -s -X POST -H "Authorization: Bearer $EXAROTON_TOKEN" -H "Content-Type: application/json" -d "{\"command\":\"$CMD\"}" "$base/command/"; echo
