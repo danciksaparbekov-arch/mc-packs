@@ -1,0 +1,25 @@
+name: Server command (gamerule only)
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "gamerule logAdminCommands|sendCommandFeedback true|false"
+        required: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run allow-listed command on the Exaroton server (never starts the server)
+        env:
+          EXAROTON_TOKEN: ${{ secrets.EXAROTON_TOKEN }}
+          EXAROTON_SERVER_ID: ${{ secrets.EXAROTON_SERVER_ID }}
+          CMD: ${{ inputs.command }}
+        run: |
+          set -eu
+          echo "$CMD" | grep -Eq '^gamerule (logAdminCommands|sendCommandFeedback) (true|false)$' || { echo "command not allowed"; exit 1; }
+          base="https://api.exaroton.com/v1/servers/$EXAROTON_SERVER_ID"
+          status=$(curl -s -H "Authorization: Bearer $EXAROTON_TOKEN" "$base/" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);console.log(j.success?j.data.status:"error:"+j.error)})')
+          echo "server status code: $status (1 = online)"
+          [ "$status" = "1" ] || { echo "Server is not online: not starting it, command not run"; exit 2; }
+          curl -s -X POST -H "Authorization: Bearer $EXAROTON_TOKEN" -H "Content-Type: application/json" -d "{\"command\":\"$CMD\"}" "$base/command/"; echo
