@@ -33,6 +33,10 @@ file = "config/fancymenu/assets/welcome_screen/your_abilities.png"
 hash = "dc72c18b411c1365ce829661e6c35a6b810daee1bde16edaece9cb040e5c7cd7"
 
 [[files]]
+file = "config/figura.json"
+hash = "c418a99cf61c2be1946f2fd0d5330534b672a197eef78f9f5052dbd15b08da36"
+
+[[files]]
 file = "config/prominence_localization/config.json"
 hash = "6db8e2542c496bf6459c9858631484cf53eb1bb146736634315cfe5a0632406a"
 
