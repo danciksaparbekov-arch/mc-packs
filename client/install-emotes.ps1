@@ -20,19 +20,36 @@ try {
       $InstanceDir = $list[[int]$n].FullName
     }
   }
-  # Эмоции приходят несколькими zip (в Discord лимит файла 8 МБ): каждая часть - обычный zip, ставим все.
-  # Источник: параметр, файлы/папка, перетащенные в окно, а при пустом вводе - папка Загрузки.
+  # Откуда берём эмоции (по порядку): параметр -ZipPath; файлы emotes-SPE*.zip в папке Загрузки (если Данис прислал
+  # их в Discord частями из-за лимита 8 МБ); иначе скачиваем целиком из релиза emotes-v1 на GitHub и сверяем сумму.
+  # Если и скачать не вышло - просим перетащить zip-файлы в окно.
+  $EmotesUrl = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/emotes-v1/emotes-SPE.zip"
+  $EmotesSha256 = "9921340f56c70079efbd5972d7cdb757e4a6ecdd8446b99513074152927c862c"
   $zips = @()
   if ($ZipPath) { $zips = @($ZipPath) }
   else {
-    Write-Host "Перетащи сюда ВСЕ zip-файлы с эмоциями (выдели их разом и перетащи мышкой в это окно) и нажми Enter."
-    Write-Host "Если все части лежат в папке Загрузки - просто нажми Enter."
-    $line = (Read-Host).Trim()
-    foreach ($m in [regex]::Matches($line, '"([^"]+)"|(\S+)')) {
-      $zips += $(if ($m.Groups[1].Success) { $m.Groups[1].Value } else { $m.Groups[2].Value })
+    $downloads = Join-Path ([Environment]::GetFolderPath("UserProfile")) "Downloads"
+    $local = @(Get-ChildItem -LiteralPath $downloads -Filter "emotes-SPE*.zip" -File -ErrorAction SilentlyContinue)
+    if ($local.Count -gt 0) { $zips = @($local | ForEach-Object { $_.FullName }) }
+    else {
+      Write-Host "Скачиваю эмоции (около 55 МБ)..."
+      $tmpZip = Join-Path $env:TEMP "emotes-SPE.zip"
+      try {
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+        $old = $ProgressPreference; $ProgressPreference = "SilentlyContinue"
+        try { Invoke-WebRequest -Uri $EmotesUrl -OutFile $tmpZip -UseBasicParsing } finally { $ProgressPreference = $old }
+        if ((Get-FileHash -LiteralPath $tmpZip -Algorithm SHA256).Hash -ine $EmotesSha256) { throw "контрольная сумма не совпала" }
+        $zips = @($tmpZip)
+      } catch {
+        Write-Host "Не удалось скачать эмоции ($($_.Exception.Message))." -ForegroundColor Yellow
+        Write-Host "Перетащи сюда ВСЕ zip-файлы с эмоциями (выдели их разом и перетащи мышкой в это окно) и нажми Enter:"
+        $line = (Read-Host).Trim()
+        foreach ($m in [regex]::Matches($line, '"([^"]+)"|(\S+)')) {
+          $zips += $(if ($m.Groups[1].Success) { $m.Groups[1].Value } else { $m.Groups[2].Value })
+        }
+      }
     }
   }
-  if ($zips.Count -eq 0) { $zips = @(Join-Path ([Environment]::GetFolderPath("UserProfile")) "Downloads") }
   $files = @()
   foreach ($p in $zips) {
     if (Test-Path -LiteralPath $p -PathType Container) {
