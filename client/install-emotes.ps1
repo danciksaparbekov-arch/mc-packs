@@ -1,5 +1,5 @@
 ﻿# install-emotes.ps1 - ставит эмоции (zip) в сборку Prominence II. Запускается через install-emotes.bat.
-param([string]$ZipPath, [string]$InstanceDir, [switch]$NoPause)
+param([string[]]$ZipPath, [string]$InstanceDir, [switch]$NoPause)
 $ErrorActionPreference = "Stop"
 try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch { }
 function Finish($code) { if (-not $NoPause) { Write-Host ""; Read-Host "Нажми Enter, чтобы закрыть окно" | Out-Null }; exit $code }
@@ -20,22 +20,41 @@ try {
       $InstanceDir = $list[[int]$n].FullName
     }
   }
-  if (-not $ZipPath) {
-    Write-Host "Перетащи сюда zip-файл с эмоциями (мышкой в это окно) и нажми Enter:"
-    $ZipPath = (Read-Host).Trim().Trim('"')
+  # Эмоции приходят несколькими zip (в Discord лимит файла 8 МБ): каждая часть - обычный zip, ставим все.
+  # Источник: параметр, файлы/папка, перетащенные в окно, а при пустом вводе - папка Загрузки.
+  $zips = @()
+  if ($ZipPath) { $zips = @($ZipPath) }
+  else {
+    Write-Host "Перетащи сюда ВСЕ zip-файлы с эмоциями (выдели их разом и перетащи мышкой в это окно) и нажми Enter."
+    Write-Host "Если все части лежат в папке Загрузки - просто нажми Enter."
+    $line = (Read-Host).Trim()
+    foreach ($m in [regex]::Matches($line, '"([^"]+)"|(\S+)')) {
+      $zips += $(if ($m.Groups[1].Success) { $m.Groups[1].Value } else { $m.Groups[2].Value })
+    }
   }
-  if (-not (Test-Path $ZipPath)) { Fail "Файл не найден: $ZipPath" }
+  if ($zips.Count -eq 0) { $zips = @(Join-Path ([Environment]::GetFolderPath("UserProfile")) "Downloads") }
+  $files = @()
+  foreach ($p in $zips) {
+    if (Test-Path -LiteralPath $p -PathType Container) {
+      $files += @(Get-ChildItem -LiteralPath $p -Filter "*emote*.zip" -File | ForEach-Object { $_.FullName })
+    } elseif (Test-Path -LiteralPath $p) { $files += $p }
+    else { Fail "Файл не найден: $p" }
+  }
+  if ($files.Count -eq 0) { Fail "Не нашёл zip с эмоциями (в имени должно быть слово emote)." }
+  Write-Host "Найдено частей: $($files.Count)"
   $out = Join-Path $InstanceDir "emotes"
   New-Item -ItemType Directory -Force $out | Out-Null
   Add-Type -AssemblyName System.IO.Compression.FileSystem
-  $z = [IO.Compression.ZipFile]::OpenRead($ZipPath)
   $n = 0
-  foreach ($e in $z.Entries) {
-    if ($e.FullName -like "__MACOSX*" -or [string]::IsNullOrEmpty($e.Name) -or $e.Name -like "._*") { continue }
-    [IO.Compression.ZipFileExtensions]::ExtractToFile($e, (Join-Path $out $e.Name), $true); $n++
+  foreach ($file in $files) {
+    $z = [IO.Compression.ZipFile]::OpenRead($file)
+    foreach ($e in $z.Entries) {
+      if ($e.FullName -like "__MACOSX*" -or [string]::IsNullOrEmpty($e.Name) -or $e.Name -like "._*") { continue }
+      [IO.Compression.ZipFileExtensions]::ExtractToFile($e, (Join-Path $out $e.Name), $true); $n++
+    }
+    $z.Dispose()
   }
-  $z.Dispose()
   Write-Host ""
-  Write-Host "ГОТОВО! Установлено файлов: $n. Перезапусти игру; меню эмоций открывается клавишей B." -ForegroundColor Green
+  Write-Host "ГОТОВО! Установлено файлов: $n (из частей: $($files.Count)). Перезапусти игру; меню эмоций открывается клавишей B." -ForegroundColor Green
   Finish 0
 } catch { Fail $_.Exception.Message }

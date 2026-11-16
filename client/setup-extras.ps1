@@ -226,16 +226,19 @@ exit 0
   if ($SearchDir -and (Test-Path $SearchDir)) {
     $ez = @(Get-ChildItem $SearchDir -Filter "*.zip" -ErrorAction SilentlyContinue | Where-Object { $_.Name -like "*emote*" })
     if ($ez.Count -ge 1) {
-      Write-Host "Ставлю эмоции из $($ez[0].Name)..."
+      Write-Host "Ставлю эмоции (частей: $($ez.Count))..."
       $eout = Join-Path $InstanceDir "emotes"
       New-Item -ItemType Directory -Force $eout | Out-Null
       Add-Type -AssemblyName System.IO.Compression.FileSystem
-      $zf = [IO.Compression.ZipFile]::OpenRead($ez[0].FullName); $en = 0
-      foreach ($e in $zf.Entries) {
-        if ($e.FullName -like "__MACOSX*" -or [string]::IsNullOrEmpty($e.Name) -or $e.Name -like "._*") { continue }
-        [IO.Compression.ZipFileExtensions]::ExtractToFile($e, (Join-Path $eout $e.Name), $true); $en++
+      $en = 0
+      foreach ($part in $ez) {
+        $zf = [IO.Compression.ZipFile]::OpenRead($part.FullName)
+        foreach ($e in $zf.Entries) {
+          if ($e.FullName -like "__MACOSX*" -or [string]::IsNullOrEmpty($e.Name) -or $e.Name -like "._*") { continue }
+          [IO.Compression.ZipFileExtensions]::ExtractToFile($e, (Join-Path $eout $e.Name), $true); $en++
+        }
+        $zf.Dispose()
       }
-      $zf.Dispose()
       Write-Host "Эмоции установлены: $en файлов (в игре меню эмоций - клавиша B)."
     }
   }
