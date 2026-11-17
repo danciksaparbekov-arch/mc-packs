@@ -189,6 +189,10 @@ file = "mods/vaultpatcher-all-1.4.4.jar"
 hash = "4541bfa02173b3d7106a19cd49fc5a31924efec54cbbe993b77abe57c2f95a29"
 
 [[files]]
+file = "packwiz-sync.ps1"
+hash = "e69a8a578b958152d99096598804825ceae7734f03adbc9a2ef27e40f4216952"
+
+[[files]]
 file = "resources/adventurez/lang/en_us.json"
 hash = "a04e10da45611f24d6c2b0c2f1cbc1e0fece415f42dab5b3c3fd83671f737980"
 

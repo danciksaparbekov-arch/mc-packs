@@ -122,8 +122,11 @@ try {
   if ($null -eq $o) { $o = [pscustomobject]@{ CONFIG_VERSION = 1 } }
   # Актуальный адрес нашего Figura-бэкенда (меняется при перезапуске туннеля на pc2); если не ответил - остаётся прежний/общий
   $host2 = $null
-  try { $host2 = (Invoke-WebRequest -Uri "https://mc-server-bot.danislam2003.workers.dev/figura" -UseBasicParsing -TimeoutSec 6).Content.Trim() } catch { }
-  if ($host2 -notmatch '^[a-z0-9.-]+$') { $host2 = $null }
+  # Сначала бот (workers.dev), затем запасной адрес на ретрансляторе AWS - workers.dev заблокирован у части друзей в РФ
+  foreach ($u in @("https://mc-server-bot.danislam2003.workers.dev/figura", "http://51.20.22.205:8080/figura")) {
+    try { $host2 = (Invoke-WebRequest -Uri $u -UseBasicParsing -TimeoutSec 6).Content.Trim() } catch { $host2 = $null }
+    if ($host2 -match '^[a-z0-9.-]+$') { break } else { $host2 = $null }
+  }
   if (-not $o.PSObject.Properties["server_ip"]) {
     $o | Add-Member -NotePropertyName server_ip -NotePropertyValue $(if ($host2) { $host2 } else { "figura.shsr.ru" })
     [System.IO.File]::WriteAllText($cfg, ($o | ConvertTo-Json), (New-Object System.Text.UTF8Encoding $false))
