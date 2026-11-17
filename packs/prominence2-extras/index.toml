@@ -165,6 +165,11 @@ file = "mods/prominence-localization-1.0.0.jar"
 hash = "1d574835bc352790d6b6379b8e7e9bc7a74c3e6dc51795bd437c6ab168a9544c"
 
 [[files]]
+file = "mods/psychedelicraft.pw.toml"
+hash = "af00f9649122c2bcf883f56ea08f07c626f4f95dec77989acfea6d653179edcc"
+metafile = true
+
+[[files]]
 file = "mods/s-lib.pw.toml"
 hash = "e2db67a635e8b036561f4fb832473c61878dff4a35a18931de0ab7f4de726c01"
 metafile = true

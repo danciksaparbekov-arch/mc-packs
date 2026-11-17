@@ -1,0 +1,8 @@
+name = "Psychedelicraft"
+filename = "psychedelicraft-1.8.9+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Sollace/Psychedelicraft/releases/download/1.8.9%2B1.21.5/psychedelicraft-1.8.9%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "2ce16689892c9beccdbebc67f5afbced1f7eedaa36f04cf994908b0fb63c2712b9ee764dc64537b0916abfc65cbcdbd44c24720661af78855ae7f56545eb9b4f"
