@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/bits-helper.pw.toml"
-hash = "6da370cff065b82819211c0c70c4df6accf47750c30d6ba09b3075e74dca6940"
+hash = "0f58626a66f16e863d6de2f3e08f769f73c4897b591b34e484d56d77006de78d"
 metafile = true
 
 [[files]]
