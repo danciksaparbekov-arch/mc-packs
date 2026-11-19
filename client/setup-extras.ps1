@@ -195,6 +195,43 @@ try {
 } catch { }
 '@
 
+  # 3c. Iris: правка для Emotecraft (сгибание конечностей). Идемпотентна, переживает обновление Iris.
+  $irisPatch = @'
+try {
+  # Iris: убираем 2 mixin'а быстрой отрисовки моделей - иначе Emotecraft (bendy-lib) не сгибает руки/ноги.
+  # Оригинал jar - один раз в _backup_iris; правим копию, проверяем и только потом подменяем.
+  Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
+  $irisEntry = "mixins.iris.compat.sodium.json"
+  $irisRx = '"copyEntity\.(CuboidMixin|ModelPartMixin)"'
+  $readEntry = { param($zip) $e = $zip.GetEntry($irisEntry); if (-not $e) { return $null }; $r = New-Object System.IO.StreamReader($e.Open()); $t = $r.ReadToEnd(); $r.Close(); $t }
+  foreach ($jar in @(Get-ChildItem (Join-Path $inst "mods") -Filter "iris-*.jar" -ErrorAction SilentlyContinue)) {
+    $tmp = $null
+    try {
+      $z = [System.IO.Compression.ZipFile]::OpenRead($jar.FullName)
+      try { $txt = & $readEntry $z; $cnt = $z.Entries.Count } finally { $z.Dispose() }
+      if (-not $txt -or $txt -notmatch $irisRx) { continue }
+      $bk = Join-Path $inst "_backup_iris"
+      New-Item -ItemType Directory -Force $bk | Out-Null
+      $orig = Join-Path $bk ($jar.Name + ".orig")
+      if (-not (Test-Path $orig)) { Copy-Item $jar.FullName $orig }
+      $tmp = Join-Path $bk ($jar.Name + ".tmp")
+      Copy-Item $jar.FullName $tmp -Force
+      $new = (@($txt -split "`n") | Where-Object { $_ -notmatch $irisRx }) -join "`n"
+      $null = $new | ConvertFrom-Json
+      $z = [System.IO.Compression.ZipFile]::Open($tmp, "Update")
+      try {
+        $z.GetEntry($irisEntry).Delete()
+        $w = New-Object System.IO.StreamWriter($z.CreateEntry($irisEntry).Open(), (New-Object System.Text.UTF8Encoding $false))
+        $w.Write($new); $w.Close()
+      } finally { $z.Dispose() }
+      $z = [System.IO.Compression.ZipFile]::OpenRead($tmp)
+      try { $chk = & $readEntry $z; $ok = ($z.Entries.Count -eq $cnt) -and $chk -and ($chk -notmatch $irisRx) } finally { $z.Dispose() }
+      if ($ok) { $null = $chk | ConvertFrom-Json; Move-Item $tmp $jar.FullName -Force; $tmp = $null }
+    } catch { } finally { if ($tmp -and (Test-Path $tmp)) { Remove-Item $tmp -Force -ErrorAction SilentlyContinue } }
+  }
+} catch { }
+'@
+
   # 4. Скрипт синхронизации внутри сборки (всегда завершается кодом 0 - не мешает запуску игры)
   $sync = @"
 Set-Location `$PSScriptRoot
@@ -209,6 +246,7 @@ if (`$j) { & `$j -jar packwiz-installer-bootstrap.jar -g -s client "$PackUrl" } 
 `$inst = `$PSScriptRoot
 $figuraPatch
 $serverPatch
+$irisPatch
 exit 0
 "@
   $syncPath = Join-Path $InstanceDir "packwiz-sync.ps1"

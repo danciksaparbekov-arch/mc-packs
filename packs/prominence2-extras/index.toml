@@ -195,7 +195,7 @@ hash = "4541bfa02173b3d7106a19cd49fc5a31924efec54cbbe993b77abe57c2f95a29"
 
 [[files]]
 file = "packwiz-sync.ps1"
-hash = "e69a8a578b958152d99096598804825ceae7734f03adbc9a2ef27e40f4216952"
+hash = "42f21041a5e332ced11f97fa1f7445a89cd2c0260f3d1d96e2467ab2972f135f"
 
 [[files]]
 file = "resources/adventurez/lang/en_us.json"
