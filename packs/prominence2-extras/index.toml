@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "base-projects.json"
+hash = "ad05ab53c09bbc60ea8b0fdbd1a5117c1e0f3c9750b29cdea3a9d846956b752d"
+
+[[files]]
 file = "config/carryon-common.json"
 hash = "575361854ddbf8ef99806fa00a305a85e4ad691c209bddc600a50b6a32f45d1d"
 
@@ -108,6 +112,11 @@ metafile = true
 [[files]]
 file = "mods/athena.pw.toml"
 hash = "5a2481a03b85891967a6e1099a0987156a3a08770e27209a58fba143053b83ec"
+metafile = true
+
+[[files]]
+file = "mods/bits-and-chisels.pw.toml"
+hash = "4780df2e8d01122c7f5aedee4b8bff93a05c635dc2353fe133cc461a1f51c1f2"
 metafile = true
 
 [[files]]
@@ -2952,3 +2961,11 @@ hash = "0c3bf7f35296b73ac28951c45ee78ce058a64f7a98222d2c05fb160736521140"
 [[files]]
 file = "resources/zenith_attributes/lang/ru_ru.json"
 hash = "017abae97181f4bd02a669d74c217bcdcbe0c1c2ed5e9a672afc6f9f7bc9867a"
+
+[[files]]
+file = "server-exclude.json"
+hash = "6b7f98cfb9c6d717005860be37457862cb887ddaa4b87f60e886a18fb3778fac"
+
+[[files]]
+file = "server-files.json"
+hash = "6621bfce82955ab69eb121b7dd24a22a596ebfa4e866bdf325755f370d1dd4c6"
