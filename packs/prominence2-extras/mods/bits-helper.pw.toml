@@ -1,8 +1,8 @@
 name = "Bits Helper"
-filename = "bits-helper-0.1.4.jar"
+filename = "bits-helper-0.1.5.jar"
 side = "client"
 
 [download]
-url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/own-mods-v4/bits-helper-0.1.4.jar"
+url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/own-mods-v5/bits-helper-0.1.5.jar"
 hash-format = "sha512"
-hash = "249b570203898ecaf8eb0ef09f80ca4213a7c8d88e2cbf91bff962c0500f9b3cebc9a244c3d25abe9b7dba011613beb8c960b77667056c68f769f708bc16eb56"
+hash = "71a093776ceb3fa8cb192435d9e584742fc1f3a552871d869c0cd56c9442e523b827fe32e26bd85bae006b249f85ec363f7a764e68959e8f84936f829305be15"
