@@ -116,6 +116,11 @@ hash = "4780df2e8d01122c7f5aedee4b8bff93a05c635dc2353fe133cc461a1f51c1f2"
 metafile = true
 
 [[files]]
+file = "mods/bits-helper.pw.toml"
+hash = "6d5e2bce7749824a71d0c3bde2286360b94a70f975a92ea472e58c624dbf0c10"
+metafile = true
+
+[[files]]
 file = "mods/cosmetic-armor.pw.toml"
 hash = "195105e5e989cd109d5f644b58eca2e06f9d487d80ea365fa42033675aac7ac7"
 metafile = true
@@ -187,6 +192,11 @@ metafile = true
 [[files]]
 file = "mods/skinrestorer.pw.toml"
 hash = "ac96fca535289d56336f8931ffde0366a39be9e09a9776997bf41c0d3c9d4864"
+metafile = true
+
+[[files]]
+file = "mods/spire-builder.pw.toml"
+hash = "60a04ae2361443a640367f1413531dbbd047a5690f73443877676fc66f435e89"
 metafile = true
 
 [[files]]

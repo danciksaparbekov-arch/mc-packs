@@ -1,0 +1,8 @@
+name = "Spire Builder"
+filename = "spire-builder-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/own-mods-v1/spire-builder-0.1.0.jar"
+hash-format = "sha512"
+hash = "ca2bcc4262d2be755421ffecd4f7e23dda8059f20382692f3b6ef94064ca11afb1e265d349d017f125dfdfdbc402725025b0389e6cc097e4cf178f4ccaaec0f3"

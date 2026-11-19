@@ -1,0 +1,8 @@
+name = "Bits Helper"
+filename = "bits-helper-0.1.1.jar"
+side = "client"
+
+[download]
+url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/own-mods-v1/bits-helper-0.1.1.jar"
+hash-format = "sha512"
+hash = "683d181485fa0bbcffa46e5fde1987e41b4643c5fbc3536377d78fde5c0152cde898f33e50714b9c2e78b847729681952b3ddf30afefcaa8b61a187c047feaaa"
