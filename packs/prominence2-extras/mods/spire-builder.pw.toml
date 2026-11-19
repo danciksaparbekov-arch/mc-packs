@@ -1,8 +1,8 @@
 name = "Spire Builder"
-filename = "spire-builder-0.1.1.jar"
+filename = "spire-builder-0.2.0.jar"
 side = "both"
 
 [download]
-url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/own-mods-v6/spire-builder-0.1.1.jar"
+url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/own-mods-v7/spire-builder-0.2.0.jar"
 hash-format = "sha512"
-hash = "dfd51a4fc677c595beeb9bee947d51616e709249c6e2bf4557a272fa5cb23f028bf85491ade0d321cac5b17e547fc5e0b80ca837353b94cea9e39855d61ebaa5"
+hash = "ff936011b8e57a2e4878617241e1ed71c0412e652ebffb617e2d82896d6064512a1b705dfc7a5a38c12178f7f6a9d31654117a021a683efbfa32f52de0f9c19a"

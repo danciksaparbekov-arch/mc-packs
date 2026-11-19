@@ -196,7 +196,7 @@ metafile = true
 
 [[files]]
 file = "mods/spire-builder.pw.toml"
-hash = "30155535da3f0b4091310bc2f83641b95f20b35ef98efa94bbf6b73e3edc2706"
+hash = "1cf04148d6460339dbfc7ffe2e1d46cc18fc11a8e51750ef50119bab4eaa170b"
 metafile = true
 
 [[files]]
