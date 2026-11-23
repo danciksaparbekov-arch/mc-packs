@@ -161,6 +161,11 @@ hash = "697ec76c26d387cf07c2e05d351a3a9ad652c40e463c839aa419865f9bf42d91"
 metafile = true
 
 [[files]]
+file = "mods/kidnap-mod.pw.toml"
+hash = "b3c7d3a5501971a4f650eac3c043e6861a522c3b913b992112b810f8f76558b6"
+metafile = true
+
+[[files]]
 file = "mods/lets-do-furniture.pw.toml"
 hash = "fb4040773ed0eca07efb4a822f88990df3ad6ff4b50c9616032237400638d85f"
 metafile = true
