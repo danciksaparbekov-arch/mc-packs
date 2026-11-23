@@ -121,6 +121,11 @@ hash = "17f51708cac582c9fe61f00d2940883855c12e6c4a482bf20422d87cefabf4cb"
 metafile = true
 
 [[files]]
+file = "mods/companion-mod.pw.toml"
+hash = "08c35a996615cd1950a4dc439c33f1d5770ef27379ef3f56cd8be58129ee864e"
+metafile = true
+
+[[files]]
 file = "mods/cosmetic-armor.pw.toml"
 hash = "195105e5e989cd109d5f644b58eca2e06f9d487d80ea365fa42033675aac7ac7"
 metafile = true
