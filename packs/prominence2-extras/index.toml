@@ -205,6 +205,11 @@ hash = "1cf04148d6460339dbfc7ffe2e1d46cc18fc11a8e51750ef50119bab4eaa170b"
 metafile = true
 
 [[files]]
+file = "mods/syringe-traps.pw.toml"
+hash = "d7b0e7f998dc27e55130a47358cd73a818d1a57a63eec36b64be0a51b88d0828"
+metafile = true
+
+[[files]]
 file = "mods/trade-cycling.pw.toml"
 hash = "d2485aee2cc33fc691b9011fa72cc1e240e9a526a3d1281d3973fb707ea34454"
 metafile = true

@@ -1,0 +1,8 @@
+name = "Syringe Traps"
+filename = "syringetraps-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/own-mods-v9/syringetraps-1.1.0.jar"
+hash-format = "sha512"
+hash = "173e43f15cc42d50556412259b6fb0e548cd08276e961ad7a867e5d27a8885c6b49daccb54ca27caf2073b525d5ff91eb5f9125defec516795653697ac02ec7d"
