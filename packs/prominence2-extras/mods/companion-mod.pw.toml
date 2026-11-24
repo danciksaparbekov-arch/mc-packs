@@ -1,8 +1,8 @@
 name = "Companion Mod"
-filename = "companionmod-fabric-1.1.0.jar"
+filename = "companionmod-fabric-0.1.0.jar"
 side = "both"
 
 [download]
-url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/own-mods-v10/companionmod-fabric-1.1.0.jar"
+url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/companion-mod-v0.1.0/companionmod-fabric-0.1.0.jar"
 hash-format = "sha512"
-hash = "f53b231c406fd8b131c917bb921c3a31a4269952907477270b2693acfdabd2f721bf3c37fd36a4c460c32aa1836c23849ffe7937d42817cf4c3d784e7305a333"
+hash = "fb24bf7de0461fe66bd1dc7709ede0109680d6b09ea886b97f331dc0834dc2b0a0e6eb959fb1de83ca453abae29e82a20ec06ebd2674c09c3f4481b1e4d2d576"
