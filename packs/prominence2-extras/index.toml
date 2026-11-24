@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/arachnid.pw.toml"
-hash = "adafe9a85f87964b11f1ea15d49ca9f86277ef2ce631d217ff015327a7f007d5"
+hash = "a896d0af3bb102c35d8e8c89b2c5a02e52d71782f4f26474d0c64a100f15a4dc"
 metafile = true
 
 [[files]]
