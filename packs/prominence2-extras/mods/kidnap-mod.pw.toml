@@ -1,8 +1,8 @@
 name = "Kidnap Mod"
-filename = "kidnapmod-fabric-0.2.3.jar"
+filename = "kidnapmod-fabric-0.2.4.jar"
 side = "both"
 
 [download]
-url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/kidnap-mod-v0.2.3/kidnapmod-fabric-0.2.3.jar"
+url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/kidnap-mod-v0.2.4/kidnapmod-fabric-0.2.4.jar"
 hash-format = "sha512"
-hash = "f8b9dea75463b1ebae0d8c0bdf43a8682a9926ed5ce72458ab9ca914600c2fec74e70987b8987952b7675ad8758b0574b2de647c4097750d3214bd22412e2546"
+hash = "1d2d4263b274183902f6e351ac9651d195438fe1931fa143a2de205016e79ffc6ab85c7dc488ee0fcb5d6bd7976630c67a90011c43b7acba8840007c44d2e251"
