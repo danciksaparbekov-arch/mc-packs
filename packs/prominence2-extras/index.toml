@@ -2356,6 +2356,10 @@ file = "resources/prominentbase/lang/ru_ru.json"
 hash = "0634a607c78540d8f7e47bc42a2cabd5a6807fc85595bc2c5cf02de446fa8139"
 
 [[files]]
+file = "resources/psychedelicraft/lang/ru_ru.json"
+hash = "462b688d45dc66da00130e28f7e1a53809304b961da3acaf01dbb076c8ea0b13"
+
+[[files]]
 file = "resources/puffish_attributes/lang/ru_ru.json"
 hash = "b4e24ea22ff20f8ce71f92404f4337602b390f3e597884a3b01b973a59975d05"
 
