@@ -1,0 +1,8 @@
+name = "Armor Hide"
+filename = "armorhide-fabric-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/armor-hide-v1.0.0/armorhide-fabric-1.0.0.jar"
+hash-format = "sha512"
+hash = "3bee67a33209a88231cbcbe1c2b6e5226e44d837e50e845064948632b7cc7dc6d7019f04d763940fef84530e9548a5ec9a068cc729b80f4ead1b3502e8281651"

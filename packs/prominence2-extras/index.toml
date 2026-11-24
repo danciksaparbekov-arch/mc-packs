@@ -106,6 +106,11 @@ hash = "3de376c13ea2d1b9671e9d4a5c0f757d8163fe150f15c52f90a1dd685435e695"
 metafile = true
 
 [[files]]
+file = "mods/armor-hide.pw.toml"
+hash = "c9df84bff7ebe3c9e2d5bac116173dfb4a52c025f0515e487b701f21a568bde7"
+metafile = true
+
+[[files]]
 file = "mods/athena.pw.toml"
 hash = "5a2481a03b85891967a6e1099a0987156a3a08770e27209a58fba143053b83ec"
 metafile = true
