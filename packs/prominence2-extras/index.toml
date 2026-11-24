@@ -172,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/kidnap-mod.pw.toml"
-hash = "c381fc7ea8be3bb28859ff7d99f702d2263f01a4b752c34cbedff24adf53a0bd"
+hash = "bd954be1db01a955466d4cfdc417c3aa42acc0c1dbb73e1072f0ac0db1774570"
 metafile = true
 
 [[files]]
