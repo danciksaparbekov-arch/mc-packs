@@ -1,8 +1,0 @@
-name = "ARACHNID"
-filename = "arachnid-fabric-1.0.1.jar"
-side = "both"
-
-[download]
-url = "https://github.com/danciksaparbekov-arch/mc-packs/releases/download/arachnid-mod-v1.0.1/arachnid-fabric-1.0.1.jar"
-hash-format = "sha512"
-hash = "30d2a3464f43f5d6e9f9a6ef8717c4c6a2fcdb4c80fe066947de95fdce266bd109017f3662448c60f30f5985c739978462b32f06bca74a433dee685c24b590fc"

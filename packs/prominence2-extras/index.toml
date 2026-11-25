@@ -106,11 +106,6 @@ hash = "3de376c13ea2d1b9671e9d4a5c0f757d8163fe150f15c52f90a1dd685435e695"
 metafile = true
 
 [[files]]
-file = "mods/arachnid.pw.toml"
-hash = "a896d0af3bb102c35d8e8c89b2c5a02e52d71782f4f26474d0c64a100f15a4dc"
-metafile = true
-
-[[files]]
 file = "mods/armor-hide.pw.toml"
 hash = "c9df84bff7ebe3c9e2d5bac116173dfb4a52c025f0515e487b701f21a568bde7"
 metafile = true
